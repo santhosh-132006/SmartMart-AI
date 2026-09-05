@@ -1,0 +1,301 @@
+movementId,dateTime,storeId,productId,productName,movementType,quantity,previousStock,newStock,referenceId,reason
+MOV-9001,2026-08-09 17:00,STR-001,PRD-1134,Weikfield Vanilla Custard Powder 100g,Stock Transfer In,11,28,39,REF-11951,Operational audit trace for Stock Transfer In
+MOV-9002,2026-08-19 10:00,STR-001,PRD-1097,3 Roses Dust Tea 250g,Returned Stock,6,92,98,REF-36627,Operational audit trace for Returned Stock
+MOV-9003,2026-08-27 13:00,STR-001,PRD-1036,Deepam Lamp Oil 1L,Damaged Stock,9,43,34,REF-61842,Operational audit trace for Damaged Stock
+MOV-9004,2026-08-27 09:00,STR-001,PRD-1083,Doritos Nacho Cheese Chips 60g,Stock Received,111,67,178,REF-40424,Operational audit trace for Stock Received
+MOV-9005,2026-08-21 10:00,STR-003,PRD-1152,Ooty Carrot 500g,Stock Adjustment,18,80,62,REF-51746,Operational audit trace for Stock Adjustment
+MOV-9006,2026-07-20 18:00,STR-001,PRD-1183,Domex Fresh Guard Toilet Cleaner 500ml,Returned Stock,26,52,78,REF-60213,Operational audit trace for Returned Stock
+MOV-9007,2026-07-14 10:00,STR-002,PRD-1010,Idli Rice 5kg,Damaged Stock,28,35,7,REF-68794,Operational audit trace for Damaged Stock
+MOV-9008,2026-07-30 08:00,STR-003,PRD-1002,Ponni Boiled Rice 10kg,Damaged Stock,38,40,2,REF-96487,Operational audit trace for Damaged Stock
+MOV-9009,2026-08-04 13:00,STR-001,PRD-1050,Britannia 100% Whole Wheat Bread 400g,Stock Transfer In,4,44,48,REF-31786,Operational audit trace for Stock Transfer In
+MOV-9010,2026-07-14 09:00,STR-001,PRD-1128,Mother's Recipe Mango Pickle 300g,Returned Stock,15,62,77,REF-56481,Operational audit trace for Returned Stock
+MOV-9011,2026-07-02 13:00,STR-003,PRD-1034,Dhara Mustard Oil 1L,Stock Transfer In,14,37,51,REF-23155,Operational audit trace for Stock Transfer In
+MOV-9012,2026-07-14 12:00,STR-002,PRD-1086,Tropicana 100% Orange Juice 1L,Returned Stock,4,86,90,REF-67883,Operational audit trace for Returned Stock
+MOV-9013,2026-09-01 17:00,STR-002,PRD-1166,Pears Soft & Fresh Soap 125g,Returned Stock,9,53,62,REF-71097,Operational audit trace for Returned Stock
+MOV-9014,2026-07-17 13:00,STR-001,PRD-1091,7Up Nimbooz 350ml,Stock Adjustment,9,39,30,REF-22245,Operational audit trace for Stock Adjustment
+MOV-9015,2026-09-03 16:00,STR-002,PRD-1085,Paper Boat Mango Juice 250ml,Returned Stock,17,100,117,REF-98526,Operational audit trace for Returned Stock
+MOV-9016,2026-08-11 19:00,STR-002,PRD-1194,Mangaldeep Sandal Agarbatti 100g,Stock Adjustment,8,95,87,REF-33636,Operational audit trace for Stock Adjustment
+MOV-9017,2026-07-01 12:00,STR-002,PRD-1195,Cycle Pure Agarbatti Three in One 250g,Stock Transfer Out,32,25,0,REF-66547,Operational audit trace for Stock Transfer Out
+MOV-9018,2026-09-02 18:00,STR-001,PRD-1138,Knorr Dark Soy Sauce 200ml,Stock Adjustment,37,45,8,REF-37390,Operational audit trace for Stock Adjustment
+MOV-9019,2026-07-31 20:00,STR-001,PRD-1062,Britannia Marie Gold 300g,Damaged Stock,38,91,53,REF-66360,Operational audit trace for Damaged Stock
+MOV-9020,2026-08-15 09:00,STR-002,PRD-1129,Aachi Lime Pickle 300g,Stock Adjustment,40,27,0,REF-31748,Operational audit trace for Stock Adjustment
+MOV-9021,2026-08-13 15:00,STR-002,PRD-1195,Cycle Pure Agarbatti Three in One 250g,Returned Stock,19,75,94,REF-46036,Operational audit trace for Returned Stock
+MOV-9022,2026-07-08 16:00,STR-002,PRD-1120,Knorr Thick Tomato Soup 53g,Returned Stock,33,65,98,REF-79113,Operational audit trace for Returned Stock
+MOV-9023,2026-07-25 19:00,STR-001,PRD-1195,Cycle Pure Agarbatti Three in One 250g,Sale,21,75,54,REF-72629,Operational audit trace for Sale
+MOV-9024,2026-07-18 14:00,STR-003,PRD-1062,Britannia Marie Gold 300g,Stock Received,144,85,229,REF-44881,Operational audit trace for Stock Received
+MOV-9025,2026-08-20 15:00,STR-001,PRD-1046,Cavins Milkshake Strawberry 200ml,Returned Stock,38,41,79,REF-57502,Operational audit trace for Returned Stock
+MOV-9026,2026-08-09 11:00,STR-002,PRD-1115,Maggi 2-Minute Masala Noodles 280g (4-Pack),Returned Stock,24,30,54,REF-86756,Operational audit trace for Returned Stock
+MOV-9027,2026-08-20 10:00,STR-001,PRD-1200,Nestle Cerelac Wheat Apple 300g,Sale,12,43,31,REF-55922,Operational audit trace for Sale
+MOV-9028,2026-07-02 20:00,STR-001,PRD-1039,Hatsun Fresh Curd 500g Pouch,Damaged Stock,12,65,53,REF-96990,Operational audit trace for Damaged Stock
+MOV-9029,2026-08-21 10:00,STR-003,PRD-1108,Boost Health Drink 500g Refill,Stock Transfer Out,12,90,78,REF-63895,Operational audit trace for Stock Transfer Out
+MOV-9030,2026-07-25 17:00,STR-001,PRD-1091,7Up Nimbooz 350ml,Sale,1,31,30,REF-32220,Operational audit trace for Sale
+MOV-9031,2026-07-21 11:00,STR-001,PRD-1099,Red Label Natural Care Tea 250g,Stock Received,86,92,178,REF-85156,Operational audit trace for Stock Received
+MOV-9032,2026-07-23 17:00,STR-001,PRD-1005,Pillsbury Chakki Fresh Atta 5kg,Stock Adjustment,1,97,96,REF-95868,Operational audit trace for Stock Adjustment
+MOV-9033,2026-08-23 14:00,STR-001,PRD-1062,Britannia Marie Gold 300g,Stock Adjustment,29,25,0,REF-27613,Operational audit trace for Stock Adjustment
+MOV-9034,2026-08-22 14:00,STR-001,PRD-1001,India Gate Basmati Rice 5kg,Stock Transfer In,22,26,48,REF-86115,Operational audit trace for Stock Transfer In
+MOV-9035,2026-08-16 14:00,STR-002,PRD-1070,Hide & Seek Chocolate Chip Biscuits 120g,Sale,5,81,76,REF-47360,Operational audit trace for Sale
+MOV-9036,2026-07-06 08:00,STR-001,PRD-1084,Pringles Sour Cream & Onion 107g,Damaged Stock,5,26,21,REF-21062,Operational audit trace for Damaged Stock
+MOV-9037,2026-07-29 11:00,STR-003,PRD-1133,Hershey's Chocolate Syrup 623g,Stock Adjustment,13,88,75,REF-91158,Operational audit trace for Stock Adjustment
+MOV-9038,2026-07-23 10:00,STR-003,PRD-1058,Pav Bun 6-Pack,Stock Transfer In,30,31,61,REF-21382,Operational audit trace for Stock Transfer In
+MOV-9039,2026-07-29 14:00,STR-001,PRD-1003,Sona Masoori Rice 5kg,Returned Stock,3,73,76,REF-12787,Operational audit trace for Returned Stock
+MOV-9040,2026-07-19 15:00,STR-001,PRD-1175,Vim Dishwash Gel Lemon 500ml,Returned Stock,3,61,64,REF-62425,Operational audit trace for Returned Stock
+MOV-9041,2026-08-05 14:00,STR-003,PRD-1040,Milky Mist Thick Curd 1kg Bucket,Returned Stock,27,27,54,REF-72128,Operational audit trace for Returned Stock
+MOV-9042,2026-08-25 10:00,STR-001,PRD-1141,Nagpur Oranges 1kg,Stock Transfer In,14,87,101,REF-56397,Operational audit trace for Stock Transfer In
+MOV-9043,2026-07-02 08:00,STR-002,PRD-1206,Sebamed Baby Protective Facial Cream 50ml,Stock Transfer In,15,79,94,REF-32736,Operational audit trace for Stock Transfer In
+MOV-9044,2026-07-26 12:00,STR-003,PRD-1152,Ooty Carrot 500g,Stock Received,106,74,180,REF-96381,Operational audit trace for Stock Received
+MOV-9045,2026-07-19 11:00,STR-003,PRD-1040,Milky Mist Thick Curd 1kg Bucket,Sale,13,72,59,REF-25029,Operational audit trace for Sale
+MOV-9046,2026-07-02 18:00,STR-001,PRD-1094,Red Bull Energy Drink 250ml,Stock Transfer In,6,75,81,REF-49278,Operational audit trace for Stock Transfer In
+MOV-9047,2026-07-18 11:00,STR-002,PRD-1036,Deepam Lamp Oil 1L,Stock Transfer Out,23,55,32,REF-47710,Operational audit trace for Stock Transfer Out
+MOV-9048,2026-07-15 19:00,STR-002,PRD-1071,Britannia Milk Bikis 200g,Stock Transfer Out,12,79,67,REF-71586,Operational audit trace for Stock Transfer Out
+MOV-9049,2026-08-19 16:00,STR-003,PRD-1130,Nutella Hazelnut Spread 350g Jar,Stock Transfer Out,27,24,0,REF-65311,Operational audit trace for Stock Transfer Out
+MOV-9050,2026-07-27 20:00,STR-001,PRD-1091,7Up Nimbooz 350ml,Damaged Stock,19,43,24,REF-91746,Operational audit trace for Damaged Stock
+MOV-9051,2026-07-06 12:00,STR-002,PRD-1154,Green Capsicum 500g,Stock Adjustment,5,80,75,REF-52964,Operational audit trace for Stock Adjustment
+MOV-9052,2026-08-13 09:00,STR-002,PRD-1184,Ariel Matic Front Load Detergent 1kg,Damaged Stock,29,22,0,REF-21343,Operational audit trace for Damaged Stock
+MOV-9053,2026-09-02 17:00,STR-002,PRD-1203,Johnson's Baby Hair Oil 100ml,Sale,12,58,46,REF-33953,Operational audit trace for Sale
+MOV-9054,2026-07-06 10:00,STR-003,PRD-1103,Narasus Pure Filter Coffee 200g,Damaged Stock,15,76,61,REF-50324,Operational audit trace for Damaged Stock
+MOV-9055,2026-08-04 20:00,STR-003,PRD-1096,Bisleri Water Bottle 2L,Stock Received,148,83,231,REF-32048,Operational audit trace for Stock Received
+MOV-9056,2026-07-29 12:00,STR-003,PRD-1124,MTR Gulab Jamun Mix 175g,Stock Transfer Out,22,45,23,REF-75664,Operational audit trace for Stock Transfer Out
+MOV-9057,2026-08-19 17:00,STR-002,PRD-1092,Maaza Mango Drink 1.2L,Stock Transfer Out,37,21,0,REF-31693,Operational audit trace for Stock Transfer Out
+MOV-9058,2026-08-15 12:00,STR-001,PRD-1193,Matchbox Homelites Safety Matches (10-Box),Stock Transfer In,15,68,83,REF-27932,Operational audit trace for Stock Transfer In
+MOV-9059,2026-08-23 16:00,STR-002,PRD-1204,MamyPoko Pants Standard Diaper Medium 34s,Stock Received,85,79,164,REF-32669,Operational audit trace for Stock Received
+MOV-9060,2026-07-26 16:00,STR-003,PRD-1156,Fresh Mint Leaves 100g,Returned Stock,18,28,46,REF-95568,Operational audit trace for Returned Stock
+MOV-9061,2026-07-02 08:00,STR-003,PRD-1122,Maggi Cuppa Masala Noodles 70g,Sale,33,63,30,REF-92027,Operational audit trace for Sale
+MOV-9062,2026-08-10 15:00,STR-001,PRD-1097,3 Roses Dust Tea 250g,Sale,6,70,64,REF-46507,Operational audit trace for Sale
+MOV-9063,2026-07-31 13:00,STR-003,PRD-1006,Quaker Oats 1kg,Stock Adjustment,3,94,91,REF-38884,Operational audit trace for Stock Adjustment
+MOV-9064,2026-08-31 16:00,STR-003,PRD-1028,Aavin Pure Ghee 500ml,Stock Transfer In,28,26,54,REF-49940,Operational audit trace for Stock Transfer In
+MOV-9065,2026-09-01 18:00,STR-001,PRD-1148,Kiwi Fruit 3-Pack,Returned Stock,7,57,64,REF-39114,Operational audit trace for Returned Stock
+MOV-9066,2026-08-28 16:00,STR-002,PRD-1188,Good Knight Gold Flash Machine + Refill,Stock Transfer In,18,47,65,REF-69904,Operational audit trace for Stock Transfer In
+MOV-9067,2026-07-07 14:00,STR-003,PRD-1135,Baking Soda 100g,Stock Received,119,77,196,REF-95436,Operational audit trace for Stock Received
+MOV-9068,2026-08-14 14:00,STR-001,PRD-1093,Frooti Mango Drink 1L,Stock Transfer Out,30,36,6,REF-99055,Operational audit trace for Stock Transfer Out
+MOV-9069,2026-08-19 20:00,STR-003,PRD-1084,Pringles Sour Cream & Onion 107g,Stock Transfer Out,36,28,0,REF-58200,Operational audit trace for Stock Transfer Out
+MOV-9070,2026-08-08 19:00,STR-002,PRD-1032,Parachute Coconut Oil 500ml,Damaged Stock,24,86,62,REF-89813,Operational audit trace for Damaged Stock
+MOV-9071,2026-07-05 08:00,STR-002,PRD-1054,Garlic Butter Toast 150g,Stock Transfer Out,31,41,10,REF-85610,Operational audit trace for Stock Transfer Out
+MOV-9072,2026-07-15 08:00,STR-002,PRD-1186,Pitambari Shining Powder 200g,Stock Transfer In,22,25,47,REF-69562,Operational audit trace for Stock Transfer In
+MOV-9073,2026-08-19 08:00,STR-001,PRD-1105,Taj Mahal Tea 250g,Sale,24,72,48,REF-66151,Operational audit trace for Sale
+MOV-9074,2026-07-05 13:00,STR-001,PRD-1014,Moong Dal Split 1kg,Sale,16,76,60,REF-44997,Operational audit trace for Sale
+MOV-9075,2026-08-24 17:00,STR-002,PRD-1183,Domex Fresh Guard Toilet Cleaner 500ml,Sale,14,23,9,REF-61951,Operational audit trace for Sale
+MOV-9076,2026-08-31 18:00,STR-003,PRD-1158,Ginger 250g,Returned Stock,14,22,36,REF-63025,Operational audit trace for Returned Stock
+MOV-9077,2026-08-30 19:00,STR-002,PRD-1044,Amul Taaza Homogenised Milk 1L Pack,Damaged Stock,9,43,34,REF-34039,Operational audit trace for Damaged Stock
+MOV-9078,2026-08-23 14:00,STR-002,PRD-1171,Gillette Guard Razor 1-Pack,Damaged Stock,18,30,12,REF-90518,Operational audit trace for Damaged Stock
+MOV-9079,2026-07-03 20:00,STR-003,PRD-1184,Ariel Matic Front Load Detergent 1kg,Stock Transfer Out,33,84,51,REF-66479,Operational audit trace for Stock Transfer Out
+MOV-9080,2026-08-12 11:00,STR-001,PRD-1181,Comfort After Wash Fabric Conditioner 860ml,Stock Adjustment,22,96,74,REF-16119,Operational audit trace for Stock Adjustment
+MOV-9081,2026-08-19 15:00,STR-003,PRD-1074,Lays Magic Masala Potato Chips 50g,Damaged Stock,27,46,19,REF-49935,Operational audit trace for Damaged Stock
+MOV-9082,2026-07-22 19:00,STR-003,PRD-1185,Scotch-Brite Scrub Pad Large (3-Pack),Returned Stock,40,84,124,REF-73121,Operational audit trace for Returned Stock
+MOV-9083,2026-08-21 08:00,STR-001,PRD-1114,Milo Cocoa Beverage Powder 400g,Stock Adjustment,21,22,1,REF-97915,Operational audit trace for Stock Adjustment
+MOV-9084,2026-08-08 17:00,STR-002,PRD-1050,Britannia 100% Whole Wheat Bread 400g,Sale,8,78,70,REF-17691,Operational audit trace for Sale
+MOV-9085,2026-08-03 18:00,STR-001,PRD-1202,Johnson's Baby Powder 200g,Stock Transfer Out,5,89,84,REF-62621,Operational audit trace for Stock Transfer Out
+MOV-9086,2026-08-26 08:00,STR-003,PRD-1146,Mosambi (Sweet Lime) 1kg,Stock Transfer Out,14,43,29,REF-18020,Operational audit trace for Stock Transfer Out
+MOV-9087,2026-07-09 14:00,STR-002,PRD-1059,Parle-G Glucose Biscuit 250g,Damaged Stock,1,80,79,REF-35120,Operational audit trace for Damaged Stock
+MOV-9088,2026-07-23 20:00,STR-002,PRD-1183,Domex Fresh Guard Toilet Cleaner 500ml,Stock Adjustment,40,30,0,REF-98198,Operational audit trace for Stock Adjustment
+MOV-9089,2026-07-21 15:00,STR-001,PRD-1044,Amul Taaza Homogenised Milk 1L Pack,Damaged Stock,10,73,63,REF-52317,Operational audit trace for Damaged Stock
+MOV-9090,2026-07-27 20:00,STR-002,PRD-1084,Pringles Sour Cream & Onion 107g,Stock Transfer Out,6,78,72,REF-10796,Operational audit trace for Stock Transfer Out
+MOV-9091,2026-08-24 12:00,STR-001,PRD-1095,Kinley Packaged Drinking Water 1L,Sale,26,95,69,REF-48264,Operational audit trace for Sale
+MOV-9092,2026-07-21 08:00,STR-001,PRD-1075,Lays Classic Salted Potato Chips 50g,Returned Stock,38,88,126,REF-97145,Operational audit trace for Returned Stock
+MOV-9093,2026-07-31 09:00,STR-002,PRD-1086,Tropicana 100% Orange Juice 1L,Stock Transfer In,20,96,116,REF-12526,Operational audit trace for Stock Transfer In
+MOV-9094,2026-07-15 12:00,STR-003,PRD-1129,Aachi Lime Pickle 300g,Stock Adjustment,37,98,61,REF-64859,Operational audit trace for Stock Adjustment
+MOV-9095,2026-08-27 08:00,STR-002,PRD-1137,Del Monte Whole Corn Canned 415g,Damaged Stock,12,28,16,REF-90862,Operational audit trace for Damaged Stock
+MOV-9096,2026-08-13 16:00,STR-002,PRD-1158,Ginger 250g,Sale,1,67,66,REF-43877,Operational audit trace for Sale
+MOV-9097,2026-07-21 12:00,STR-001,PRD-1084,Pringles Sour Cream & Onion 107g,Damaged Stock,33,55,22,REF-96335,Operational audit trace for Damaged Stock
+MOV-9098,2026-08-01 20:00,STR-002,PRD-1020,Fried Gram (Pottukadalai) 500g,Returned Stock,10,29,39,REF-71067,Operational audit trace for Returned Stock
+MOV-9099,2026-07-15 14:00,STR-001,PRD-1170,Nivea Soft Light Moisturiser 100ml,Damaged Stock,1,69,68,REF-93101,Operational audit trace for Damaged Stock
+MOV-9100,2026-08-18 18:00,STR-001,PRD-1098,Tata Tea Gold 500g,Returned Stock,15,34,49,REF-55054,Operational audit trace for Returned Stock
+MOV-9101,2026-07-07 09:00,STR-001,PRD-1137,Del Monte Whole Corn Canned 415g,Returned Stock,17,94,111,REF-96267,Operational audit trace for Returned Stock
+MOV-9102,2026-07-19 18:00,STR-002,PRD-1184,Ariel Matic Front Load Detergent 1kg,Stock Received,92,20,112,REF-36176,Operational audit trace for Stock Received
+MOV-9103,2026-08-27 20:00,STR-003,PRD-1017,Urad Dal White Split 1kg,Stock Received,110,26,136,REF-88522,Operational audit trace for Stock Received
+MOV-9104,2026-07-20 14:00,STR-001,PRD-1108,Boost Health Drink 500g Refill,Stock Received,107,26,133,REF-36684,Operational audit trace for Stock Received
+MOV-9105,2026-07-04 16:00,STR-002,PRD-1194,Mangaldeep Sandal Agarbatti 100g,Stock Received,116,28,144,REF-69540,Operational audit trace for Stock Received
+MOV-9106,2026-07-21 14:00,STR-003,PRD-1054,Garlic Butter Toast 150g,Damaged Stock,11,96,85,REF-64344,Operational audit trace for Damaged Stock
+MOV-9107,2026-07-23 18:00,STR-002,PRD-1107,Horlicks Classic Malt 500g Jar,Stock Adjustment,20,87,67,REF-52762,Operational audit trace for Stock Adjustment
+MOV-9108,2026-07-04 18:00,STR-003,PRD-1007,Saffola Masala Oats 500g,Stock Transfer Out,10,86,76,REF-76537,Operational audit trace for Stock Transfer Out
+MOV-9109,2026-08-13 17:00,STR-001,PRD-1067,Britannia NutriChoice Digestive 250g,Returned Stock,30,100,130,REF-46124,Operational audit trace for Returned Stock
+MOV-9110,2026-07-12 09:00,STR-002,PRD-1151,Hybrid Tomato 1kg,Damaged Stock,1,74,73,REF-87638,Operational audit trace for Damaged Stock
+MOV-9111,2026-07-15 19:00,STR-001,PRD-1139,Fresh Shimla Apples 1kg,Stock Adjustment,8,41,33,REF-71898,Operational audit trace for Stock Adjustment
+MOV-9112,2026-08-21 14:00,STR-002,PRD-1048,Amul Fresh Condensed Milk 400g,Stock Received,121,24,145,REF-79518,Operational audit trace for Stock Received
+MOV-9113,2026-07-18 08:00,STR-001,PRD-1087,Real Fruit Power Guava Juice 1L,Damaged Stock,8,78,70,REF-17447,Operational audit trace for Damaged Stock
+MOV-9114,2026-07-23 14:00,STR-003,PRD-1070,Hide & Seek Chocolate Chip Biscuits 120g,Returned Stock,17,55,72,REF-45300,Operational audit trace for Returned Stock
+MOV-9115,2026-07-28 13:00,STR-003,PRD-1137,Del Monte Whole Corn Canned 415g,Returned Stock,12,52,64,REF-53779,Operational audit trace for Returned Stock
+MOV-9116,2026-09-01 08:00,STR-002,PRD-1030,Amul Pure Ghee 1L Tin,Sale,1,57,56,REF-96759,Operational audit trace for Sale
+MOV-9117,2026-07-19 12:00,STR-002,PRD-1059,Parle-G Glucose Biscuit 250g,Returned Stock,24,47,71,REF-63454,Operational audit trace for Returned Stock
+MOV-9118,2026-07-03 17:00,STR-002,PRD-1033,V.V.D Gold Coconut Oil 500ml,Sale,15,78,63,REF-57740,Operational audit trace for Sale
+MOV-9119,2026-08-01 08:00,STR-003,PRD-1066,Sunfeast Mom's Magic Cashew & Almond 200g,Damaged Stock,18,92,74,REF-69159,Operational audit trace for Damaged Stock
+MOV-9120,2026-08-21 19:00,STR-001,PRD-1022,Masoor Dal Red 1kg,Sale,40,68,28,REF-95069,Operational audit trace for Sale
+MOV-9121,2026-08-27 08:00,STR-002,PRD-1048,Amul Fresh Condensed Milk 400g,Stock Adjustment,19,51,32,REF-59208,Operational audit trace for Stock Adjustment
+MOV-9122,2026-08-10 10:00,STR-002,PRD-1111,Pediasure Chocolate 400g Jar,Stock Received,95,65,160,REF-39138,Operational audit trace for Stock Received
+MOV-9123,2026-08-24 12:00,STR-003,PRD-1180,Rin Detergent Bar 250g (4-Pack),Stock Adjustment,6,88,82,REF-67621,Operational audit trace for Stock Adjustment
+MOV-9124,2026-08-17 20:00,STR-001,PRD-1101,BRU Instant Coffee 100g Glass Jar,Returned Stock,2,51,53,REF-62442,Operational audit trace for Returned Stock
+MOV-9125,2026-08-04 16:00,STR-003,PRD-1196,Camphor Tablets 50g Box,Sale,8,65,57,REF-84705,Operational audit trace for Sale
+MOV-9126,2026-08-27 15:00,STR-001,PRD-1090,Bovonto Grape Soft Drink 1.5L,Damaged Stock,24,55,31,REF-62437,Operational audit trace for Damaged Stock
+MOV-9127,2026-08-22 10:00,STR-001,PRD-1072,Unibic Assorted Cookies 75g,Sale,15,74,59,REF-15038,Operational audit trace for Sale
+MOV-9128,2026-08-18 14:00,STR-001,PRD-1167,Dove Cream Beauty Bathing Bar 125g,Damaged Stock,40,87,47,REF-63444,Operational audit trace for Damaged Stock
+MOV-9129,2026-08-06 17:00,STR-002,PRD-1027,Fortune Sunlite Sunflower Oil 1L,Sale,24,94,70,REF-50686,Operational audit trace for Sale
+MOV-9130,2026-09-01 18:00,STR-002,PRD-1063,Oreo Vanilla Cream Biscuit 120g,Sale,4,52,48,REF-34378,Operational audit trace for Sale
+MOV-9131,2026-08-19 10:00,STR-002,PRD-1060,Britannia Bourbon Chocolate Biscuit 150g,Stock Transfer Out,37,99,62,REF-26883,Operational audit trace for Stock Transfer Out
+MOV-9132,2026-07-02 14:00,STR-002,PRD-1150,Fresh Potato 1kg,Stock Transfer Out,5,78,73,REF-84605,Operational audit trace for Stock Transfer Out
+MOV-9133,2026-08-22 10:00,STR-003,PRD-1068,Parle Monaco Salted Biscuit 200g,Stock Transfer In,25,98,123,REF-87333,Operational audit trace for Stock Transfer In
+MOV-9134,2026-07-20 17:00,STR-002,PRD-1197,Tissue Paper Napkins 100 Sheets,Sale,14,61,47,REF-82462,Operational audit trace for Sale
+MOV-9135,2026-08-31 14:00,STR-002,PRD-1200,Nestle Cerelac Wheat Apple 300g,Damaged Stock,30,83,53,REF-69105,Operational audit trace for Damaged Stock
+MOV-9136,2026-07-24 13:00,STR-003,PRD-1156,Fresh Mint Leaves 100g,Stock Received,88,35,123,REF-42382,Operational audit trace for Stock Received
+MOV-9137,2026-08-02 16:00,STR-003,PRD-1062,Britannia Marie Gold 300g,Stock Received,116,52,168,REF-89692,Operational audit trace for Stock Received
+MOV-9138,2026-08-01 09:00,STR-002,PRD-1118,MTR Rava Dosa Mix 500g,Sale,39,87,48,REF-34851,Operational audit trace for Sale
+MOV-9139,2026-07-11 10:00,STR-002,PRD-1046,Cavins Milkshake Strawberry 200ml,Stock Transfer Out,1,23,22,REF-10579,Operational audit trace for Stock Transfer Out
+MOV-9140,2026-07-09 12:00,STR-003,PRD-1107,Horlicks Classic Malt 500g Jar,Stock Received,133,79,212,REF-62284,Operational audit trace for Stock Received
+MOV-9141,2026-07-19 17:00,STR-001,PRD-1025,Gold Winner Sunflower Oil 1L,Stock Adjustment,20,49,29,REF-14424,Operational audit trace for Stock Adjustment
+MOV-9142,2026-08-06 19:00,STR-001,PRD-1203,Johnson's Baby Hair Oil 100ml,Stock Received,77,58,135,REF-25493,Operational audit trace for Stock Received
+MOV-9143,2026-07-03 11:00,STR-001,PRD-1186,Pitambari Shining Powder 200g,Stock Adjustment,37,83,46,REF-52126,Operational audit trace for Stock Adjustment
+MOV-9144,2026-07-20 18:00,STR-003,PRD-1195,Cycle Pure Agarbatti Three in One 250g,Stock Transfer Out,9,24,15,REF-87520,Operational audit trace for Stock Transfer Out
+MOV-9145,2026-08-25 18:00,STR-002,PRD-1118,MTR Rava Dosa Mix 500g,Stock Adjustment,25,58,33,REF-30941,Operational audit trace for Stock Adjustment
+MOV-9146,2026-07-18 12:00,STR-001,PRD-1005,Pillsbury Chakki Fresh Atta 5kg,Stock Transfer In,40,39,79,REF-17289,Operational audit trace for Stock Transfer In
+MOV-9147,2026-07-24 11:00,STR-003,PRD-1121,MTR Ready to Eat Paneer Butter Masala 300g,Stock Adjustment,15,23,8,REF-84740,Operational audit trace for Stock Adjustment
+MOV-9148,2026-09-01 14:00,STR-002,PRD-1154,Green Capsicum 500g,Damaged Stock,7,99,92,REF-44212,Operational audit trace for Damaged Stock
+MOV-9149,2026-08-21 10:00,STR-001,PRD-1205,Himalaya Baby Lotion 200ml,Stock Adjustment,35,24,0,REF-95070,Operational audit trace for Stock Adjustment
+MOV-9150,2026-08-17 14:00,STR-002,PRD-1192,Freshwrap Aluminum Foil 18m Roll,Sale,1,30,29,REF-72109,Operational audit trace for Sale
+MOV-9151,2026-08-16 11:00,STR-001,PRD-1002,Ponni Boiled Rice 10kg,Stock Transfer Out,40,72,32,REF-63613,Operational audit trace for Stock Transfer Out
+MOV-9152,2026-07-13 16:00,STR-001,PRD-1155,Coriander Leaves 100g Bundle,Damaged Stock,22,81,59,REF-30045,Operational audit trace for Damaged Stock
+MOV-9153,2026-08-07 08:00,STR-001,PRD-1112,Women's Horlicks Caramel 400g,Sale,20,82,62,REF-43767,Operational audit trace for Sale
+MOV-9154,2026-07-16 19:00,STR-003,PRD-1059,Parle-G Glucose Biscuit 250g,Stock Transfer In,15,29,44,REF-96068,Operational audit trace for Stock Transfer In
+MOV-9155,2026-07-25 15:00,STR-002,PRD-1114,Milo Cocoa Beverage Powder 400g,Stock Adjustment,26,32,6,REF-11668,Operational audit trace for Stock Adjustment
+MOV-9156,2026-07-07 15:00,STR-002,PRD-1176,Surf Excel Quick Wash Detergent Powder 1kg,Stock Transfer Out,13,41,28,REF-19604,Operational audit trace for Stock Transfer Out
+MOV-9157,2026-09-02 13:00,STR-002,PRD-1023,Horse Gram (Kollu) 500g,Sale,27,31,4,REF-85444,Operational audit trace for Sale
+MOV-9158,2026-07-23 08:00,STR-003,PRD-1053,Sweet Bun 2-Pack,Returned Stock,22,99,121,REF-86523,Operational audit trace for Returned Stock
+MOV-9159,2026-07-10 17:00,STR-002,PRD-1072,Unibic Assorted Cookies 75g,Damaged Stock,31,44,13,REF-37520,Operational audit trace for Damaged Stock
+MOV-9160,2026-08-28 08:00,STR-001,PRD-1069,Parle Krackjack Sweet & Salty 200g,Stock Transfer In,12,57,69,REF-50699,Operational audit trace for Stock Transfer In
+MOV-9161,2026-08-05 15:00,STR-003,PRD-1103,Narasus Pure Filter Coffee 200g,Damaged Stock,39,20,0,REF-45511,Operational audit trace for Damaged Stock
+MOV-9162,2026-09-02 14:00,STR-002,PRD-1010,Idli Rice 5kg,Stock Transfer Out,35,73,38,REF-26865,Operational audit trace for Stock Transfer Out
+MOV-9163,2026-07-29 13:00,STR-003,PRD-1024,Black Eyed Beans (Karamani) 500g,Stock Received,138,80,218,REF-64203,Operational audit trace for Stock Received
+MOV-9164,2026-08-11 09:00,STR-003,PRD-1026,Idhayam Sesame/Gingelly Oil 1L,Stock Adjustment,31,100,69,REF-14471,Operational audit trace for Stock Adjustment
+MOV-9165,2026-08-15 09:00,STR-001,PRD-1174,Vaseline Total Moisture Body Lotion 200ml,Returned Stock,16,41,57,REF-80544,Operational audit trace for Returned Stock
+MOV-9166,2026-08-14 09:00,STR-001,PRD-1097,3 Roses Dust Tea 250g,Stock Transfer In,25,44,69,REF-43527,Operational audit trace for Stock Transfer In
+MOV-9167,2026-07-05 17:00,STR-002,PRD-1027,Fortune Sunlite Sunflower Oil 1L,Damaged Stock,23,85,62,REF-10190,Operational audit trace for Damaged Stock
+MOV-9168,2026-08-14 13:00,STR-001,PRD-1196,Camphor Tablets 50g Box,Returned Stock,6,32,38,REF-52068,Operational audit trace for Returned Stock
+MOV-9169,2026-08-27 12:00,STR-001,PRD-1098,Tata Tea Gold 500g,Returned Stock,40,70,110,REF-97697,Operational audit trace for Returned Stock
+MOV-9170,2026-08-16 11:00,STR-003,PRD-1042,Amul Cheese Slices 200g,Stock Transfer Out,4,82,78,REF-71970,Operational audit trace for Stock Transfer Out
+MOV-9171,2026-07-01 08:00,STR-001,PRD-1103,Narasus Pure Filter Coffee 200g,Stock Received,125,51,176,REF-11651,Operational audit trace for Stock Received
+MOV-9172,2026-08-09 13:00,STR-003,PRD-1112,Women's Horlicks Caramel 400g,Stock Received,119,55,174,REF-12408,Operational audit trace for Stock Received
+MOV-9173,2026-08-01 17:00,STR-003,PRD-1196,Camphor Tablets 50g Box,Sale,12,30,18,REF-80730,Operational audit trace for Sale
+MOV-9174,2026-07-04 18:00,STR-001,PRD-1076,Kurkure Masala Munch 85g,Damaged Stock,25,70,45,REF-31013,Operational audit trace for Damaged Stock
+MOV-9175,2026-07-06 11:00,STR-002,PRD-1185,Scotch-Brite Scrub Pad Large (3-Pack),Stock Transfer In,35,90,125,REF-62342,Operational audit trace for Stock Transfer In
+MOV-9176,2026-08-05 18:00,STR-002,PRD-1008,Manna Ragi Flour 1kg,Returned Stock,29,88,117,REF-80842,Operational audit trace for Returned Stock
+MOV-9177,2026-07-02 10:00,STR-002,PRD-1141,Nagpur Oranges 1kg,Stock Transfer In,11,97,108,REF-54295,Operational audit trace for Stock Transfer In
+MOV-9178,2026-07-12 14:00,STR-002,PRD-1102,Nescafe Classic Instant Coffee 50g,Returned Stock,28,96,124,REF-37085,Operational audit trace for Returned Stock
+MOV-9179,2026-07-27 19:00,STR-001,PRD-1086,Tropicana 100% Orange Juice 1L,Stock Transfer In,27,36,63,REF-36225,Operational audit trace for Stock Transfer In
+MOV-9180,2026-07-08 11:00,STR-003,PRD-1168,Sunsilk Black Shine Shampoo 180ml,Stock Transfer In,17,22,39,REF-75947,Operational audit trace for Stock Transfer In
+MOV-9181,2026-09-03 08:00,STR-001,PRD-1156,Fresh Mint Leaves 100g,Stock Transfer Out,3,84,81,REF-89314,Operational audit trace for Stock Transfer Out
+MOV-9182,2026-08-31 08:00,STR-002,PRD-1061,Sunfeast Dark Fantasy Choco Fills 300g,Stock Received,136,35,171,REF-88575,Operational audit trace for Stock Received
+MOV-9183,2026-07-12 16:00,STR-001,PRD-1102,Nescafe Classic Instant Coffee 50g,Stock Adjustment,15,30,15,REF-22042,Operational audit trace for Stock Adjustment
+MOV-9184,2026-07-26 18:00,STR-001,PRD-1053,Sweet Bun 2-Pack,Stock Adjustment,25,68,43,REF-23141,Operational audit trace for Stock Adjustment
+MOV-9185,2026-07-13 13:00,STR-003,PRD-1193,Matchbox Homelites Safety Matches (10-Box),Stock Transfer In,36,63,99,REF-83515,Operational audit trace for Stock Transfer In
+MOV-9186,2026-07-07 13:00,STR-002,PRD-1059,Parle-G Glucose Biscuit 250g,Stock Adjustment,26,50,24,REF-34441,Operational audit trace for Stock Adjustment
+MOV-9187,2026-07-16 09:00,STR-002,PRD-1145,Green Guava 1kg,Stock Received,87,78,165,REF-99619,Operational audit trace for Stock Received
+MOV-9188,2026-07-21 10:00,STR-002,PRD-1007,Saffola Masala Oats 500g,Stock Transfer In,15,96,111,REF-71654,Operational audit trace for Stock Transfer In
+MOV-9189,2026-07-01 15:00,STR-001,PRD-1172,Dabur Red Toothpowder 100g,Stock Transfer In,24,55,79,REF-48832,Operational audit trace for Stock Transfer In
+MOV-9190,2026-08-31 19:00,STR-002,PRD-1021,Kabuli Chana 1kg,Stock Adjustment,35,37,2,REF-93961,Operational audit trace for Stock Adjustment
+MOV-9191,2026-07-26 09:00,STR-001,PRD-1160,Curry Leaves 50g Bundle,Stock Adjustment,5,57,52,REF-61170,Operational audit trace for Stock Adjustment
+MOV-9192,2026-07-10 17:00,STR-002,PRD-1206,Sebamed Baby Protective Facial Cream 50ml,Stock Transfer In,16,93,109,REF-45690,Operational audit trace for Stock Transfer In
+MOV-9193,2026-08-23 20:00,STR-001,PRD-1175,Vim Dishwash Gel Lemon 500ml,Stock Adjustment,25,72,47,REF-27336,Operational audit trace for Stock Adjustment
+MOV-9194,2026-08-22 10:00,STR-001,PRD-1090,Bovonto Grape Soft Drink 1.5L,Stock Transfer In,37,68,105,REF-10363,Operational audit trace for Stock Transfer In
+MOV-9195,2026-08-16 11:00,STR-003,PRD-1005,Pillsbury Chakki Fresh Atta 5kg,Sale,25,29,4,REF-80073,Operational audit trace for Sale
+MOV-9196,2026-08-08 08:00,STR-002,PRD-1047,Milky Mist Fresh Cream 200ml,Stock Transfer In,32,91,123,REF-68775,Operational audit trace for Stock Transfer In
+MOV-9197,2026-07-01 11:00,STR-001,PRD-1140,Robusta Bananas 1kg,Damaged Stock,26,26,0,REF-53338,Operational audit trace for Damaged Stock
+MOV-9198,2026-07-07 14:00,STR-001,PRD-1086,Tropicana 100% Orange Juice 1L,Stock Received,100,70,170,REF-41287,Operational audit trace for Stock Received
+MOV-9199,2026-08-25 08:00,STR-003,PRD-1133,Hershey's Chocolate Syrup 623g,Stock Received,66,87,153,REF-94026,Operational audit trace for Stock Received
+MOV-9200,2026-07-12 18:00,STR-003,PRD-1154,Green Capsicum 500g,Stock Transfer In,1,99,100,REF-81436,Operational audit trace for Stock Transfer In
+MOV-9201,2026-07-16 08:00,STR-002,PRD-1078,Hot & Crispy Banana Chips 250g,Damaged Stock,3,95,92,REF-25501,Operational audit trace for Damaged Stock
+MOV-9202,2026-07-22 08:00,STR-001,PRD-1086,Tropicana 100% Orange Juice 1L,Returned Stock,2,38,40,REF-57819,Operational audit trace for Returned Stock
+MOV-9203,2026-07-18 08:00,STR-001,PRD-1095,Kinley Packaged Drinking Water 1L,Stock Transfer In,11,45,56,REF-70302,Operational audit trace for Stock Transfer In
+MOV-9204,2026-08-17 17:00,STR-002,PRD-1168,Sunsilk Black Shine Shampoo 180ml,Returned Stock,39,66,105,REF-40312,Operational audit trace for Returned Stock
+MOV-9205,2026-07-15 17:00,STR-001,PRD-1068,Parle Monaco Salted Biscuit 200g,Stock Transfer Out,3,26,23,REF-91694,Operational audit trace for Stock Transfer Out
+MOV-9206,2026-08-25 08:00,STR-003,PRD-1048,Amul Fresh Condensed Milk 400g,Stock Adjustment,30,64,34,REF-74618,Operational audit trace for Stock Adjustment
+MOV-9207,2026-08-07 18:00,STR-002,PRD-1116,Sunfeast Yippee Magic Masala Noodles 240g,Stock Transfer In,18,100,118,REF-87402,Operational audit trace for Stock Transfer In
+MOV-9208,2026-07-18 08:00,STR-002,PRD-1115,Maggi 2-Minute Masala Noodles 280g (4-Pack),Stock Transfer In,36,97,133,REF-46898,Operational audit trace for Stock Transfer In
+MOV-9209,2026-08-06 13:00,STR-003,PRD-1081,Ribbon Pakoda 200g,Damaged Stock,6,35,29,REF-83064,Operational audit trace for Damaged Stock
+MOV-9210,2026-07-03 18:00,STR-001,PRD-1202,Johnson's Baby Powder 200g,Stock Received,141,90,231,REF-88019,Operational audit trace for Stock Received
+MOV-9211,2026-08-19 13:00,STR-002,PRD-1126,Eastern Chicken Masala 100g,Damaged Stock,14,56,42,REF-47092,Operational audit trace for Damaged Stock
+MOV-9212,2026-08-12 14:00,STR-002,PRD-1146,Mosambi (Sweet Lime) 1kg,Sale,11,96,85,REF-99892,Operational audit trace for Sale
+MOV-9213,2026-08-17 10:00,STR-002,PRD-1045,Aavin Flavoured Milk Chocolate 200ml,Stock Transfer Out,40,83,43,REF-16859,Operational audit trace for Stock Transfer Out
+MOV-9214,2026-08-10 19:00,STR-001,PRD-1147,Watermelon Kiran 1 Unit (~3kg),Stock Transfer Out,1,50,49,REF-63528,Operational audit trace for Stock Transfer Out
+MOV-9215,2026-07-14 20:00,STR-003,PRD-1151,Hybrid Tomato 1kg,Stock Adjustment,9,59,50,REF-81009,Operational audit trace for Stock Adjustment
+MOV-9216,2026-08-24 08:00,STR-002,PRD-1161,Mysore Sandal Soap 125g,Stock Received,87,77,164,REF-93931,Operational audit trace for Stock Received
+MOV-9217,2026-07-20 20:00,STR-001,PRD-1152,Ooty Carrot 500g,Stock Transfer Out,2,36,34,REF-35787,Operational audit trace for Stock Transfer Out
+MOV-9218,2026-08-15 20:00,STR-003,PRD-1023,Horse Gram (Kollu) 500g,Stock Transfer In,33,66,99,REF-13561,Operational audit trace for Stock Transfer In
+MOV-9219,2026-07-10 13:00,STR-002,PRD-1072,Unibic Assorted Cookies 75g,Returned Stock,1,28,29,REF-67831,Operational audit trace for Returned Stock
+MOV-9220,2026-07-30 18:00,STR-002,PRD-1033,V.V.D Gold Coconut Oil 500ml,Stock Transfer Out,32,32,0,REF-51423,Operational audit trace for Stock Transfer Out
+MOV-9221,2026-08-24 08:00,STR-002,PRD-1125,Aachi Biryani Masala 100g,Damaged Stock,29,93,64,REF-18105,Operational audit trace for Damaged Stock
+MOV-9222,2026-08-17 10:00,STR-002,PRD-1065,Britannia Good Day Butter 200g,Stock Transfer In,20,29,49,REF-37418,Operational audit trace for Stock Transfer In
+MOV-9223,2026-08-01 17:00,STR-001,PRD-1118,MTR Rava Dosa Mix 500g,Stock Transfer In,29,92,121,REF-44779,Operational audit trace for Stock Transfer In
+MOV-9224,2026-07-08 19:00,STR-003,PRD-1135,Baking Soda 100g,Stock Transfer In,24,47,71,REF-22723,Operational audit trace for Stock Transfer In
+MOV-9225,2026-08-10 19:00,STR-002,PRD-1168,Sunsilk Black Shine Shampoo 180ml,Damaged Stock,4,60,56,REF-70323,Operational audit trace for Damaged Stock
+MOV-9226,2026-07-16 17:00,STR-002,PRD-1029,Hatsun Pure Cow Ghee 500ml,Stock Adjustment,34,93,59,REF-79667,Operational audit trace for Stock Adjustment
+MOV-9227,2026-08-20 14:00,STR-003,PRD-1108,Boost Health Drink 500g Refill,Stock Adjustment,26,94,68,REF-38155,Operational audit trace for Stock Adjustment
+MOV-9228,2026-08-24 13:00,STR-001,PRD-1140,Robusta Bananas 1kg,Stock Received,120,50,170,REF-35533,Operational audit trace for Stock Received
+MOV-9229,2026-08-11 19:00,STR-002,PRD-1178,Lizol Disinfectant Floor Cleaner Citrus 1L,Stock Transfer In,36,78,114,REF-61902,Operational audit trace for Stock Transfer In
+MOV-9230,2026-07-01 13:00,STR-003,PRD-1168,Sunsilk Black Shine Shampoo 180ml,Stock Received,148,43,191,REF-41835,Operational audit trace for Stock Received
+MOV-9231,2026-08-31 15:00,STR-003,PRD-1032,Parachute Coconut Oil 500ml,Damaged Stock,17,51,34,REF-10783,Operational audit trace for Damaged Stock
+MOV-9232,2026-07-13 17:00,STR-003,PRD-1067,Britannia NutriChoice Digestive 250g,Sale,2,97,95,REF-57170,Operational audit trace for Sale
+MOV-9233,2026-08-25 15:00,STR-003,PRD-1087,Real Fruit Power Guava Juice 1L,Sale,13,38,25,REF-89128,Operational audit trace for Sale
+MOV-9234,2026-08-31 11:00,STR-003,PRD-1048,Amul Fresh Condensed Milk 400g,Sale,37,71,34,REF-47892,Operational audit trace for Sale
+MOV-9235,2026-08-03 08:00,STR-003,PRD-1067,Britannia NutriChoice Digestive 250g,Stock Adjustment,36,37,1,REF-52226,Operational audit trace for Stock Adjustment
+MOV-9236,2026-07-31 20:00,STR-003,PRD-1059,Parle-G Glucose Biscuit 250g,Stock Adjustment,26,78,52,REF-59291,Operational audit trace for Stock Adjustment
+MOV-9237,2026-07-24 12:00,STR-002,PRD-1060,Britannia Bourbon Chocolate Biscuit 150g,Stock Transfer Out,31,50,19,REF-91520,Operational audit trace for Stock Transfer Out
+MOV-9238,2026-07-21 11:00,STR-003,PRD-1192,Freshwrap Aluminum Foil 18m Roll,Stock Adjustment,22,38,16,REF-16125,Operational audit trace for Stock Adjustment
+MOV-9239,2026-07-18 11:00,STR-002,PRD-1066,Sunfeast Mom's Magic Cashew & Almond 200g,Stock Received,123,32,155,REF-42946,Operational audit trace for Stock Received
+MOV-9240,2026-07-01 09:00,STR-003,PRD-1152,Ooty Carrot 500g,Damaged Stock,13,49,36,REF-32962,Operational audit trace for Damaged Stock
+MOV-9241,2026-08-05 12:00,STR-002,PRD-1050,Britannia 100% Whole Wheat Bread 400g,Sale,20,83,63,REF-96486,Operational audit trace for Sale
+MOV-9242,2026-07-10 17:00,STR-001,PRD-1189,Odonil Room Air Freshener Spray Citrus 220ml,Sale,39,21,0,REF-98167,Operational audit trace for Sale
+MOV-9243,2026-08-31 13:00,STR-001,PRD-1116,Sunfeast Yippee Magic Masala Noodles 240g,Stock Adjustment,6,62,56,REF-45222,Operational audit trace for Stock Adjustment
+MOV-9244,2026-08-13 10:00,STR-002,PRD-1140,Robusta Bananas 1kg,Stock Received,106,61,167,REF-67202,Operational audit trace for Stock Received
+MOV-9245,2026-07-09 11:00,STR-003,PRD-1198,Garbage Bags Black Medium 30 Sheets,Sale,8,23,15,REF-10495,Operational audit trace for Sale
+MOV-9246,2026-08-20 20:00,STR-001,PRD-1103,Narasus Pure Filter Coffee 200g,Sale,14,39,25,REF-34157,Operational audit trace for Sale
+MOV-9247,2026-08-25 18:00,STR-001,PRD-1055,Britannia Gobbles Marble Cake 110g,Sale,32,77,45,REF-71268,Operational audit trace for Sale
+MOV-9248,2026-08-29 11:00,STR-001,PRD-1074,Lays Magic Masala Potato Chips 50g,Stock Received,103,84,187,REF-14426,Operational audit trace for Stock Received
+MOV-9249,2026-08-20 14:00,STR-001,PRD-1108,Boost Health Drink 500g Refill,Returned Stock,31,23,54,REF-68058,Operational audit trace for Returned Stock
+MOV-9250,2026-07-01 11:00,STR-001,PRD-1201,Himalaya Gentle Baby Soap 75g (3-Pack),Stock Transfer In,4,50,54,REF-59604,Operational audit trace for Stock Transfer In
+MOV-9251,2026-07-05 13:00,STR-001,PRD-1113,Ensure Diabetes Care Vanilla 400g,Sale,40,84,44,REF-49876,Operational audit trace for Sale
+MOV-9252,2026-07-18 18:00,STR-001,PRD-1104,Cothas Coffee Chicory Blend 500g,Stock Received,143,24,167,REF-93927,Operational audit trace for Stock Received
+MOV-9253,2026-08-30 20:00,STR-003,PRD-1107,Horlicks Classic Malt 500g Jar,Returned Stock,4,36,40,REF-75019,Operational audit trace for Returned Stock
+MOV-9254,2026-08-04 08:00,STR-003,PRD-1156,Fresh Mint Leaves 100g,Stock Transfer Out,24,84,60,REF-31889,Operational audit trace for Stock Transfer Out
+MOV-9255,2026-08-24 15:00,STR-003,PRD-1151,Hybrid Tomato 1kg,Sale,24,92,68,REF-10317,Operational audit trace for Sale
+MOV-9256,2026-08-25 10:00,STR-001,PRD-1006,Quaker Oats 1kg,Stock Adjustment,3,51,48,REF-63062,Operational audit trace for Stock Adjustment
+MOV-9257,2026-07-25 20:00,STR-001,PRD-1183,Domex Fresh Guard Toilet Cleaner 500ml,Returned Stock,23,71,94,REF-44389,Operational audit trace for Returned Stock
+MOV-9258,2026-08-22 19:00,STR-002,PRD-1026,Idhayam Sesame/Gingelly Oil 1L,Stock Transfer In,37,77,114,REF-45031,Operational audit trace for Stock Transfer In
+MOV-9259,2026-08-10 17:00,STR-001,PRD-1175,Vim Dishwash Gel Lemon 500ml,Returned Stock,38,46,84,REF-23695,Operational audit trace for Returned Stock
+MOV-9260,2026-07-28 17:00,STR-003,PRD-1205,Himalaya Baby Lotion 200ml,Returned Stock,32,93,125,REF-80999,Operational audit trace for Returned Stock
+MOV-9261,2026-08-05 17:00,STR-003,PRD-1028,Aavin Pure Ghee 500ml,Stock Transfer In,39,84,123,REF-66000,Operational audit trace for Stock Transfer In
+MOV-9262,2026-07-05 17:00,STR-001,PRD-1114,Milo Cocoa Beverage Powder 400g,Stock Adjustment,21,21,0,REF-46974,Operational audit trace for Stock Adjustment
+MOV-9263,2026-07-27 10:00,STR-002,PRD-1150,Fresh Potato 1kg,Stock Adjustment,28,57,29,REF-38374,Operational audit trace for Stock Adjustment
+MOV-9264,2026-07-17 10:00,STR-003,PRD-1080,Murukku Traditional 250g,Damaged Stock,17,68,51,REF-23294,Operational audit trace for Damaged Stock
+MOV-9265,2026-07-17 09:00,STR-001,PRD-1057,Plum Cake 250g,Returned Stock,36,94,130,REF-79948,Operational audit trace for Returned Stock
+MOV-9266,2026-07-10 18:00,STR-002,PRD-1038,Aavin Full Cream Milk 500ml,Stock Transfer In,40,56,96,REF-83712,Operational audit trace for Stock Transfer In
+MOV-9267,2026-08-13 11:00,STR-001,PRD-1091,7Up Nimbooz 350ml,Stock Received,50,29,79,REF-33914,Operational audit trace for Stock Received
+MOV-9268,2026-08-27 14:00,STR-003,PRD-1059,Parle-G Glucose Biscuit 250g,Sale,13,95,82,REF-79606,Operational audit trace for Sale
+MOV-9269,2026-08-08 15:00,STR-003,PRD-1108,Boost Health Drink 500g Refill,Sale,11,63,52,REF-62126,Operational audit trace for Sale
+MOV-9270,2026-08-29 19:00,STR-003,PRD-1181,Comfort After Wash Fabric Conditioner 860ml,Returned Stock,32,28,60,REF-77291,Operational audit trace for Returned Stock
+MOV-9271,2026-09-03 16:00,STR-003,PRD-1051,Modern Whole Wheat Bread 400g,Sale,14,77,63,REF-78925,Operational audit trace for Sale
+MOV-9272,2026-08-31 08:00,STR-001,PRD-1119,Bambino Roasted Vermicelli 400g,Returned Stock,35,57,92,REF-18833,Operational audit trace for Returned Stock
+MOV-9273,2026-08-19 16:00,STR-003,PRD-1018,Rajma Red Kidney Beans 500g,Stock Transfer Out,5,45,40,REF-43478,Operational audit trace for Stock Transfer Out
+MOV-9274,2026-08-17 14:00,STR-003,PRD-1110,Complan Chocolate Health Drink 500g,Stock Transfer Out,37,96,59,REF-80317,Operational audit trace for Stock Transfer Out
+MOV-9275,2026-08-04 14:00,STR-001,PRD-1010,Idli Rice 5kg,Stock Adjustment,21,85,64,REF-66148,Operational audit trace for Stock Adjustment
+MOV-9276,2026-08-26 17:00,STR-002,PRD-1097,3 Roses Dust Tea 250g,Damaged Stock,25,44,19,REF-98902,Operational audit trace for Damaged Stock
+MOV-9277,2026-07-31 08:00,STR-002,PRD-1160,Curry Leaves 50g Bundle,Sale,13,70,57,REF-25640,Operational audit trace for Sale
+MOV-9278,2026-07-07 16:00,STR-001,PRD-1022,Masoor Dal Red 1kg,Damaged Stock,10,73,63,REF-20967,Operational audit trace for Damaged Stock
+MOV-9279,2026-08-19 14:00,STR-002,PRD-1048,Amul Fresh Condensed Milk 400g,Stock Received,62,73,135,REF-52290,Operational audit trace for Stock Received
+MOV-9280,2026-08-15 13:00,STR-001,PRD-1162,Dettol Original Soap 75g (3-Pack),Returned Stock,33,72,105,REF-46409,Operational audit trace for Returned Stock
+MOV-9281,2026-08-12 15:00,STR-002,PRD-1188,Good Knight Gold Flash Machine + Refill,Stock Transfer Out,21,61,40,REF-56985,Operational audit trace for Stock Transfer Out
+MOV-9282,2026-09-02 13:00,STR-001,PRD-1037,Aavin Toned Milk 500ml Pouch,Sale,17,80,63,REF-66485,Operational audit trace for Sale
+MOV-9283,2026-08-05 08:00,STR-003,PRD-1003,Sona Masoori Rice 5kg,Stock Received,99,87,186,REF-68511,Operational audit trace for Stock Received
+MOV-9284,2026-08-13 16:00,STR-003,PRD-1149,Fresh Red Onion 1kg,Stock Adjustment,34,36,2,REF-48164,Operational audit trace for Stock Adjustment
+MOV-9285,2026-07-08 13:00,STR-003,PRD-1026,Idhayam Sesame/Gingelly Oil 1L,Stock Transfer Out,25,65,40,REF-43469,Operational audit trace for Stock Transfer Out
+MOV-9286,2026-08-11 09:00,STR-001,PRD-1056,Winkies Chocolate Swiss Roll 100g,Sale,17,58,41,REF-44080,Operational audit trace for Sale
+MOV-9287,2026-07-09 20:00,STR-003,PRD-1184,Ariel Matic Front Load Detergent 1kg,Damaged Stock,40,80,40,REF-48811,Operational audit trace for Damaged Stock
+MOV-9288,2026-07-01 10:00,STR-002,PRD-1073,Haldiram Nagpur Aloo Bhujia 200g,Sale,34,72,38,REF-80046,Operational audit trace for Sale
+MOV-9289,2026-08-24 08:00,STR-003,PRD-1184,Ariel Matic Front Load Detergent 1kg,Stock Adjustment,15,60,45,REF-71597,Operational audit trace for Stock Adjustment
+MOV-9290,2026-07-06 19:00,STR-001,PRD-1024,Black Eyed Beans (Karamani) 500g,Stock Transfer Out,2,51,49,REF-63504,Operational audit trace for Stock Transfer Out
+MOV-9291,2026-07-25 08:00,STR-001,PRD-1108,Boost Health Drink 500g Refill,Stock Adjustment,18,39,21,REF-37808,Operational audit trace for Stock Adjustment
+MOV-9292,2026-09-04 18:00,STR-002,PRD-1148,Kiwi Fruit 3-Pack,Stock Received,72,25,97,REF-53618,Operational audit trace for Stock Received
+MOV-9293,2026-07-07 16:00,STR-003,PRD-1192,Freshwrap Aluminum Foil 18m Roll,Sale,2,97,95,REF-46435,Operational audit trace for Sale
+MOV-9294,2026-07-09 11:00,STR-002,PRD-1097,3 Roses Dust Tea 250g,Returned Stock,38,21,59,REF-86530,Operational audit trace for Returned Stock
+MOV-9295,2026-08-25 18:00,STR-003,PRD-1024,Black Eyed Beans (Karamani) 500g,Stock Adjustment,39,80,41,REF-88168,Operational audit trace for Stock Adjustment
+MOV-9296,2026-09-01 17:00,STR-002,PRD-1175,Vim Dishwash Gel Lemon 500ml,Sale,18,63,45,REF-30035,Operational audit trace for Sale
+MOV-9297,2026-08-04 09:00,STR-001,PRD-1076,Kurkure Masala Munch 85g,Stock Transfer In,25,98,123,REF-45428,Operational audit trace for Stock Transfer In
+MOV-9298,2026-07-02 12:00,STR-001,PRD-1115,Maggi 2-Minute Masala Noodles 280g (4-Pack),Stock Received,109,46,155,REF-56391,Operational audit trace for Stock Received
+MOV-9299,2026-08-18 20:00,STR-002,PRD-1177,Harpic Power Plus Toilet Cleaner 500ml,Stock Transfer In,33,21,54,REF-85109,Operational audit trace for Stock Transfer In
+MOV-9300,2026-08-11 15:00,STR-001,PRD-1081,Ribbon Pakoda 200g,Damaged Stock,17,22,5,REF-54142,Operational audit trace for Damaged Stock

@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartMart AI – Supermarket Sales & Inventory Copilot</title>
+  <meta name="description" content="AI Sales & Inventory Copilot for Supermarket Managers (TRACK_ID=PS03). Multi-store analytics, stockout prevention, overstock detection, stock arrivals, movements, and evidence-based AI decision support." />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="app-layout">
+    
+    <!-- SIDEBAR NAVIGATION -->
+    <aside class="sidebar" id="app-sidebar">
+      <div class="sidebar-header">
+        <div class="brand-logo">
+          <div class="logo-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.29 3.07-1.42 1.43M17 13l2.29 3.07 1.42 1.43M9 21a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg>
+          </div>
+          <div class="brand-info">
+            <span class="brand-name">Smart<span class="brand-highlight">Mart</span> AI</span>
+            <span class="brand-tag">Supermarket Copilot</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-section-title">MAIN NAVIGATION</div>
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-view="dashboard" id="nav-dashboard">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
+          <span>Dashboard</span>
+        </button>
+
+        <button class="nav-item" data-view="copilot" id="nav-copilot">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>
+          <span>SmartMart Copilot</span>
+          <span class="nav-badge-ai">AI</span>
+        </button>
+
+        <button class="nav-item" data-view="sales" id="nav-sales">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" x2="12" y1="20" y2="10"/><line x1="18" x2="18" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="16"/></svg>
+          <span>Sales Analytics</span>
+        </button>
+
+
+        <button class="nav-item" data-view="products" id="nav-products">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+          <span>Products (200+)</span>
+        </button>
+
+        <button class="nav-item" data-view="stores" id="nav-stores">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/></svg>
+          <span>Stores (3 Branches)</span>
+        </button>
+
+        <div class="sidebar-section-title mt-3">OPERATIONS & AUDIT</div>
+
+        <button class="nav-item" data-view="arrivals" id="nav-arrivals">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 18 15 15"/></svg>
+          <span>Stock Arrivals</span>
+        </button>
+
+        <button class="nav-item" data-view="movements" id="nav-movements">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+          <span>Stock Movements</span>
+        </button>
+
+        <button class="nav-item" data-view="suppliers" id="nav-suppliers">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <span>Suppliers</span>
+        </button>
+
+        <div class="sidebar-section-title mt-3">SYSTEM</div>
+
+        <button class="nav-item" data-view="settings" id="nav-settings">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+          <span>Settings</span>
+        </button>
+      </nav>
+    </aside>
+
+    <!-- MAIN WRAPPER -->
+    <div class="main-wrapper">
+      
+      <!-- TOPBAR -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <!-- Store Selector -->
+          <div class="topbar-selector">
+            <span class="selector-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/></svg>
+            </span>
+            <select id="global-store-select" class="form-select topbar-select">
+              <option value="ALL">All Stores (Supermarket Network)</option>
+              <option value="STR-001">SmartMart – Karur Main Branch</option>
+              <option value="STR-002">SmartMart – Tiruppur Branch</option>
+              <option value="STR-003">SmartMart – Coimbatore Branch</option>
+            </select>
+          </div>
+
+          <!-- Date Selector -->
+          <div class="topbar-selector">
+            <span class="selector-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+            </span>
+            <select id="global-date-select" class="form-select topbar-select">
+              <option value="last_30_days">Last 30 Days</option>
+              <option value="today">Today (Sep 5, 2026)</option>
+              <option value="last_7_days">Last 7 Days</option>
+              <option value="this_month">This Month (Sep 2026)</option>
+              <option value="previous_month">Previous Month (Aug 2026)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="topbar-right">
+          <!-- Currency Indicator -->
+          <button class="topbar-btn" id="currency-badge-btn">
+            <span class="currency-symbol">₹</span>
+            <span>INR</span>
+          </button>
+
+          <!-- Reset Demo Data -->
+          <button class="btn btn-secondary btn-sm" id="btn-reload-demo">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 21h5v-5"/></svg>
+            <span>Reset Demo</span>
+          </button>
+
+          <!-- Ask Copilot Quick Button -->
+          <button class="btn btn-primary btn-sm" id="btn-quick-copilot">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>
+            <span>Ask Copilot</span>
+          </button>
+
+          <!-- Theme Toggle -->
+          <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme">
+            <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="M2 12h2"/><path d="M20 12h2"/></svg>
+            <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          </button>
+
+          <!-- User Profile & Logout -->
+          <div class="user-profile-badge" id="topbar-user-badge">
+            <span class="user-avatar" id="topbar-user-avatar">👑</span>
+            <div class="user-info-text">
+              <span class="user-name" id="topbar-user-name">Rajesh</span>
+              <span class="badge positive text-xs" id="topbar-user-role">Owner</span>
+            </div>
+            <button class="btn btn-secondary btn-sm" id="btn-logout" title="Sign Out">Logout</button>
+          </div>
+        </div>
+      </header>
+
+      <!-- PAGE CONTENT AREA -->
+      <main class="page-content" id="main-content">
+        
+        <!-- 1. DASHBOARD VIEW -->
+        <!-- 1. DASHBOARD VIEW (Minimal Executive Overview) -->
+        <section class="view-panel active" id="view-dashboard">
+          <div class="dashboard-header mb-6">
+            <div>
+              <h1 class="page-title">SmartMart Analytics</h1>
+              <p class="page-subtitle">Sales and inventory overview</p>
+            </div>
+          </div>
+
+          <!-- 6 KPI CARDS (3 × 2 grid on desktop) -->
+          <div class="minimal-kpi-grid">
+            <!-- 1. Revenue -->
+            <div class="minimal-kpi-card" data-kpi="revenue" id="card-kpi-revenue" title="Click to inspect Revenue breakdown & products">
+              <div class="minimal-kpi-top">
+                <span class="minimal-kpi-label">Revenue</span>
+                <div class="minimal-kpi-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+              </div>
+              <div class="minimal-kpi-value" id="kpi-total-sales">₹14,91,579</div>
+              <div class="minimal-kpi-hint"><span>Click to view products</span> &rarr;</div>
+            </div>
+
+            <!-- 2. Units Sold -->
+            <div class="minimal-kpi-card" data-kpi="units" id="card-kpi-units" title="Click to inspect Units Sold breakdown & velocity">
+              <div class="minimal-kpi-top">
+                <span class="minimal-kpi-label">Units Sold</span>
+                <div class="minimal-kpi-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                </div>
+              </div>
+              <div class="minimal-kpi-value" id="kpi-units-sold">11,926</div>
+              <div class="minimal-kpi-hint"><span>Click to view products</span> &rarr;</div>
+            </div>
+
+            <!-- 3. Inventory -->
+            <div class="minimal-kpi-card" data-kpi="inventory" id="card-kpi-inventory" title="Click to inspect full Inventory stock ledger">
+              <div class="minimal-kpi-top">
+                <span class="minimal-kpi-label">Inventory</span>
+                <div class="minimal-kpi-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
+                </div>
+              </div>
+              <div class="minimal-kpi-value" id="kpi-inventory-units">39,839 units</div>
+              <div class="minimal-kpi-hint"><span>Click to view products</span> &rarr;</div>
+            </div>
+
+            <!-- 4. Stock-Out Risk -->
+            <div class="minimal-kpi-card" data-kpi="stockout" id="card-kpi-stockout" title="Click to inspect Stock-Out Risk products">
+              <div class="minimal-kpi-top">
+                <span class="minimal-kpi-label">Stock-Out Risk</span>
+                <div class="minimal-kpi-icon text-rose">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                </div>
+              </div>
+              <div class="minimal-kpi-value text-rose" id="kpi-stockouts-count">132</div>
+              <div class="minimal-kpi-hint"><span>Click to view products</span> &rarr;</div>
+            </div>
+
+            <!-- 5. Low Stock -->
+            <div class="minimal-kpi-card" data-kpi="lowstock" id="card-kpi-lowstock" title="Click to inspect Low Stock products">
+              <div class="minimal-kpi-top">
+                <span class="minimal-kpi-label">Low Stock</span>
+                <div class="minimal-kpi-icon text-amber">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+                </div>
+              </div>
+              <div class="minimal-kpi-value text-amber" id="kpi-low-stock-count">113</div>
+              <div class="minimal-kpi-hint"><span>Click to view products</span> &rarr;</div>
+            </div>
+
+            <!-- 6. Overstock -->
+            <div class="minimal-kpi-card" data-kpi="overstock" id="card-kpi-overstock" title="Click to inspect Overstocked products">
+              <div class="minimal-kpi-top">
+                <span class="minimal-kpi-label">Overstock</span>
+                <div class="minimal-kpi-icon text-purple">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                </div>
+              </div>
+              <div class="minimal-kpi-value text-purple" id="kpi-overstocked-count">91</div>
+              <div class="minimal-kpi-hint"><span>Click to view products</span> &rarr;</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. SMARTMART COPILOT VIEW -->
+        <section class="view-panel" id="view-copilot">
+          <div class="copilot-container">
+            <div class="copilot-header-bar">
+              <div class="copilot-title-group">
+                <div class="copilot-avatar">✨</div>
+                <div>
+                  <h1 class="page-title">SmartMart Copilot – Evidence-Based AI</h1>
+                  <p class="page-subtitle">Strict Guarantee: No claim without numbers. No recommendation without evidence.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Chips -->
+            <div class="preset-chips-container">
+              <span class="chips-label">Manager Questions:</span>
+              <div class="chips-scroll">
+                <button class="preset-chip" data-query="What products are running out?">🔥 What products are running out?</button>
+                <button class="preset-chip" data-query="Which products should I reorder?">🛒 Which products should I reorder?</button>
+                <button class="preset-chip" data-query="Which products are overstocked?">📦 Which products are overstocked?</button>
+                <button class="preset-chip" data-query="How did Aavin Milk perform this month?">🥛 How did Aavin Milk perform?</button>
+                <button class="preset-chip" data-query="When did Aavin Milk last arrive?">🚚 When did Aavin Milk last arrive?</button>
+                <button class="preset-chip" data-query="Which branch has the highest sales?">🏆 Which branch has highest sales?</button>
+              </div>
+            </div>
+
+            <div class="chat-feed" id="copilot-chat-feed"></div>
+
+            <div class="chat-input-wrapper">
+              <form id="copilot-form" class="chat-form">
+                <input type="text" id="copilot-text-input" class="chat-input" placeholder="Ask SmartMart Copilot about stockouts, arrivals, reorders, sales..." required />
+                <button type="submit" class="btn btn-primary chat-send-btn">Send</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. SALES ANALYTICS VIEW -->
+        <section class="view-panel" id="view-sales">
+          <div class="section-header mb-6">
+            <div>
+              <h1 class="page-title">Sales Analytics & Category Performance</h1>
+              <p class="page-subtitle">Revenue velocity, daily trends, and category performance across supermarket stores.</p>
+            </div>
+          </div>
+
+          <!-- Sales Summary KPI Grid -->
+          <div class="minimal-kpi-grid mb-6">
+            <div class="minimal-kpi-card">
+              <div class="minimal-kpi-top">
+                <span class="minimal-kpi-label">Total Revenue</span>
+                <div class="minimal-kpi-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+              </div>
+              <div class="minimal-kpi-value" id="sales-kpi-revenue">₹0</div>
+            </div>
+
+            <div class="minimal-kpi-card">
+              <div class="minimal-kpi-top">
+                <span class="minimal-kpi-label">Units Sold</span>
+                <div class="minimal-kpi-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                </div>
+              </div>
+              <div class="minimal-kpi-value" id="sales-kpi-units">0</div>
+            </div>
+
+            <div class="minimal-kpi-card">
+              <div class="minimal-kpi-top">
+                <span class="minimal-kpi-label">Avg Daily Sales</span>
+                <div class="minimal-kpi-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                </div>
+              </div>
+              <div class="minimal-kpi-value" id="sales-kpi-daily">0 u/day</div>
+            </div>
+          </div>
+
+          <!-- Sales Visual Charts Grid -->
+          <div class="dashboard-charts-grid mb-6">
+            <div class="card chart-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Daily Revenue Velocity (₹)</h3>
+                  <p class="card-subtitle">Daily sales revenue timeline</p>
+                </div>
+              </div>
+              <div class="chart-container" style="height: 300px;"><canvas id="sales-trend-canvas"></canvas></div>
+            </div>
+
+            <div class="card chart-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Category Revenue Contribution</h3>
+                  <p class="card-subtitle">Sales distribution across supermarket categories</p>
+                </div>
+              </div>
+              <div class="chart-container" style="height: 300px;"><canvas id="sales-category-canvas"></canvas></div>
+            </div>
+          </div>
+
+          <!-- Category Breakdown Table -->
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title">Category Sales Breakdown (18 Supermarket Categories)</h3>
+                <p class="card-subtitle">Detailed revenue, unit volume, and SKU count per category</p>
+              </div>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table" id="sales-category-table">
+                <thead>
+                  <tr>
+                    <th>Category Name</th>
+                    <th>Active SKUs</th>
+                    <th>Units Sold</th>
+                    <th>Total Revenue</th>
+                    <th>Share of Sales</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td colspan="5" class="text-center p-4">Loading category sales...</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- 5. PRODUCTS CATALOGUE VIEW -->
+        <section class="view-panel" id="view-products">
+          <div class="section-header">
+            <div>
+              <h1 class="page-title">Supermarket Product Catalogue (200+ Unique SKUs)</h1>
+              <p class="page-subtitle">Search, filter, and inspect detailed supermarket product ledgers.</p>
+            </div>
+          </div>
+
+          <div class="card filter-bar-card mb-4">
+            <div class="filter-flex">
+              <input type="text" id="product-search-input" class="form-input" placeholder="Search by product name, SKU, brand, category, supplier..." />
+              <select id="product-category-filter" class="form-select">
+                <option value="ALL">All Categories</option>
+                <option value="Rice & Grains">Rice & Grains</option>
+                <option value="Pulses & Dals">Pulses & Dals</option>
+                <option value="Cooking Oil & Ghee">Cooking Oil & Ghee</option>
+                <option value="Dairy">Dairy</option>
+                <option value="Bakery">Bakery</option>
+                <option value="Biscuits">Biscuits</option>
+                <option value="Snacks">Snacks</option>
+                <option value="Beverages">Beverages</option>
+                <option value="Tea & Coffee">Tea & Coffee</option>
+                <option value="Health Drinks">Health Drinks</option>
+                <option value="Instant Food">Instant Food</option>
+                <option value="Packaged Food">Packaged Food</option>
+                <option value="Fruits">Fruits</option>
+                <option value="Vegetables">Vegetables</option>
+                <option value="Personal Care">Personal Care</option>
+                <option value="Home Cleaning">Home Cleaning</option>
+                <option value="Household Products">Household Products</option>
+                <option value="Baby Care">Baby Care</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="table-responsive">
+              <table class="data-table" id="products-catalog-table">
+                <thead>
+                  <tr>
+                    <th>Product & ID</th>
+                    <th>Category</th>
+                    <th>Store Branch</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Daily Sales</th>
+                    <th>Runway</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. STORES VIEW -->
+        <section class="view-panel" id="view-stores">
+          <div class="section-header">
+            <h1 class="page-title">SmartMart Branch Network Management</h1>
+          </div>
+          <div class="stores-grid" id="stores-card-grid"></div>
+        </section>
+
+        <!-- 7. STOCK ARRIVALS VIEW -->
+        <section class="view-panel" id="view-arrivals">
+          <div class="section-header">
+            <h1 class="page-title">Stock Arrivals & Delivery Ledger</h1>
+          </div>
+          <div class="card">
+            <div class="table-responsive">
+              <table class="data-table" id="arrivals-table">
+                <thead>
+                  <tr>
+                    <th>Arrival Date</th>
+                    <th>Product Name</th>
+                    <th>Supplier</th>
+                    <th>Qty Received</th>
+                    <th>Prev Stock</th>
+                    <th>New Stock</th>
+                    <th>Invoice No</th>
+                    <th>Batch</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- 8. STOCK MOVEMENTS VIEW -->
+        <section class="view-panel" id="view-movements">
+          <div class="section-header">
+            <h1 class="page-title">Stock Movements & Audit Trail</h1>
+          </div>
+          <div class="card">
+            <div class="table-responsive">
+              <table class="data-table" id="movements-table">
+                <thead>
+                  <tr>
+                    <th>Date / Time</th>
+                    <th>Product</th>
+                    <th>Type</th>
+                    <th>Qty</th>
+                    <th>Prev Stock</th>
+                    <th>New Stock</th>
+                    <th>Reason</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- 9. SUPPLIERS VIEW -->
+        <section class="view-panel" id="view-suppliers">
+          <div class="section-header">
+            <h1 class="page-title">Supplier Directory & Delivery Portfolio</h1>
+          </div>
+          <div class="card">
+            <div class="table-responsive">
+              <table class="data-table" id="suppliers-table">
+                <thead>
+                  <tr>
+                    <th>Supplier ID</th>
+                    <th>Supplier Name</th>
+                    <th>Contact Person</th>
+                    <th>Phone</th>
+                    <th>City</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- 12. SETTINGS VIEW -->
+        <section class="view-panel" id="view-settings">
+          <div class="section-header mb-6">
+            <div>
+              <h1 class="page-title">Application Settings & Configuration</h1>
+              <p class="page-subtitle">Configure supermarket thresholds, user role permissions, and AI copilot behavior.</p>
+            </div>
+          </div>
+
+          <div class="settings-grid mb-6">
+            <!-- 1. Active User Profile & Access Privileges -->
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Active User & Role Access</h3>
+                  <p class="card-subtitle">Current session credentials & permissions</p>
+                </div>
+                <span class="badge positive font-bold" id="settings-badge-role">Owner</span>
+              </div>
+
+              <div class="p-4 mb-4" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px;">
+                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+                  <div id="settings-avatar-display" style="font-size: 2rem;">👑</div>
+                  <div>
+                    <h4 class="font-bold text-base text-main" id="settings-name-display">Rajesh Sharma</h4>
+                    <p class="text-xs text-muted" id="settings-email-display">owner@smartmart.retail</p>
+                  </div>
+                </div>
+
+                <div class="text-xs text-muted" style="display: flex; flex-direction: column; gap: 4px;">
+                  <div><strong>Store Scope:</strong> <span id="settings-scope-display">All Branches (Karur, Tiruppur, Coimbatore)</span></div>
+                  <div><strong>Permission Level:</strong> <span id="settings-perms-display">Full Executive Access (Financials, Margins, Network Operations, Copilot, Audit)</span></div>
+                </div>
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="form-label text-xs font-bold text-muted">SWITCH DEMO ROLE:</label>
+                <div class="role-buttons-grid">
+                  <button type="button" class="btn btn-secondary btn-sm" id="btn-switch-owner">👑 Owner</button>
+                  <button type="button" class="btn btn-secondary btn-sm" id="btn-switch-manager">👔 Manager</button>
+                  <button type="button" class="btn btn-secondary btn-sm" id="btn-switch-employee">🛒 Employee</button>
+                </div>
+              </div>
+
+              <button type="button" class="btn btn-secondary w-full mt-2" id="btn-settings-logout">
+                Sign Out / Switch Account
+              </button>
+            </div>
+
+            <!-- 2. System & Localization -->
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Supermarket Profile & System</h3>
+                  <p class="card-subtitle">Chain configuration and display preferences</p>
+                </div>
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="form-label">Supermarket Network Name</label>
+                <input type="text" class="form-input" value="SmartMart Supermarkets Ltd." readonly />
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="form-label">Operating Currency</label>
+                <select id="settings-currency" class="form-select">
+                  <option value="INR" selected>Indian Rupee (₹ INR)</option>
+                </select>
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="form-label">Application Theme</label>
+                <select id="settings-theme" class="form-select">
+                  <option value="light">Light Theme (White + Green)</option>
+                  <option value="dark">Dark Theme</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="settings-grid mb-6">
+            <!-- 3. Mathematical Runway & Alert Thresholds -->
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Stock Runway & Risk Thresholds</h3>
+                  <p class="card-subtitle">Mathematical limits used for automated inventory triage</p>
+                </div>
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="form-label">Critical Stockout Runway (Days)</label>
+                <input type="number" id="settings-stockout-days" class="form-input" value="3.0" step="0.5" min="1" max="14" />
+                <small class="text-xs text-muted">Items with runway ≤ this threshold trigger Immediate Stockout Alerts.</small>
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="form-label">Overstock Runway Threshold (Days)</label>
+                <input type="number" id="settings-overstock-days" class="form-input" value="60.0" step="5" min="30" max="180" />
+                <small class="text-xs text-muted">Items with runway ≥ this threshold are flagged as Overstocked / Working Capital Tied.</small>
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="form-label">Sales Velocity Spike Trigger (%)</label>
+                <input type="number" id="settings-spike-pct" class="form-input" value="50" step="5" min="10" max="200" />
+                <small class="text-xs text-muted">Sales surges over baseline triggering proactive replenishment alerts.</small>
+              </div>
+
+              <div class="form-group mb-3">
+                <label class="form-label">Sales Drop Warning Trigger (%)</label>
+                <input type="number" id="settings-drop-pct" class="form-input" value="40" step="5" min="10" max="100" />
+                <small class="text-xs text-muted">Velocity drops triggering inspection for potential shelf stockouts.</small>
+              </div>
+            </div>
+
+            <!-- 4. SmartMart AI Copilot Engine Settings -->
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Evidence-Based AI Copilot Engine</h3>
+                  <p class="card-subtitle">Rule parameters and operational intelligence algorithms</p>
+                </div>
+              </div>
+
+              <div class="form-group mb-3">
+                <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background-color: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 8px;">
+                  <div>
+                    <div class="font-bold text-sm text-emerald">Strict Evidence-Based Guarantee</div>
+                    <div class="text-xs text-muted">No claim without numbers. No recommendation without evidence.</div>
+                  </div>
+                  <span class="badge positive font-bold">LOCKED ON</span>
+                </div>
+              </div>
+
+              <div class="form-group mb-3">
+                <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px;">
+                  <div>
+                    <div class="font-bold text-sm text-main">Multi-Branch Stock Rebalancing</div>
+                    <div class="text-xs text-muted">Automatically identify donor stores with surplus stock for shortage branches.</div>
+                  </div>
+                  <span class="badge positive font-bold">ACTIVE</span>
+                </div>
+              </div>
+
+              <div class="form-group mb-4">
+                <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px;">
+                  <div>
+                    <div class="font-bold text-sm text-main">Dynamic Lead Time Buffer</div>
+                    <div class="text-xs text-muted">Safety Stock = (Max Daily × Max Lead) − (Avg Daily × Avg Lead).</div>
+                  </div>
+                  <span class="badge info font-bold">DYNAMIC</span>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <button type="button" class="btn btn-primary font-bold py-2" style="flex: 1;" id="btn-save-settings">Save All Settings</button>
+                <button type="button" class="btn btn-secondary py-2" id="btn-reset-settings">Reset Defaults</button>
+              </div>
+              <div id="settings-toast-msg" class="text-xs font-bold text-emerald mt-2 text-center hidden">✓ Settings updated and applied to live calculations!</div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <!-- PRODUCT DETAILS MODAL -->
+  <div class="modal-backdrop hidden" id="product-detail-modal">
+    <div class="modal-card modal-lg">
+      <div class="modal-header">
+        <h3 id="modal-product-title">Product Details & Audit Trail</h3>
+        <button class="modal-close" id="btn-close-product-modal">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-product-body">
+        <div class="loading-placeholder">Loading complete product timeline...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STOCK AUDIT CALCULATION MODAL -->
+  <div class="modal-backdrop hidden" id="stock-audit-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>How is this stock calculated?</h3>
+        <button class="modal-close" id="btn-close-audit-modal">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-audit-body">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- DASHBOARD KPI DRILL-DOWN MODAL -->
+  <div class="modal-backdrop hidden" id="dashboard-drilldown-modal">
+    <div class="modal-card modal-xl">
+      <div class="modal-header">
+        <div>
+          <h3 id="drilldown-modal-title">KPI Detail Breakdown</h3>
+          <p class="text-xs text-muted mt-0.5" id="drilldown-modal-subtitle">Explanation and affected products</p>
+        </div>
+        <button class="modal-close" id="btn-close-drilldown-modal" title="Close">&times;</button>
+      </div>
+      <div class="modal-body" id="drilldown-modal-body">
+        <!-- Rendered dynamically by dashboard.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- AUTHENTICATION (LOGIN & SIGN UP) OVERLAY -->
+  <div id="login-modal" class="login-modal-overlay hidden">
+    <div class="login-card">
+      <div class="login-header text-center">
+        <div class="login-brand-logo">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.5"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+        </div>
+        <h2 class="login-title">SmartMart AI Portal</h2>
+        <p class="login-subtitle">Supermarket Sales, Inventory & Operations Copilot</p>
+      </div>
+
+      <!-- Auth Mode Switch Tabs: Login vs Register -->
+      <div class="auth-tabs mb-4">
+        <button type="button" class="auth-tab-btn active" id="tab-auth-login">Sign In</button>
+        <button type="button" class="auth-tab-btn" id="tab-auth-signup">Create Account (Sign Up)</button>
+      </div>
+
+      <!-- Alert / Status Toast inside Auth -->
+      <div id="auth-alert-box" class="auth-alert hidden"></div>
+
+      <!-- 1. SIGN IN FORM -->
+      <div id="auth-panel-login">
+        <div class="role-selector-box mb-4">
+          <label class="form-label text-xs font-bold text-muted">QUICK DEMO ACCOUNTS:</label>
+          <div class="role-buttons-grid">
+            <button type="button" class="role-pick-btn active" id="role-btn-owner" data-role="owner">
+              <span class="role-icon">👑</span>
+              <div class="font-bold text-sm">Owner</div>
+              <div class="text-xs text-muted">Executive</div>
+            </button>
+
+            <button type="button" class="role-pick-btn" id="role-btn-manager" data-role="manager">
+              <span class="role-icon">👔</span>
+              <div class="font-bold text-sm">Manager</div>
+              <div class="text-xs text-muted">Operations</div>
+            </button>
+
+            <button type="button" class="role-pick-btn" id="role-btn-employee" data-role="employee">
+              <span class="role-icon">🛒</span>
+              <div class="font-bold text-sm">Employee</div>
+              <div class="text-xs text-muted">Floor Staff</div>
+            </button>
+          </div>
+        </div>
+
+        <form id="login-form">
+          <div class="form-group mb-3">
+            <label class="form-label">Email Address or Employee No</label>
+            <input type="text" id="login-email" class="form-input" value="owner@smartmart.retail" placeholder="e.g. owner@smartmart.retail or EMP-001" required />
+          </div>
+
+          <div class="form-group mb-4">
+            <label class="form-label">Password</label>
+            <input type="password" id="login-password" class="form-input" value="smartmart2026" placeholder="Enter password" required />
+          </div>
+
+          <button type="submit" class="btn btn-primary w-full py-2.5 font-bold text-base" id="btn-submit-login">
+            Sign In as <span id="login-role-submit-text">Owner</span>
+          </button>
+        </form>
+
+        <div class="text-center mt-3 text-xs text-muted">
+          Don't have an account? <a href="#" id="link-switch-to-signup" class="text-brand font-bold">Sign up here</a>
+        </div>
+      </div>
+
+      <!-- 2. SIGN UP / REGISTER FORM -->
+      <div id="auth-panel-signup" class="hidden">
+        <form id="signup-form">
+          <div class="form-group mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" id="signup-name" class="form-input" placeholder="e.g. Anand Kumar" required />
+          </div>
+
+          <div class="grid-2 gap-3 mb-3">
+            <div class="form-group">
+              <label class="form-label">Phone Number</label>
+              <input type="tel" id="signup-phone" class="form-input" placeholder="9876543210" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Employee No</label>
+              <input type="text" id="signup-empno" class="form-input" placeholder="EMP-105" required />
+            </div>
+          </div>
+
+          <div class="form-group mb-3">
+            <label class="form-label">Official Email Address</label>
+            <input type="email" id="signup-email" class="form-input" placeholder="anand@smartmart.retail" required />
+          </div>
+
+          <div class="grid-2 gap-3 mb-3">
+            <div class="form-group">
+              <label class="form-label">Role</label>
+              <select id="signup-role" class="form-select">
+                <option value="Employee">Floor Employee</option>
+                <option value="Manager">Store Manager</option>
+                <option value="Owner">Business Owner</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Branch Assigned</label>
+              <select id="signup-branch" class="form-select">
+                <option value="Karur Main Flagship">Karur Main Branch</option>
+                <option value="Tiruppur Branch">Tiruppur Branch</option>
+                <option value="Coimbatore Branch">Coimbatore Branch</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group mb-4">
+            <label class="form-label">Create Password</label>
+            <input type="password" id="signup-password" class="form-input" placeholder="Minimum 6 characters" required />
+          </div>
+
+          <button type="submit" class="btn btn-primary w-full py-2.5 font-bold text-base" id="btn-submit-signup">
+            Create Account & Sign In
+          </button>
+        </form>
+
+        <div class="text-center mt-3 text-xs text-muted">
+          Already registered? <a href="#" id="link-switch-to-login" class="text-brand font-bold">Sign in here</a>
+        </div>
+      </div>
+
+      <div class="login-footer text-center mt-4 text-xs text-muted">
+        Protected Supermarket Portal • Authorized Access for Owner, Manager & Employee
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

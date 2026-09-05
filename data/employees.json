@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Amit Kapoor",
+    "phoneNumber": "+91 98765 43210",
+    "email": "employee@smartmart.retail",
+    "employeeNo": "EMP-1001",
+    "branch": "Karur Store Floor",
+    "role": "Employee",
+    "roleId": "employee",
+    "password": "smartmart2026",
+    "avatar": "🛒",
+    "allowedViews": [
+      "dashboard",
+      "products",
+      "arrivals",
+      "movements",
+      "stores",
+      "settings"
+    ]
+  }
+]

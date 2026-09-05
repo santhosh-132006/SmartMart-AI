@@ -1,0 +1,595 @@
+id,name,brand,category,subcategory,supplierId,supplierName,sellingPrice,costPrice,profitPerUnit,storeId,storeName,openingStock,currentStock,minimumStock,reorderLevel,maximumStock,averageDailySales,unitsSoldToday,unitsSoldThisWeek,unitsSoldThisMonth,estimatedDaysRemaining,inventoryValue,status
+PRD-1001,India Gate Basmati Rice 5kg,India Gate,Rice & Grains,Rice & Grains,SUP-003,India Gate Grains Ltd,520,440,80,STR-001,SmartMart - Karur Main Branch,50,3,10,25,300,8.18,7,54,256,0.4,1320,stockout_risk
+PRD-1001,India Gate Basmati Rice 5kg,India Gate,Rice & Grains,Rice & Grains,SUP-003,India Gate Grains Ltd,520,440,80,STR-002,SmartMart - Tiruppur Branch,47,3,10,25,300,12.13,9,78,344,0.2,1320,stockout_risk
+PRD-1002,Ponni Boiled Rice 10kg,Fortune,Rice & Grains,Rice & Grains,SUP-003,India Gate Grains Ltd,680,580,100,STR-001,SmartMart - Karur Main Branch,137,36,10,20,300,4.24,4,30,125,8.5,20880,healthy
+PRD-1002,Ponni Boiled Rice 10kg,Fortune,Rice & Grains,Rice & Grains,SUP-003,India Gate Grains Ltd,680,580,100,STR-002,SmartMart - Tiruppur Branch,117,72,10,20,300,3.11,3,22,87,23.1,41760,healthy
+PRD-1002,Ponni Boiled Rice 10kg,Fortune,Rice & Grains,Rice & Grains,SUP-003,India Gate Grains Ltd,680,580,100,STR-003,SmartMart - Coimbatore Branch,114,56,10,20,300,3.11,2,22,85,18.0,32480,healthy
+PRD-1003,Sona Masoori Rice 5kg,Royal,Rice & Grains,Rice & Grains,SUP-003,India Gate Grains Ltd,380,310,70,STR-001,SmartMart - Karur Main Branch,108,41,10,20,300,3.44,3,22,93,11.9,12710,healthy
+PRD-1003,Sona Masoori Rice 5kg,Royal,Rice & Grains,Rice & Grains,SUP-003,India Gate Grains Ltd,380,310,70,STR-002,SmartMart - Tiruppur Branch,118,69,10,20,300,2.5,3,16,71,27.6,21390,healthy
+PRD-1003,Sona Masoori Rice 5kg,Royal,Rice & Grains,Rice & Grains,SUP-003,India Gate Grains Ltd,380,310,70,STR-003,SmartMart - Coimbatore Branch,140,74,10,20,300,5.54,5,36,151,13.4,22940,healthy
+PRD-1004,Aashirvaad Shuddha Chakki Atta 5kg,Aashirvaad,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,245,205,40,STR-001,SmartMart - Karur Main Branch,144,49,10,20,300,5.09,6,38,163,9.6,10045,healthy
+PRD-1004,Aashirvaad Shuddha Chakki Atta 5kg,Aashirvaad,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,245,205,40,STR-002,SmartMart - Tiruppur Branch,108,52,10,20,300,3.81,4,24,111,13.6,10660,healthy
+PRD-1004,Aashirvaad Shuddha Chakki Atta 5kg,Aashirvaad,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,245,205,40,STR-003,SmartMart - Coimbatore Branch,145,52,10,20,300,4.81,5,30,148,10.8,10660,healthy
+PRD-1005,Pillsbury Chakki Fresh Atta 5kg,Pillsbury,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,240,200,40,STR-001,SmartMart - Karur Main Branch,114,53,10,25,300,14.45,14,96,470,3.7,10600,sales_spike
+PRD-1005,Pillsbury Chakki Fresh Atta 5kg,Pillsbury,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,240,200,40,STR-002,SmartMart - Tiruppur Branch,115,37,10,25,300,18.85,23,139,534,2.0,7400,sales_spike
+PRD-1005,Pillsbury Chakki Fresh Atta 5kg,Pillsbury,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,240,200,40,STR-003,SmartMart - Coimbatore Branch,82,55,10,25,300,15.15,14,99,494,3.6,11000,sales_spike
+PRD-1006,Quaker Oats 1kg,Quaker,Rice & Grains,Rice & Grains,SUP-007,Nestle India,195,155,40,STR-001,SmartMart - Karur Main Branch,100,48,10,20,300,4.62,4,35,137,10.4,7440,healthy
+PRD-1006,Quaker Oats 1kg,Quaker,Rice & Grains,Rice & Grains,SUP-007,Nestle India,195,155,40,STR-002,SmartMart - Tiruppur Branch,93,43,10,20,300,2.99,3,19,91,14.4,6665,healthy
+PRD-1006,Quaker Oats 1kg,Quaker,Rice & Grains,Rice & Grains,SUP-007,Nestle India,195,155,40,STR-003,SmartMart - Coimbatore Branch,134,60,10,20,300,3.45,4,22,103,17.4,9300,healthy
+PRD-1007,Saffola Masala Oats 500g,Saffola,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,175,140,35,STR-001,SmartMart - Karur Main Branch,66,90,10,20,300,2.44,2,18,72,36.9,12600,healthy
+PRD-1007,Saffola Masala Oats 500g,Saffola,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,175,140,35,STR-002,SmartMart - Tiruppur Branch,68,59,10,20,300,3.53,4,24,115,16.7,8260,healthy
+PRD-1007,Saffola Masala Oats 500g,Saffola,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,175,140,35,STR-003,SmartMart - Coimbatore Branch,61,78,10,20,300,4.88,5,34,139,16.0,10920,healthy
+PRD-1008,Manna Ragi Flour 1kg,Manna,Rice & Grains,Rice & Grains,SUP-011,MTR Foods,85,65,20,STR-001,SmartMart - Karur Main Branch,80,20,10,30,300,4.45,4,30,145,4.5,1300,low_stock
+PRD-1008,Manna Ragi Flour 1kg,Manna,Rice & Grains,Rice & Grains,SUP-011,MTR Foods,85,65,20,STR-002,SmartMart - Tiruppur Branch,68,23,10,30,300,7.05,7,45,216,3.3,1495,low_stock
+PRD-1009,Raw Rice 5kg,Local Farmer,Rice & Grains,Rice & Grains,SUP-013,Fresh Farms Agro,320,260,60,STR-001,SmartMart - Karur Main Branch,141,67,10,20,300,4.44,3,32,134,15.1,17420,healthy
+PRD-1009,Raw Rice 5kg,Local Farmer,Rice & Grains,Rice & Grains,SUP-013,Fresh Farms Agro,320,260,60,STR-002,SmartMart - Tiruppur Branch,127,35,10,20,300,4.4,4,28,128,8.0,9100,healthy
+PRD-1009,Raw Rice 5kg,Local Farmer,Rice & Grains,Rice & Grains,SUP-013,Fresh Farms Agro,320,260,60,STR-003,SmartMart - Coimbatore Branch,99,50,10,20,300,2.23,2,17,61,22.4,13000,healthy
+PRD-1010,Idli Rice 5kg,Sri Lakshmi,Rice & Grains,Rice & Grains,SUP-013,Fresh Farms Agro,290,235,55,STR-001,SmartMart - Karur Main Branch,111,56,10,25,300,12.69,14,93,352,4.4,13160,sales_spike
+PRD-1010,Idli Rice 5kg,Sri Lakshmi,Rice & Grains,Rice & Grains,SUP-013,Fresh Farms Agro,290,235,55,STR-002,SmartMart - Tiruppur Branch,110,60,10,25,300,17.5,16,131,516,3.4,14100,sales_spike
+PRD-1010,Idli Rice 5kg,Sri Lakshmi,Rice & Grains,Rice & Grains,SUP-013,Fresh Farms Agro,290,235,55,STR-003,SmartMart - Coimbatore Branch,93,59,10,25,300,17.39,20,114,502,3.4,13865,sales_spike
+PRD-1011,Seeraga Samba Rice 1kg,Heritage,Rice & Grains,Rice & Grains,SUP-003,India Gate Grains Ltd,145,115,30,STR-001,SmartMart - Karur Main Branch,145,76,10,20,300,3.49,4,24,99,21.8,8740,healthy
+PRD-1011,Seeraga Samba Rice 1kg,Heritage,Rice & Grains,Rice & Grains,SUP-003,India Gate Grains Ltd,145,115,30,STR-002,SmartMart - Tiruppur Branch,68,56,10,20,300,2.08,2,14,56,26.9,6440,healthy
+PRD-1011,Seeraga Samba Rice 1kg,Heritage,Rice & Grains,Rice & Grains,SUP-003,India Gate Grains Ltd,145,115,30,STR-003,SmartMart - Coimbatore Branch,150,75,10,20,300,2.24,1,14,64,33.5,8625,healthy
+PRD-1012,Maida Flour 1kg,Aashirvaad,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,55,42,13,STR-001,SmartMart - Karur Main Branch,46,5,10,25,300,9.95,10,70,311,0.5,210,stockout_risk
+PRD-1012,Maida Flour 1kg,Aashirvaad,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,55,42,13,STR-002,SmartMart - Tiruppur Branch,48,11,10,25,300,11.31,13,84,318,1.0,462,stockout_risk
+PRD-1012,Maida Flour 1kg,Aashirvaad,Rice & Grains,Rice & Grains,SUP-008,ITC Foods Division,55,42,13,STR-003,SmartMart - Coimbatore Branch,33,12,10,25,300,11.02,11,76,345,1.1,504,stockout_risk
+PRD-1013,Tata Sampann Toor Dal 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,165,135,30,STR-001,SmartMart - Karur Main Branch,146,76,10,20,300,5.94,5,40,172,12.8,10260,healthy
+PRD-1013,Tata Sampann Toor Dal 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,165,135,30,STR-002,SmartMart - Tiruppur Branch,73,50,10,20,300,2.77,2,17,77,18.1,6750,healthy
+PRD-1013,Tata Sampann Toor Dal 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,165,135,30,STR-003,SmartMart - Coimbatore Branch,119,50,10,20,300,5.5,4,40,176,9.1,6750,healthy
+PRD-1014,Moong Dal Split 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,145,118,27,STR-001,SmartMart - Karur Main Branch,56,48,10,15,300,0.15,0,0,4,324.7,5664,slow_moving
+PRD-1014,Moong Dal Split 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,145,118,27,STR-002,SmartMart - Tiruppur Branch,65,55,10,15,300,0.11,0,0,3,495.7,6490,slow_moving
+PRD-1014,Moong Dal Split 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,145,118,27,STR-003,SmartMart - Coimbatore Branch,60,69,10,15,300,0.05,0,0,1,690.0,8142,slow_moving
+PRD-1015,Chana Dal 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,115,90,25,STR-001,SmartMart - Karur Main Branch,98,43,10,25,300,18.97,22,140,587,2.3,3870,sales_spike
+PRD-1015,Chana Dal 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,115,90,25,STR-002,SmartMart - Tiruppur Branch,111,34,10,25,300,13.9,12,88,436,2.4,3060,sales_spike
+PRD-1016,Urad Dal Black Whole 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,155,125,30,STR-001,SmartMart - Karur Main Branch,207,220,10,20,300,0.59,0,4,18,375.6,27500,overstocked
+PRD-1016,Urad Dal Black Whole 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,155,125,30,STR-002,SmartMart - Tiruppur Branch,220,187,10,20,300,1.94,1,12,59,96.3,23375,overstocked
+PRD-1016,Urad Dal Black Whole 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,155,125,30,STR-003,SmartMart - Coimbatore Branch,286,210,10,20,300,1.11,1,7,33,189.9,26250,overstocked
+PRD-1017,Urad Dal White Split 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,160,130,30,STR-001,SmartMart - Karur Main Branch,61,24,10,30,300,4.33,4,30,125,5.5,3120,low_stock
+PRD-1017,Urad Dal White Split 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,160,130,30,STR-002,SmartMart - Tiruppur Branch,68,18,10,30,300,6.68,6,44,185,2.7,2340,low_stock
+PRD-1017,Urad Dal White Split 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,160,130,30,STR-003,SmartMart - Coimbatore Branch,80,19,10,30,300,5.83,7,44,157,3.3,2470,low_stock
+PRD-1018,Rajma Red Kidney Beans 500g,Organic Tattva,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,95,74,21,STR-001,SmartMart - Karur Main Branch,139,71,10,20,300,5.98,5,39,171,11.9,5254,healthy
+PRD-1018,Rajma Red Kidney Beans 500g,Organic Tattva,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,95,74,21,STR-002,SmartMart - Tiruppur Branch,104,39,10,20,300,5.52,5,35,176,7.1,2886,healthy
+PRD-1018,Rajma Red Kidney Beans 500g,Organic Tattva,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,95,74,21,STR-003,SmartMart - Coimbatore Branch,150,54,10,20,300,4.45,5,32,120,12.1,3996,healthy
+PRD-1019,Green Gram Whole 1kg,Organic Tattva,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,130,102,28,STR-001,SmartMart - Karur Main Branch,130,54,10,20,300,5.73,4,43,163,9.4,5508,healthy
+PRD-1019,Green Gram Whole 1kg,Organic Tattva,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,130,102,28,STR-002,SmartMart - Tiruppur Branch,73,82,10,20,300,4.21,3,30,131,19.5,8364,healthy
+PRD-1019,Green Gram Whole 1kg,Organic Tattva,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,130,102,28,STR-003,SmartMart - Coimbatore Branch,86,78,10,20,300,4.54,4,31,147,17.2,7956,healthy
+PRD-1020,Fried Gram (Pottukadalai) 500g,Local Farmer,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,75,58,17,STR-001,SmartMart - Karur Main Branch,83,32,10,25,300,18.34,22,116,531,1.7,1856,sales_spike
+PRD-1020,Fried Gram (Pottukadalai) 500g,Local Farmer,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,75,58,17,STR-002,SmartMart - Tiruppur Branch,88,50,10,25,300,21.8,19,150,680,2.3,2900,sales_spike
+PRD-1020,Fried Gram (Pottukadalai) 500g,Local Farmer,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,75,58,17,STR-003,SmartMart - Coimbatore Branch,115,30,10,25,300,13.12,16,95,365,2.3,1740,sales_spike
+PRD-1021,Kabuli Chana 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,140,110,30,STR-001,SmartMart - Karur Main Branch,64,88,10,20,300,3.48,3,23,94,25.3,9680,healthy
+PRD-1021,Kabuli Chana 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,140,110,30,STR-002,SmartMart - Tiruppur Branch,106,85,10,20,300,5.89,4,40,183,14.4,9350,healthy
+PRD-1021,Kabuli Chana 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,140,110,30,STR-003,SmartMart - Coimbatore Branch,145,41,10,20,300,3.41,3,25,112,12.0,4510,healthy
+PRD-1022,Masoor Dal Red 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,110,86,24,STR-001,SmartMart - Karur Main Branch,79,50,10,20,300,5.46,7,40,176,9.2,4300,healthy
+PRD-1022,Masoor Dal Red 1kg,Tata Sampann,Pulses & Dals,Pulses & Dals,SUP-008,ITC Foods Division,110,86,24,STR-002,SmartMart - Tiruppur Branch,63,46,10,20,300,4.95,4,37,157,9.3,3956,healthy
+PRD-1023,Horse Gram (Kollu) 500g,Natural,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,60,44,16,STR-001,SmartMart - Karur Main Branch,37,6,10,25,300,9.11,10,62,248,0.7,264,stockout_risk
+PRD-1023,Horse Gram (Kollu) 500g,Natural,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,60,44,16,STR-002,SmartMart - Tiruppur Branch,45,5,10,25,300,9.4,11,63,299,0.5,220,stockout_risk
+PRD-1023,Horse Gram (Kollu) 500g,Natural,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,60,44,16,STR-003,SmartMart - Coimbatore Branch,37,5,10,25,300,8.17,7,55,262,0.6,220,stockout_risk
+PRD-1024,Black Eyed Beans (Karamani) 500g,Natural,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,70,52,18,STR-001,SmartMart - Karur Main Branch,298,215,10,20,300,1.03,1,7,32,209.4,11180,overstocked
+PRD-1024,Black Eyed Beans (Karamani) 500g,Natural,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,70,52,18,STR-002,SmartMart - Tiruppur Branch,242,183,10,20,300,0.67,0,4,22,271.9,9516,overstocked
+PRD-1024,Black Eyed Beans (Karamani) 500g,Natural,Pulses & Dals,Pulses & Dals,SUP-013,Fresh Farms Agro,70,52,18,STR-003,SmartMart - Coimbatore Branch,233,184,10,20,300,0.66,0,4,19,277.7,9568,overstocked
+PRD-1025,Gold Winner Sunflower Oil 1L,Gold Winner,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),145,122,23,STR-001,SmartMart - Karur Main Branch,118,46,10,25,300,13.16,16,86,358,3.5,5612,sales_spike
+PRD-1025,Gold Winner Sunflower Oil 1L,Gold Winner,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),145,122,23,STR-002,SmartMart - Tiruppur Branch,107,30,10,25,300,17.2,20,124,561,1.7,3660,sales_spike
+PRD-1025,Gold Winner Sunflower Oil 1L,Gold Winner,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),145,122,23,STR-003,SmartMart - Coimbatore Branch,92,41,10,25,300,16.31,20,123,501,2.5,5002,sales_spike
+PRD-1026,Idhayam Sesame/Gingelly Oil 1L,Idhayam,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),320,270,50,STR-001,SmartMart - Karur Main Branch,63,19,10,30,300,6.03,6,40,187,3.2,5130,low_stock
+PRD-1026,Idhayam Sesame/Gingelly Oil 1L,Idhayam,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),320,270,50,STR-002,SmartMart - Tiruppur Branch,77,17,10,30,300,4.77,5,32,150,3.6,4590,low_stock
+PRD-1026,Idhayam Sesame/Gingelly Oil 1L,Idhayam,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),320,270,50,STR-003,SmartMart - Coimbatore Branch,65,24,10,30,300,6.28,6,46,180,3.8,6480,low_stock
+PRD-1027,Fortune Sunlite Sunflower Oil 1L,Fortune,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),140,118,22,STR-001,SmartMart - Karur Main Branch,63,72,10,15,300,0.17,0,1,4,428.9,8496,slow_moving
+PRD-1027,Fortune Sunlite Sunflower Oil 1L,Fortune,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),140,118,22,STR-002,SmartMart - Tiruppur Branch,63,77,10,15,300,0.12,0,0,3,636.5,9086,slow_moving
+PRD-1027,Fortune Sunlite Sunflower Oil 1L,Fortune,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),140,118,22,STR-003,SmartMart - Coimbatore Branch,55,63,10,15,300,0.13,0,0,4,494.8,7434,slow_moving
+PRD-1028,Aavin Pure Ghee 500ml,Aavin,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-001,Aavin Dairy Co-operative,315,265,50,STR-001,SmartMart - Karur Main Branch,90,78,10,20,300,3.24,3,21,88,24.1,20670,healthy
+PRD-1028,Aavin Pure Ghee 500ml,Aavin,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-001,Aavin Dairy Co-operative,315,265,50,STR-002,SmartMart - Tiruppur Branch,120,74,10,20,300,5.4,4,37,166,13.7,19610,healthy
+PRD-1028,Aavin Pure Ghee 500ml,Aavin,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-001,Aavin Dairy Co-operative,315,265,50,STR-003,SmartMart - Coimbatore Branch,84,80,10,20,300,4.79,5,31,148,16.7,21200,healthy
+PRD-1029,Hatsun Pure Cow Ghee 500ml,Hatsun,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-002,Hatsun Agro Product Ltd,330,275,55,STR-001,SmartMart - Karur Main Branch,60,83,10,20,300,5.44,6,40,154,15.3,22825,healthy
+PRD-1029,Hatsun Pure Cow Ghee 500ml,Hatsun,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-002,Hatsun Agro Product Ltd,330,275,55,STR-002,SmartMart - Tiruppur Branch,149,68,10,20,300,3.86,4,29,106,17.6,18700,healthy
+PRD-1030,Amul Pure Ghee 1L Tin,Amul,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-012,Amul (GCMMF),620,525,95,STR-001,SmartMart - Karur Main Branch,88,55,10,25,300,16.65,17,117,481,3.3,28875,sales_spike
+PRD-1030,Amul Pure Ghee 1L Tin,Amul,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-012,Amul (GCMMF),620,525,95,STR-002,SmartMart - Tiruppur Branch,108,49,10,25,300,20.15,25,138,653,2.4,25725,sales_spike
+PRD-1030,Amul Pure Ghee 1L Tin,Amul,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-012,Amul (GCMMF),620,525,95,STR-003,SmartMart - Coimbatore Branch,108,58,10,25,300,13.59,16,94,428,4.3,30450,sales_spike
+PRD-1031,Sundrop SuperLite Oil 1L,Sundrop,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),165,138,27,STR-001,SmartMart - Karur Main Branch,141,52,10,20,300,5.06,5,36,145,10.3,7176,healthy
+PRD-1031,Sundrop SuperLite Oil 1L,Sundrop,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),165,138,27,STR-002,SmartMart - Tiruppur Branch,69,80,10,20,300,3.14,2,21,95,25.5,11040,healthy
+PRD-1031,Sundrop SuperLite Oil 1L,Sundrop,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),165,138,27,STR-003,SmartMart - Coimbatore Branch,77,44,10,20,300,2.93,3,21,80,15.0,6072,healthy
+PRD-1032,Parachute Coconut Oil 500ml,Parachute,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-009,Hindustan Unilever Ltd,190,155,35,STR-001,SmartMart - Karur Main Branch,252,222,10,20,300,1.31,1,8,38,169.0,34410,overstocked
+PRD-1032,Parachute Coconut Oil 500ml,Parachute,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-009,Hindustan Unilever Ltd,190,155,35,STR-002,SmartMart - Tiruppur Branch,298,254,10,20,300,1.92,1,14,58,132.4,39370,overstocked
+PRD-1032,Parachute Coconut Oil 500ml,Parachute,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-009,Hindustan Unilever Ltd,190,155,35,STR-003,SmartMart - Coimbatore Branch,261,180,10,20,300,1.91,1,13,61,94.0,27900,overstocked
+PRD-1033,V.V.D Gold Coconut Oil 500ml,VVD,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),185,150,35,STR-001,SmartMart - Karur Main Branch,113,69,10,20,300,4.99,5,35,141,13.8,10350,healthy
+PRD-1033,V.V.D Gold Coconut Oil 500ml,VVD,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),185,150,35,STR-002,SmartMart - Tiruppur Branch,88,52,10,20,300,3.74,3,25,116,13.9,7800,healthy
+PRD-1033,V.V.D Gold Coconut Oil 500ml,VVD,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),185,150,35,STR-003,SmartMart - Coimbatore Branch,111,81,10,20,300,2.66,2,17,81,30.4,12150,healthy
+PRD-1034,Dhara Mustard Oil 1L,Dhara,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),155,128,27,STR-001,SmartMart - Karur Main Branch,30,8,10,25,300,12.14,13,77,359,0.7,1024,stockout_risk
+PRD-1034,Dhara Mustard Oil 1L,Dhara,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),155,128,27,STR-002,SmartMart - Tiruppur Branch,44,4,10,25,300,8.35,8,55,241,0.5,512,stockout_risk
+PRD-1034,Dhara Mustard Oil 1L,Dhara,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),155,128,27,STR-003,SmartMart - Coimbatore Branch,42,6,10,25,300,13.26,16,88,364,0.5,768,stockout_risk
+PRD-1035,Saffola Gold Edible Oil 1L,Saffola,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),195,162,33,STR-001,SmartMart - Karur Main Branch,60,23,10,30,300,4.21,5,27,115,5.5,3726,low_stock
+PRD-1035,Saffola Gold Edible Oil 1L,Saffola,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),195,162,33,STR-002,SmartMart - Tiruppur Branch,80,15,10,30,300,7.02,8,46,190,2.1,2430,low_stock
+PRD-1035,Saffola Gold Edible Oil 1L,Saffola,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),195,162,33,STR-003,SmartMart - Coimbatore Branch,64,18,10,30,300,4.5,5,31,127,4.0,2916,low_stock
+PRD-1036,Deepam Lamp Oil 1L,Deepam,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),110,85,25,STR-001,SmartMart - Karur Main Branch,149,51,10,20,300,5.07,4,36,159,10.1,4335,healthy
+PRD-1036,Deepam Lamp Oil 1L,Deepam,Cooking Oil & Ghee,Cooking Oil & Ghee,SUP-004,Kaleesuwari Refinery (Gold Winner),110,85,25,STR-002,SmartMart - Tiruppur Branch,74,84,10,20,300,5.28,6,34,143,15.9,7140,healthy
+PRD-1037,Aavin Toned Milk 500ml Pouch,Aavin,Dairy,Dairy,SUP-001,Aavin Dairy Co-operative,24,20,4,STR-001,SmartMart - Karur Main Branch,99,71,10,20,300,4.71,6,32,147,15.1,1420,healthy
+PRD-1037,Aavin Toned Milk 500ml Pouch,Aavin,Dairy,Dairy,SUP-001,Aavin Dairy Co-operative,24,20,4,STR-002,SmartMart - Tiruppur Branch,69,72,10,20,300,4.76,5,30,150,15.1,1440,healthy
+PRD-1037,Aavin Toned Milk 500ml Pouch,Aavin,Dairy,Dairy,SUP-001,Aavin Dairy Co-operative,24,20,4,STR-003,SmartMart - Coimbatore Branch,147,73,10,20,300,5.22,6,37,142,14.0,1460,healthy
+PRD-1038,Aavin Full Cream Milk 500ml,Aavin,Dairy,Dairy,SUP-001,Aavin Dairy Co-operative,30,25,5,STR-001,SmartMart - Karur Main Branch,128,62,10,20,300,4.65,3,33,125,13.3,1550,healthy
+PRD-1038,Aavin Full Cream Milk 500ml,Aavin,Dairy,Dairy,SUP-001,Aavin Dairy Co-operative,30,25,5,STR-002,SmartMart - Tiruppur Branch,113,87,10,20,300,3.96,4,26,128,22.0,2175,healthy
+PRD-1038,Aavin Full Cream Milk 500ml,Aavin,Dairy,Dairy,SUP-001,Aavin Dairy Co-operative,30,25,5,STR-003,SmartMart - Coimbatore Branch,118,80,10,20,300,2.61,2,18,80,30.6,2000,healthy
+PRD-1039,Hatsun Fresh Curd 500g Pouch,Hatsun,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,35,28,7,STR-001,SmartMart - Karur Main Branch,138,86,10,20,300,5.68,6,39,181,15.1,2408,healthy
+PRD-1039,Hatsun Fresh Curd 500g Pouch,Hatsun,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,35,28,7,STR-002,SmartMart - Tiruppur Branch,135,52,10,20,300,3.29,3,25,94,15.8,1456,healthy
+PRD-1039,Hatsun Fresh Curd 500g Pouch,Hatsun,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,35,28,7,STR-003,SmartMart - Coimbatore Branch,117,50,10,20,300,5.0,5,36,145,10.0,1400,healthy
+PRD-1040,Milky Mist Thick Curd 1kg Bucket,Milky Mist,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,90,72,18,STR-001,SmartMart - Karur Main Branch,263,221,10,20,300,0.77,0,5,22,286.0,15912,overstocked
+PRD-1040,Milky Mist Thick Curd 1kg Bucket,Milky Mist,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,90,72,18,STR-002,SmartMart - Tiruppur Branch,276,215,10,20,300,1.33,1,8,37,161.2,15480,overstocked
+PRD-1040,Milky Mist Thick Curd 1kg Bucket,Milky Mist,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,90,72,18,STR-003,SmartMart - Coimbatore Branch,252,242,10,20,300,1.33,1,9,41,181.6,17424,overstocked
+PRD-1041,Amul Pasteurised Butter 100g,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),58,48,10,STR-001,SmartMart - Karur Main Branch,117,85,10,20,300,2.07,1,14,58,41.1,4080,healthy
+PRD-1041,Amul Pasteurised Butter 100g,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),58,48,10,STR-002,SmartMart - Tiruppur Branch,144,72,10,20,300,3.48,3,23,114,20.7,3456,healthy
+PRD-1041,Amul Pasteurised Butter 100g,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),58,48,10,STR-003,SmartMart - Coimbatore Branch,130,56,10,20,300,3.41,3,22,96,16.4,2688,healthy
+PRD-1042,Amul Cheese Slices 200g,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),140,115,25,STR-001,SmartMart - Karur Main Branch,84,55,10,20,300,2.48,2,18,69,22.2,6325,healthy
+PRD-1042,Amul Cheese Slices 200g,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),140,115,25,STR-002,SmartMart - Tiruppur Branch,87,82,10,20,300,3.94,4,30,118,20.8,9430,healthy
+PRD-1042,Amul Cheese Slices 200g,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),140,115,25,STR-003,SmartMart - Coimbatore Branch,96,41,10,20,300,5.33,5,36,153,7.7,4715,healthy
+PRD-1043,Milky Mist Paneer 200g,Milky Mist,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,115,92,23,STR-001,SmartMart - Karur Main Branch,150,69,10,20,300,2.51,2,15,72,27.5,6348,healthy
+PRD-1043,Milky Mist Paneer 200g,Milky Mist,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,115,92,23,STR-002,SmartMart - Tiruppur Branch,76,75,10,20,300,5.47,5,41,166,13.7,6900,healthy
+PRD-1044,Amul Taaza Homogenised Milk 1L Pack,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),72,60,12,STR-001,SmartMart - Karur Main Branch,75,22,10,30,300,5.76,5,36,188,3.8,1320,low_stock
+PRD-1044,Amul Taaza Homogenised Milk 1L Pack,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),72,60,12,STR-002,SmartMart - Tiruppur Branch,75,16,10,30,300,7.29,7,46,224,2.2,960,low_stock
+PRD-1044,Amul Taaza Homogenised Milk 1L Pack,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),72,60,12,STR-003,SmartMart - Coimbatore Branch,61,17,10,30,300,4.6,4,30,151,3.7,1020,low_stock
+PRD-1045,Aavin Flavoured Milk Chocolate 200ml,Aavin,Dairy,Dairy,SUP-001,Aavin Dairy Co-operative,30,23,7,STR-001,SmartMart - Karur Main Branch,33,10,10,25,300,13.35,14,98,378,0.7,230,stockout_risk
+PRD-1045,Aavin Flavoured Milk Chocolate 200ml,Aavin,Dairy,Dairy,SUP-001,Aavin Dairy Co-operative,30,23,7,STR-002,SmartMart - Tiruppur Branch,46,8,10,25,300,11.15,11,83,367,0.7,184,stockout_risk
+PRD-1045,Aavin Flavoured Milk Chocolate 200ml,Aavin,Dairy,Dairy,SUP-001,Aavin Dairy Co-operative,30,23,7,STR-003,SmartMart - Coimbatore Branch,39,11,10,25,300,12.35,13,90,403,0.9,253,stockout_risk
+PRD-1046,Cavins Milkshake Strawberry 200ml,Cavins,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,40,31,9,STR-001,SmartMart - Karur Main Branch,86,75,10,20,300,2.84,3,18,79,26.4,2325,healthy
+PRD-1046,Cavins Milkshake Strawberry 200ml,Cavins,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,40,31,9,STR-002,SmartMart - Tiruppur Branch,69,45,10,20,300,2.01,2,14,57,22.4,1395,healthy
+PRD-1046,Cavins Milkshake Strawberry 200ml,Cavins,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,40,31,9,STR-003,SmartMart - Coimbatore Branch,89,53,10,20,300,4.83,5,33,150,11.0,1643,healthy
+PRD-1047,Milky Mist Fresh Cream 200ml,Milky Mist,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,70,55,15,STR-001,SmartMart - Karur Main Branch,93,85,10,20,300,5.16,5,38,145,16.5,4675,healthy
+PRD-1047,Milky Mist Fresh Cream 200ml,Milky Mist,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,70,55,15,STR-002,SmartMart - Tiruppur Branch,74,69,10,20,300,2.9,2,19,80,23.8,3795,healthy
+PRD-1047,Milky Mist Fresh Cream 200ml,Milky Mist,Dairy,Dairy,SUP-002,Hatsun Agro Product Ltd,70,55,15,STR-003,SmartMart - Coimbatore Branch,67,45,10,20,300,5.17,5,38,168,8.7,2475,healthy
+PRD-1048,Amul Fresh Condensed Milk 400g,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),130,105,25,STR-001,SmartMart - Karur Main Branch,256,195,10,20,300,1.2,1,8,34,162.1,20475,overstocked
+PRD-1048,Amul Fresh Condensed Milk 400g,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),130,105,25,STR-002,SmartMart - Tiruppur Branch,269,243,10,20,300,1.16,1,8,36,210.1,25515,overstocked
+PRD-1048,Amul Fresh Condensed Milk 400g,Amul,Dairy,Dairy,SUP-012,Amul (GCMMF),130,105,25,STR-003,SmartMart - Coimbatore Branch,277,212,10,20,300,0.54,0,3,17,393.5,22260,overstocked
+PRD-1049,Modern Family Special White Bread 400g,Modern,Bakery,Bakery,SUP-005,Britannia Industries,45,35,10,STR-001,SmartMart - Karur Main Branch,135,36,10,20,300,6.0,6,40,163,6.0,1260,healthy
+PRD-1049,Modern Family Special White Bread 400g,Modern,Bakery,Bakery,SUP-005,Britannia Industries,45,35,10,STR-002,SmartMart - Tiruppur Branch,82,65,10,20,300,4.08,4,27,134,15.9,2275,healthy
+PRD-1049,Modern Family Special White Bread 400g,Modern,Bakery,Bakery,SUP-005,Britannia Industries,45,35,10,STR-003,SmartMart - Coimbatore Branch,115,75,10,20,300,5.26,6,36,154,14.3,2625,healthy
+PRD-1050,Britannia 100% Whole Wheat Bread 400g,Britannia,Bakery,Bakery,SUP-005,Britannia Industries,50,39,11,STR-001,SmartMart - Karur Main Branch,100,51,10,25,300,13.05,11,89,391,3.9,1989,sales_spike
+PRD-1050,Britannia 100% Whole Wheat Bread 400g,Britannia,Bakery,Bakery,SUP-005,Britannia Industries,50,39,11,STR-002,SmartMart - Tiruppur Branch,105,56,10,25,300,19.6,16,125,559,2.9,2184,sales_spike
+PRD-1051,Modern Whole Wheat Bread 400g,Modern,Bakery,Bakery,SUP-005,Britannia Industries,48,37,11,STR-001,SmartMart - Karur Main Branch,74,84,10,20,300,3.62,3,27,111,23.2,3108,healthy
+PRD-1051,Modern Whole Wheat Bread 400g,Modern,Bakery,Bakery,SUP-005,Britannia Industries,48,37,11,STR-002,SmartMart - Tiruppur Branch,129,64,10,20,300,3.65,3,24,115,17.5,2368,healthy
+PRD-1051,Modern Whole Wheat Bread 400g,Modern,Bakery,Bakery,SUP-005,Britannia Industries,48,37,11,STR-003,SmartMart - Coimbatore Branch,140,63,10,20,300,5.04,4,35,164,12.5,2331,healthy
+PRD-1052,Britannia Fruit Bun 150g,Britannia,Bakery,Bakery,SUP-005,Britannia Industries,25,18,7,STR-001,SmartMart - Karur Main Branch,116,79,10,20,300,3.94,3,28,125,20.1,1422,healthy
+PRD-1052,Britannia Fruit Bun 150g,Britannia,Bakery,Bakery,SUP-005,Britannia Industries,25,18,7,STR-002,SmartMart - Tiruppur Branch,150,45,10,20,300,3.24,2,22,91,13.9,810,healthy
+PRD-1052,Britannia Fruit Bun 150g,Britannia,Bakery,Bakery,SUP-005,Britannia Industries,25,18,7,STR-003,SmartMart - Coimbatore Branch,74,64,10,20,300,5.79,6,37,188,11.1,1152,healthy
+PRD-1053,Sweet Bun 2-Pack,Local Bakery,Bakery,Bakery,SUP-005,Britannia Industries,20,14,6,STR-001,SmartMart - Karur Main Branch,69,23,10,30,300,6.82,6,47,203,3.4,322,low_stock
+PRD-1053,Sweet Bun 2-Pack,Local Bakery,Bakery,Bakery,SUP-005,Britannia Industries,20,14,6,STR-002,SmartMart - Tiruppur Branch,74,23,10,30,300,4.58,4,32,144,5.0,322,low_stock
+PRD-1053,Sweet Bun 2-Pack,Local Bakery,Bakery,Bakery,SUP-005,Britannia Industries,20,14,6,STR-003,SmartMart - Coimbatore Branch,64,16,10,30,300,5.1,6,35,166,3.1,224,low_stock
+PRD-1054,Garlic Butter Toast 150g,Local Bakery,Bakery,Bakery,SUP-005,Britannia Industries,40,28,12,STR-001,SmartMart - Karur Main Branch,124,52,10,20,300,5.28,4,35,161,9.8,1456,healthy
+PRD-1054,Garlic Butter Toast 150g,Local Bakery,Bakery,Bakery,SUP-005,Britannia Industries,40,28,12,STR-002,SmartMart - Tiruppur Branch,144,66,10,20,300,5.46,5,38,158,12.1,1848,healthy
+PRD-1054,Garlic Butter Toast 150g,Local Bakery,Bakery,Bakery,SUP-005,Britannia Industries,40,28,12,STR-003,SmartMart - Coimbatore Branch,129,59,10,20,300,3.82,3,25,119,15.4,1652,healthy
+PRD-1055,Britannia Gobbles Marble Cake 110g,Britannia,Bakery,Bakery,SUP-005,Britannia Industries,35,26,9,STR-001,SmartMart - Karur Main Branch,116,42,10,25,300,14.34,17,91,451,2.9,1092,sales_spike
+PRD-1055,Britannia Gobbles Marble Cake 110g,Britannia,Bakery,Bakery,SUP-005,Britannia Industries,35,26,9,STR-002,SmartMart - Tiruppur Branch,104,42,10,25,300,21.88,26,157,610,1.9,1092,sales_spike
+PRD-1055,Britannia Gobbles Marble Cake 110g,Britannia,Bakery,Bakery,SUP-005,Britannia Industries,35,26,9,STR-003,SmartMart - Coimbatore Branch,82,34,10,25,300,17.02,18,127,548,2.0,884,sales_spike
+PRD-1056,Winkies Chocolate Swiss Roll 100g,Winkies,Bakery,Bakery,SUP-005,Britannia Industries,30,22,8,STR-001,SmartMart - Karur Main Branch,44,3,10,25,300,11.68,12,85,344,0.3,66,stockout_risk
+PRD-1056,Winkies Chocolate Swiss Roll 100g,Winkies,Bakery,Bakery,SUP-005,Britannia Industries,30,22,8,STR-002,SmartMart - Tiruppur Branch,50,4,10,25,300,8.52,10,56,262,0.5,88,stockout_risk
+PRD-1056,Winkies Chocolate Swiss Roll 100g,Winkies,Bakery,Bakery,SUP-005,Britannia Industries,30,22,8,STR-003,SmartMart - Coimbatore Branch,42,12,10,25,300,8.56,8,62,258,1.4,264,stockout_risk
+PRD-1057,Plum Cake 250g,Elite,Bakery,Bakery,SUP-005,Britannia Industries,120,90,30,STR-001,SmartMart - Karur Main Branch,100,75,10,20,300,4.87,5,36,132,15.4,6750,healthy
+PRD-1057,Plum Cake 250g,Elite,Bakery,Bakery,SUP-005,Britannia Industries,120,90,30,STR-002,SmartMart - Tiruppur Branch,68,50,10,20,300,4.52,5,34,142,11.1,4500,healthy
+PRD-1058,Pav Bun 6-Pack,Modern,Bakery,Bakery,SUP-005,Britannia Industries,35,25,10,STR-001,SmartMart - Karur Main Branch,115,41,10,20,300,5.04,5,32,141,8.1,1025,healthy
+PRD-1058,Pav Bun 6-Pack,Modern,Bakery,Bakery,SUP-005,Britannia Industries,35,25,10,STR-002,SmartMart - Tiruppur Branch,98,36,10,20,300,2.18,2,14,63,16.5,900,healthy
+PRD-1058,Pav Bun 6-Pack,Modern,Bakery,Bakery,SUP-005,Britannia Industries,35,25,10,STR-003,SmartMart - Coimbatore Branch,78,50,10,20,300,4.12,4,30,115,12.1,1250,healthy
+PRD-1059,Parle-G Glucose Biscuit 250g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,30,23,7,STR-001,SmartMart - Karur Main Branch,70,74,10,20,300,5.48,6,36,178,13.5,1702,healthy
+PRD-1059,Parle-G Glucose Biscuit 250g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,30,23,7,STR-002,SmartMart - Tiruppur Branch,78,49,10,20,300,3.84,3,25,104,12.7,1127,healthy
+PRD-1059,Parle-G Glucose Biscuit 250g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,30,23,7,STR-003,SmartMart - Coimbatore Branch,119,53,10,20,300,4.71,4,32,136,11.3,1219,healthy
+PRD-1060,Britannia Bourbon Chocolate Biscuit 150g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,35,26,9,STR-001,SmartMart - Karur Main Branch,117,39,10,25,300,18.39,18,122,589,2.1,1014,sales_spike
+PRD-1060,Britannia Bourbon Chocolate Biscuit 150g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,35,26,9,STR-002,SmartMart - Tiruppur Branch,92,42,10,25,300,20.53,17,140,598,2.0,1092,sales_spike
+PRD-1060,Britannia Bourbon Chocolate Biscuit 150g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,35,26,9,STR-003,SmartMart - Coimbatore Branch,98,52,10,25,300,14.95,19,107,428,3.5,1352,sales_spike
+PRD-1061,Sunfeast Dark Fantasy Choco Fills 300g,Sunfeast,Biscuits,Biscuits,SUP-008,ITC Foods Division,150,115,35,STR-001,SmartMart - Karur Main Branch,132,90,10,20,300,4.74,5,30,145,19.0,10350,healthy
+PRD-1061,Sunfeast Dark Fantasy Choco Fills 300g,Sunfeast,Biscuits,Biscuits,SUP-008,ITC Foods Division,150,115,35,STR-002,SmartMart - Tiruppur Branch,123,88,10,20,300,5.62,5,41,172,15.7,10120,healthy
+PRD-1061,Sunfeast Dark Fantasy Choco Fills 300g,Sunfeast,Biscuits,Biscuits,SUP-008,ITC Foods Division,150,115,35,STR-003,SmartMart - Coimbatore Branch,105,49,10,20,300,4.55,5,32,142,10.8,5635,healthy
+PRD-1062,Britannia Marie Gold 300g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,40,30,10,STR-001,SmartMart - Karur Main Branch,64,25,10,30,300,4.39,4,27,139,5.7,750,low_stock
+PRD-1062,Britannia Marie Gold 300g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,40,30,10,STR-002,SmartMart - Tiruppur Branch,61,24,10,30,300,5.46,4,41,158,4.4,720,low_stock
+PRD-1062,Britannia Marie Gold 300g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,40,30,10,STR-003,SmartMart - Coimbatore Branch,73,17,10,30,300,4.8,5,36,140,3.5,510,low_stock
+PRD-1063,Oreo Vanilla Cream Biscuit 120g,Cadbury,Biscuits,Biscuits,SUP-007,Nestle India,35,26,9,STR-001,SmartMart - Karur Main Branch,124,52,10,20,300,5.32,4,39,159,9.8,1352,healthy
+PRD-1063,Oreo Vanilla Cream Biscuit 120g,Cadbury,Biscuits,Biscuits,SUP-007,Nestle India,35,26,9,STR-002,SmartMart - Tiruppur Branch,97,82,10,20,300,5.48,6,38,150,15.0,2132,healthy
+PRD-1063,Oreo Vanilla Cream Biscuit 120g,Cadbury,Biscuits,Biscuits,SUP-007,Nestle India,35,26,9,STR-003,SmartMart - Coimbatore Branch,88,90,10,20,300,4.71,5,32,150,19.1,2340,healthy
+PRD-1064,Britannia Good Day Cashew 200g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,50,38,12,STR-001,SmartMart - Karur Main Branch,271,226,10,20,300,0.64,0,4,17,355.7,8588,overstocked
+PRD-1064,Britannia Good Day Cashew 200g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,50,38,12,STR-002,SmartMart - Tiruppur Branch,247,213,10,20,300,1.38,1,10,38,154.7,8094,overstocked
+PRD-1065,Britannia Good Day Butter 200g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,45,34,11,STR-001,SmartMart - Karur Main Branch,94,45,10,25,300,12.25,15,86,398,3.7,1530,sales_spike
+PRD-1065,Britannia Good Day Butter 200g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,45,34,11,STR-002,SmartMart - Tiruppur Branch,94,50,10,25,300,12.63,15,95,363,4.0,1700,sales_spike
+PRD-1065,Britannia Good Day Butter 200g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,45,34,11,STR-003,SmartMart - Coimbatore Branch,106,33,10,25,300,13.4,17,90,401,2.5,1122,sales_spike
+PRD-1066,Sunfeast Mom's Magic Cashew & Almond 200g,Sunfeast,Biscuits,Biscuits,SUP-008,ITC Foods Division,50,37,13,STR-001,SmartMart - Karur Main Branch,56,60,10,15,300,0.18,0,1,5,327.7,2220,slow_moving
+PRD-1066,Sunfeast Mom's Magic Cashew & Almond 200g,Sunfeast,Biscuits,Biscuits,SUP-008,ITC Foods Division,50,37,13,STR-002,SmartMart - Tiruppur Branch,84,71,10,15,300,0.14,0,1,4,514.1,2627,slow_moving
+PRD-1066,Sunfeast Mom's Magic Cashew & Almond 200g,Sunfeast,Biscuits,Biscuits,SUP-008,ITC Foods Division,50,37,13,STR-003,SmartMart - Coimbatore Branch,81,84,10,15,300,0.11,0,0,3,755.3,3108,slow_moving
+PRD-1067,Britannia NutriChoice Digestive 250g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,65,49,16,STR-001,SmartMart - Karur Main Branch,44,9,10,25,300,14.65,17,94,455,0.6,441,stockout_risk
+PRD-1067,Britannia NutriChoice Digestive 250g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,65,49,16,STR-002,SmartMart - Tiruppur Branch,47,12,10,25,300,10.51,10,69,291,1.1,588,stockout_risk
+PRD-1067,Britannia NutriChoice Digestive 250g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,65,49,16,STR-003,SmartMart - Coimbatore Branch,44,3,10,25,300,12.64,14,90,342,0.2,147,stockout_risk
+PRD-1068,Parle Monaco Salted Biscuit 200g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,30,22,8,STR-001,SmartMart - Karur Main Branch,102,50,10,20,300,5.96,7,39,190,8.4,1100,healthy
+PRD-1068,Parle Monaco Salted Biscuit 200g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,30,22,8,STR-002,SmartMart - Tiruppur Branch,130,48,10,20,300,4.35,5,28,137,11.0,1056,healthy
+PRD-1068,Parle Monaco Salted Biscuit 200g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,30,22,8,STR-003,SmartMart - Coimbatore Branch,136,35,10,20,300,3.11,4,23,94,11.3,770,healthy
+PRD-1069,Parle Krackjack Sweet & Salty 200g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,30,22,8,STR-001,SmartMart - Karur Main Branch,82,42,10,20,300,4.64,3,29,147,9.0,924,healthy
+PRD-1069,Parle Krackjack Sweet & Salty 200g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,30,22,8,STR-002,SmartMart - Tiruppur Branch,90,72,10,20,300,3.3,2,21,103,21.9,1584,healthy
+PRD-1069,Parle Krackjack Sweet & Salty 200g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,30,22,8,STR-003,SmartMart - Coimbatore Branch,127,42,10,20,300,4.98,5,36,149,8.4,924,healthy
+PRD-1070,Hide & Seek Chocolate Chip Biscuits 120g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,40,30,10,STR-001,SmartMart - Karur Main Branch,86,44,10,25,300,17.04,21,108,540,2.6,1320,sales_spike
+PRD-1070,Hide & Seek Chocolate Chip Biscuits 120g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,40,30,10,STR-002,SmartMart - Tiruppur Branch,113,39,10,25,300,16.58,21,105,495,2.4,1170,sales_spike
+PRD-1070,Hide & Seek Chocolate Chip Biscuits 120g,Parle,Biscuits,Biscuits,SUP-006,Parle Products,40,30,10,STR-003,SmartMart - Coimbatore Branch,105,43,10,25,300,18.86,19,142,517,2.3,1290,sales_spike
+PRD-1071,Britannia Milk Bikis 200g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,35,26,9,STR-001,SmartMart - Karur Main Branch,62,20,10,30,300,6.43,5,43,198,3.1,520,low_stock
+PRD-1071,Britannia Milk Bikis 200g,Britannia,Biscuits,Biscuits,SUP-005,Britannia Industries,35,26,9,STR-002,SmartMart - Tiruppur Branch,77,20,10,30,300,5.52,6,37,165,3.6,520,low_stock
+PRD-1072,Unibic Assorted Cookies 75g,Unibic,Biscuits,Biscuits,SUP-005,Britannia Industries,45,33,12,STR-001,SmartMart - Karur Main Branch,255,192,10,20,300,1.69,1,12,54,113.6,6336,overstocked
+PRD-1072,Unibic Assorted Cookies 75g,Unibic,Biscuits,Biscuits,SUP-005,Britannia Industries,45,33,12,STR-002,SmartMart - Tiruppur Branch,270,207,10,20,300,1.15,1,7,36,180.8,6831,overstocked
+PRD-1072,Unibic Assorted Cookies 75g,Unibic,Biscuits,Biscuits,SUP-005,Britannia Industries,45,33,12,STR-003,SmartMart - Coimbatore Branch,251,233,10,20,300,1.59,1,10,45,146.1,7689,overstocked
+PRD-1073,Haldiram Nagpur Aloo Bhujia 200g,Haldiram,Snacks,Snacks,SUP-008,ITC Foods Division,60,44,16,STR-001,SmartMart - Karur Main Branch,79,78,10,20,300,5.69,4,42,156,13.7,3432,healthy
+PRD-1073,Haldiram Nagpur Aloo Bhujia 200g,Haldiram,Snacks,Snacks,SUP-008,ITC Foods Division,60,44,16,STR-002,SmartMart - Tiruppur Branch,72,82,10,20,300,4.96,5,35,151,16.5,3608,healthy
+PRD-1073,Haldiram Nagpur Aloo Bhujia 200g,Haldiram,Snacks,Snacks,SUP-008,ITC Foods Division,60,44,16,STR-003,SmartMart - Coimbatore Branch,131,70,10,20,300,3.32,2,22,102,21.1,3080,healthy
+PRD-1074,Lays Magic Masala Potato Chips 50g,Lays,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-001,SmartMart - Karur Main Branch,114,90,10,20,300,5.66,4,37,163,15.9,1260,healthy
+PRD-1074,Lays Magic Masala Potato Chips 50g,Lays,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-002,SmartMart - Tiruppur Branch,73,71,10,20,300,4.03,3,28,129,17.6,994,healthy
+PRD-1074,Lays Magic Masala Potato Chips 50g,Lays,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-003,SmartMart - Coimbatore Branch,104,89,10,20,300,4.23,3,28,119,21.1,1246,healthy
+PRD-1075,Lays Classic Salted Potato Chips 50g,Lays,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-001,SmartMart - Karur Main Branch,107,57,10,25,300,17.61,20,126,546,3.2,798,sales_spike
+PRD-1075,Lays Classic Salted Potato Chips 50g,Lays,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-002,SmartMart - Tiruppur Branch,115,30,10,25,300,18.09,20,131,491,1.7,420,sales_spike
+PRD-1075,Lays Classic Salted Potato Chips 50g,Lays,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-003,SmartMart - Coimbatore Branch,97,52,10,25,300,19.62,24,133,551,2.6,728,sales_spike
+PRD-1076,Kurkure Masala Munch 85g,Kurkure,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-001,SmartMart - Karur Main Branch,78,71,10,20,300,4.63,3,33,151,15.3,994,healthy
+PRD-1076,Kurkure Masala Munch 85g,Kurkure,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-002,SmartMart - Tiruppur Branch,71,82,10,20,300,4.12,4,28,115,19.9,1148,healthy
+PRD-1076,Kurkure Masala Munch 85g,Kurkure,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-003,SmartMart - Coimbatore Branch,99,81,10,20,300,3.3,4,23,106,24.6,1134,healthy
+PRD-1077,Bingo Mad Angles Cream & Onion 70g,Bingo,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-001,SmartMart - Karur Main Branch,79,45,10,20,300,5.02,4,32,148,9.0,630,healthy
+PRD-1077,Bingo Mad Angles Cream & Onion 70g,Bingo,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-002,SmartMart - Tiruppur Branch,114,66,10,20,300,4.43,4,29,133,14.9,924,healthy
+PRD-1077,Bingo Mad Angles Cream & Onion 70g,Bingo,Snacks,Snacks,SUP-008,ITC Foods Division,20,14,6,STR-003,SmartMart - Coimbatore Branch,104,62,10,20,300,2.44,2,17,73,25.4,868,healthy
+PRD-1078,Hot & Crispy Banana Chips 250g,A1 Chips,Snacks,Snacks,SUP-013,Fresh Farms Agro,90,65,25,STR-001,SmartMart - Karur Main Branch,39,2,10,25,300,9.54,12,60,269,0.2,130,stockout_risk
+PRD-1078,Hot & Crispy Banana Chips 250g,A1 Chips,Snacks,Snacks,SUP-013,Fresh Farms Agro,90,65,25,STR-002,SmartMart - Tiruppur Branch,36,4,10,25,300,13.35,12,86,400,0.3,260,stockout_risk
+PRD-1079,Tapioca Chips Salted 200g,A1 Chips,Snacks,Snacks,SUP-013,Fresh Farms Agro,70,50,20,STR-001,SmartMart - Karur Main Branch,77,56,10,15,300,0.07,0,0,2,560.0,2800,slow_moving
+PRD-1079,Tapioca Chips Salted 200g,A1 Chips,Snacks,Snacks,SUP-013,Fresh Farms Agro,70,50,20,STR-002,SmartMart - Tiruppur Branch,72,49,10,15,300,0.11,0,0,3,447.2,2450,slow_moving
+PRD-1079,Tapioca Chips Salted 200g,A1 Chips,Snacks,Snacks,SUP-013,Fresh Farms Agro,70,50,20,STR-003,SmartMart - Coimbatore Branch,54,65,10,15,300,0.14,0,0,4,476.7,3250,slow_moving
+PRD-1080,Murukku Traditional 250g,Grand Sweets,Snacks,Snacks,SUP-013,Fresh Farms Agro,80,58,22,STR-001,SmartMart - Karur Main Branch,63,21,10,30,300,4.08,3,30,125,5.1,1218,low_stock
+PRD-1080,Murukku Traditional 250g,Grand Sweets,Snacks,Snacks,SUP-013,Fresh Farms Agro,80,58,22,STR-002,SmartMart - Tiruppur Branch,71,16,10,30,300,5.75,4,39,168,2.8,928,low_stock
+PRD-1080,Murukku Traditional 250g,Grand Sweets,Snacks,Snacks,SUP-013,Fresh Farms Agro,80,58,22,STR-003,SmartMart - Coimbatore Branch,62,21,10,30,300,7.48,8,49,236,2.8,1218,low_stock
+PRD-1081,Ribbon Pakoda 200g,Grand Sweets,Snacks,Snacks,SUP-013,Fresh Farms Agro,75,54,21,STR-001,SmartMart - Karur Main Branch,69,67,10,20,300,4.53,4,29,143,14.8,3618,healthy
+PRD-1081,Ribbon Pakoda 200g,Grand Sweets,Snacks,Snacks,SUP-013,Fresh Farms Agro,75,54,21,STR-002,SmartMart - Tiruppur Branch,104,81,10,20,300,5.83,6,37,161,13.9,4374,healthy
+PRD-1081,Ribbon Pakoda 200g,Grand Sweets,Snacks,Snacks,SUP-013,Fresh Farms Agro,75,54,21,STR-003,SmartMart - Coimbatore Branch,92,47,10,20,300,2.69,2,19,73,17.4,2538,healthy
+PRD-1082,Haldiram Khatta Meetha Mix 200g,Haldiram,Snacks,Snacks,SUP-008,ITC Foods Division,65,47,18,STR-001,SmartMart - Karur Main Branch,140,66,10,20,300,3.86,4,27,119,17.1,3102,healthy
+PRD-1082,Haldiram Khatta Meetha Mix 200g,Haldiram,Snacks,Snacks,SUP-008,ITC Foods Division,65,47,18,STR-002,SmartMart - Tiruppur Branch,132,76,10,20,300,4.54,5,34,139,16.7,3572,healthy
+PRD-1082,Haldiram Khatta Meetha Mix 200g,Haldiram,Snacks,Snacks,SUP-008,ITC Foods Division,65,47,18,STR-003,SmartMart - Coimbatore Branch,79,63,10,20,300,2.27,2,15,65,27.7,2961,healthy
+PRD-1083,Doritos Nacho Cheese Chips 60g,Doritos,Snacks,Snacks,SUP-008,ITC Foods Division,30,21,9,STR-001,SmartMart - Karur Main Branch,67,57,10,20,300,4.03,3,27,110,14.1,1197,healthy
+PRD-1083,Doritos Nacho Cheese Chips 60g,Doritos,Snacks,Snacks,SUP-008,ITC Foods Division,30,21,9,STR-002,SmartMart - Tiruppur Branch,96,39,10,20,300,4.58,5,29,139,8.5,819,healthy
+PRD-1083,Doritos Nacho Cheese Chips 60g,Doritos,Snacks,Snacks,SUP-008,ITC Foods Division,30,21,9,STR-003,SmartMart - Coimbatore Branch,109,64,10,20,300,4.32,5,31,117,14.8,1344,healthy
+PRD-1084,Pringles Sour Cream & Onion 107g,Pringles,Snacks,Snacks,SUP-007,Nestle India,115,88,27,STR-001,SmartMart - Karur Main Branch,133,76,10,20,300,2.75,3,19,90,27.6,6688,healthy
+PRD-1084,Pringles Sour Cream & Onion 107g,Pringles,Snacks,Snacks,SUP-007,Nestle India,115,88,27,STR-002,SmartMart - Tiruppur Branch,117,41,10,20,300,5.24,6,40,144,7.8,3608,healthy
+PRD-1084,Pringles Sour Cream & Onion 107g,Pringles,Snacks,Snacks,SUP-007,Nestle India,115,88,27,STR-003,SmartMart - Coimbatore Branch,142,46,10,20,300,2.16,2,16,65,21.3,4048,healthy
+PRD-1085,Paper Boat Mango Juice 250ml,Paper Boat,Beverages,Beverages,SUP-008,ITC Foods Division,35,25,10,STR-001,SmartMart - Karur Main Branch,119,35,10,25,300,15.64,19,107,494,2.2,875,sales_spike
+PRD-1085,Paper Boat Mango Juice 250ml,Paper Boat,Beverages,Beverages,SUP-008,ITC Foods Division,35,25,10,STR-002,SmartMart - Tiruppur Branch,118,31,10,25,300,19.89,22,127,548,1.6,775,sales_spike
+PRD-1086,Tropicana 100% Orange Juice 1L,Tropicana,Beverages,Beverages,SUP-008,ITC Foods Division,145,110,35,STR-001,SmartMart - Karur Main Branch,146,59,10,20,300,3.14,3,22,101,18.8,6490,healthy
+PRD-1086,Tropicana 100% Orange Juice 1L,Tropicana,Beverages,Beverages,SUP-008,ITC Foods Division,145,110,35,STR-002,SmartMart - Tiruppur Branch,79,56,10,20,300,2.33,2,17,67,24.1,6160,healthy
+PRD-1086,Tropicana 100% Orange Juice 1L,Tropicana,Beverages,Beverages,SUP-008,ITC Foods Division,145,110,35,STR-003,SmartMart - Coimbatore Branch,143,79,10,20,300,4.65,4,33,127,17.0,8690,healthy
+PRD-1087,Real Fruit Power Guava Juice 1L,Real,Beverages,Beverages,SUP-010,Dabur India Ltd,130,98,32,STR-001,SmartMart - Karur Main Branch,131,59,10,20,300,4.57,4,29,142,12.9,5782,healthy
+PRD-1087,Real Fruit Power Guava Juice 1L,Real,Beverages,Beverages,SUP-010,Dabur India Ltd,130,98,32,STR-002,SmartMart - Tiruppur Branch,147,68,10,20,300,2.37,2,16,64,28.6,6664,healthy
+PRD-1087,Real Fruit Power Guava Juice 1L,Real,Beverages,Beverages,SUP-010,Dabur India Ltd,130,98,32,STR-003,SmartMart - Coimbatore Branch,99,46,10,20,300,5.8,5,42,163,7.9,4508,healthy
+PRD-1088,Coca-Cola Original Taste 750ml,Coca-Cola,Beverages,Beverages,SUP-008,ITC Foods Division,40,29,11,STR-001,SmartMart - Karur Main Branch,217,199,10,20,300,0.62,0,3,19,323.2,5771,overstocked
+PRD-1088,Coca-Cola Original Taste 750ml,Coca-Cola,Beverages,Beverages,SUP-008,ITC Foods Division,40,29,11,STR-002,SmartMart - Tiruppur Branch,294,247,10,20,300,0.56,0,4,15,443.7,7163,overstocked
+PRD-1088,Coca-Cola Original Taste 750ml,Coca-Cola,Beverages,Beverages,SUP-008,ITC Foods Division,40,29,11,STR-003,SmartMart - Coimbatore Branch,248,199,10,20,300,0.74,0,5,23,267.7,5771,overstocked
+PRD-1089,Sprite Lemon-Lime 750ml,Sprite,Beverages,Beverages,SUP-008,ITC Foods Division,40,29,11,STR-001,SmartMart - Karur Main Branch,35,9,10,25,300,8.31,8,60,272,1.1,261,stockout_risk
+PRD-1089,Sprite Lemon-Lime 750ml,Sprite,Beverages,Beverages,SUP-008,ITC Foods Division,40,29,11,STR-002,SmartMart - Tiruppur Branch,49,6,10,25,300,13.27,15,87,377,0.5,174,stockout_risk
+PRD-1089,Sprite Lemon-Lime 750ml,Sprite,Beverages,Beverages,SUP-008,ITC Foods Division,40,29,11,STR-003,SmartMart - Coimbatore Branch,45,5,10,25,300,10.57,13,81,314,0.5,145,stockout_risk
+PRD-1090,Bovonto Grape Soft Drink 1.5L,Bovonto,Beverages,Beverages,SUP-008,ITC Foods Division,65,48,17,STR-001,SmartMart - Karur Main Branch,98,54,10,25,300,15.82,16,121,504,3.4,2592,sales_spike
+PRD-1090,Bovonto Grape Soft Drink 1.5L,Bovonto,Beverages,Beverages,SUP-008,ITC Foods Division,65,48,17,STR-002,SmartMart - Tiruppur Branch,118,34,10,25,300,20.73,17,144,605,1.6,1632,sales_spike
+PRD-1090,Bovonto Grape Soft Drink 1.5L,Bovonto,Beverages,Beverages,SUP-008,ITC Foods Division,65,48,17,STR-003,SmartMart - Coimbatore Branch,86,52,10,25,300,20.46,25,137,646,2.5,2496,sales_spike
+PRD-1091,7Up Nimbooz 350ml,7Up,Beverages,Beverages,SUP-008,ITC Foods Division,25,18,7,STR-001,SmartMart - Karur Main Branch,94,63,10,20,300,5.62,4,38,183,11.2,1134,healthy
+PRD-1091,7Up Nimbooz 350ml,7Up,Beverages,Beverages,SUP-008,ITC Foods Division,25,18,7,STR-002,SmartMart - Tiruppur Branch,88,87,10,20,300,3.8,3,24,103,22.9,1566,healthy
+PRD-1091,7Up Nimbooz 350ml,7Up,Beverages,Beverages,SUP-008,ITC Foods Division,25,18,7,STR-003,SmartMart - Coimbatore Branch,124,58,10,20,300,2.94,3,20,79,19.7,1044,healthy
+PRD-1092,Maaza Mango Drink 1.2L,Maaza,Beverages,Beverages,SUP-008,ITC Foods Division,75,55,20,STR-001,SmartMart - Karur Main Branch,56,66,10,15,300,0.17,0,1,5,391.2,3630,slow_moving
+PRD-1092,Maaza Mango Drink 1.2L,Maaza,Beverages,Beverages,SUP-008,ITC Foods Division,75,55,20,STR-002,SmartMart - Tiruppur Branch,58,75,10,15,300,0.12,0,0,3,639.4,4125,slow_moving
+PRD-1093,Frooti Mango Drink 1L,Parle Agro,Beverages,Beverages,SUP-006,Parle Products,65,47,18,STR-001,SmartMart - Karur Main Branch,79,70,10,20,300,5.76,6,39,182,12.2,3290,healthy
+PRD-1093,Frooti Mango Drink 1L,Parle Agro,Beverages,Beverages,SUP-006,Parle Products,65,47,18,STR-002,SmartMart - Tiruppur Branch,90,54,10,20,300,2.49,2,17,76,21.7,2538,healthy
+PRD-1093,Frooti Mango Drink 1L,Parle Agro,Beverages,Beverages,SUP-006,Parle Products,65,47,18,STR-003,SmartMart - Coimbatore Branch,68,42,10,20,300,5.35,5,37,164,7.9,1974,healthy
+PRD-1094,Red Bull Energy Drink 250ml,Red Bull,Beverages,Beverages,SUP-007,Nestle India,125,95,30,STR-001,SmartMart - Karur Main Branch,133,50,10,20,300,4.87,4,30,141,10.3,4750,healthy
+PRD-1094,Red Bull Energy Drink 250ml,Red Bull,Beverages,Beverages,SUP-007,Nestle India,125,95,30,STR-002,SmartMart - Tiruppur Branch,133,61,10,20,300,2.75,3,19,80,22.2,5795,healthy
+PRD-1094,Red Bull Energy Drink 250ml,Red Bull,Beverages,Beverages,SUP-007,Nestle India,125,95,30,STR-003,SmartMart - Coimbatore Branch,127,69,10,20,300,4.03,5,28,118,17.1,6555,healthy
+PRD-1095,Kinley Packaged Drinking Water 1L,Kinley,Beverages,Beverages,SUP-008,ITC Foods Division,20,12,8,STR-001,SmartMart - Karur Main Branch,110,31,10,25,300,18.36,23,122,497,1.7,372,sales_spike
+PRD-1095,Kinley Packaged Drinking Water 1L,Kinley,Beverages,Beverages,SUP-008,ITC Foods Division,20,12,8,STR-002,SmartMart - Tiruppur Branch,84,41,10,25,300,14.41,16,92,439,2.8,492,sales_spike
+PRD-1095,Kinley Packaged Drinking Water 1L,Kinley,Beverages,Beverages,SUP-008,ITC Foods Division,20,12,8,STR-003,SmartMart - Coimbatore Branch,101,34,10,25,300,12.44,13,92,349,2.7,408,sales_spike
+PRD-1096,Bisleri Water Bottle 2L,Bisleri,Beverages,Beverages,SUP-008,ITC Foods Division,30,18,12,STR-001,SmartMart - Karur Main Branch,299,239,10,20,300,1.97,2,12,54,121.2,4302,overstocked
+PRD-1096,Bisleri Water Bottle 2L,Bisleri,Beverages,Beverages,SUP-008,ITC Foods Division,30,18,12,STR-002,SmartMart - Tiruppur Branch,291,238,10,20,300,0.56,0,4,17,428.5,4284,overstocked
+PRD-1096,Bisleri Water Bottle 2L,Bisleri,Beverages,Beverages,SUP-008,ITC Foods Division,30,18,12,STR-003,SmartMart - Coimbatore Branch,240,219,10,20,300,1.27,1,8,36,172.0,3942,overstocked
+PRD-1097,3 Roses Dust Tea 250g,3 Roses,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,160,125,35,STR-001,SmartMart - Karur Main Branch,142,47,10,20,300,3.14,3,20,97,14.9,5875,healthy
+PRD-1097,3 Roses Dust Tea 250g,3 Roses,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,160,125,35,STR-002,SmartMart - Tiruppur Branch,94,42,10,20,300,5.2,5,35,154,8.1,5250,healthy
+PRD-1097,3 Roses Dust Tea 250g,3 Roses,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,160,125,35,STR-003,SmartMart - Coimbatore Branch,109,56,10,20,300,5.89,6,41,191,9.5,7000,healthy
+PRD-1098,Tata Tea Gold 500g,Tata Tea,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,290,230,60,STR-001,SmartMart - Karur Main Branch,76,19,10,30,300,7.2,8,46,220,2.6,4370,low_stock
+PRD-1098,Tata Tea Gold 500g,Tata Tea,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,290,230,60,STR-002,SmartMart - Tiruppur Branch,65,23,10,30,300,5.18,4,34,148,4.4,5290,low_stock
+PRD-1098,Tata Tea Gold 500g,Tata Tea,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,290,230,60,STR-003,SmartMart - Coimbatore Branch,74,24,10,30,300,6.87,6,47,203,3.5,5520,low_stock
+PRD-1099,Red Label Natural Care Tea 250g,Brooke Bond,Tea & Coffee,Tea & Coffee,SUP-009,Hindustan Unilever Ltd,170,132,38,STR-001,SmartMart - Karur Main Branch,105,74,10,20,300,5.99,5,45,195,12.3,9768,healthy
+PRD-1099,Red Label Natural Care Tea 250g,Brooke Bond,Tea & Coffee,Tea & Coffee,SUP-009,Hindustan Unilever Ltd,170,132,38,STR-002,SmartMart - Tiruppur Branch,69,77,10,20,300,4.55,4,33,141,16.9,10164,healthy
+PRD-1100,Chakra Gold Tea 250g,Tata Tea,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,150,118,32,STR-001,SmartMart - Karur Main Branch,30,4,10,25,300,13.94,15,96,386,0.3,472,stockout_risk
+PRD-1100,Chakra Gold Tea 250g,Tata Tea,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,150,118,32,STR-002,SmartMart - Tiruppur Branch,37,12,10,25,300,10.56,10,74,323,1.1,1416,stockout_risk
+PRD-1100,Chakra Gold Tea 250g,Tata Tea,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,150,118,32,STR-003,SmartMart - Coimbatore Branch,44,7,10,25,300,10.6,12,75,319,0.7,826,stockout_risk
+PRD-1101,BRU Instant Coffee 100g Glass Jar,BRU,Tea & Coffee,Tea & Coffee,SUP-009,Hindustan Unilever Ltd,185,142,43,STR-001,SmartMart - Karur Main Branch,110,55,10,20,300,4.6,4,29,144,12.0,7810,healthy
+PRD-1101,BRU Instant Coffee 100g Glass Jar,BRU,Tea & Coffee,Tea & Coffee,SUP-009,Hindustan Unilever Ltd,185,142,43,STR-002,SmartMart - Tiruppur Branch,123,68,10,20,300,3.55,3,23,101,19.2,9656,healthy
+PRD-1101,BRU Instant Coffee 100g Glass Jar,BRU,Tea & Coffee,Tea & Coffee,SUP-009,Hindustan Unilever Ltd,185,142,43,STR-003,SmartMart - Coimbatore Branch,117,48,10,20,300,5.99,5,45,179,8.0,6816,healthy
+PRD-1102,Nescafe Classic Instant Coffee 50g,Nescafe,Tea & Coffee,Tea & Coffee,SUP-007,Nestle India,160,125,35,STR-001,SmartMart - Karur Main Branch,75,43,10,20,300,5.41,5,40,160,7.9,5375,healthy
+PRD-1102,Nescafe Classic Instant Coffee 50g,Nescafe,Tea & Coffee,Tea & Coffee,SUP-007,Nestle India,160,125,35,STR-002,SmartMart - Tiruppur Branch,71,86,10,20,300,4.73,5,31,137,18.2,10750,healthy
+PRD-1102,Nescafe Classic Instant Coffee 50g,Nescafe,Tea & Coffee,Tea & Coffee,SUP-007,Nestle India,160,125,35,STR-003,SmartMart - Coimbatore Branch,68,70,10,20,300,4.17,5,31,130,16.8,8750,healthy
+PRD-1103,Narasus Pure Filter Coffee 200g,Narasus,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,120,92,28,STR-001,SmartMart - Karur Main Branch,149,75,10,20,300,2.7,2,17,88,27.8,6900,healthy
+PRD-1103,Narasus Pure Filter Coffee 200g,Narasus,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,120,92,28,STR-002,SmartMart - Tiruppur Branch,77,50,10,20,300,5.16,4,36,150,9.7,4600,healthy
+PRD-1103,Narasus Pure Filter Coffee 200g,Narasus,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,120,92,28,STR-003,SmartMart - Coimbatore Branch,130,43,10,20,300,4.45,3,29,146,9.7,3956,healthy
+PRD-1104,Cothas Coffee Chicory Blend 500g,Cothas,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,220,170,50,STR-001,SmartMart - Karur Main Branch,292,241,10,20,300,1.29,1,9,35,187.0,40970,overstocked
+PRD-1104,Cothas Coffee Chicory Blend 500g,Cothas,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,220,170,50,STR-002,SmartMart - Tiruppur Branch,240,189,10,20,300,1.17,1,7,37,160.9,32130,overstocked
+PRD-1104,Cothas Coffee Chicory Blend 500g,Cothas,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,220,170,50,STR-003,SmartMart - Coimbatore Branch,299,250,10,20,300,1.46,1,11,43,171.3,42500,overstocked
+PRD-1105,Taj Mahal Tea 250g,Brooke Bond,Tea & Coffee,Tea & Coffee,SUP-009,Hindustan Unilever Ltd,195,150,45,STR-001,SmartMart - Karur Main Branch,53,52,10,15,300,0.13,0,0,4,407.2,7800,slow_moving
+PRD-1105,Taj Mahal Tea 250g,Brooke Bond,Tea & Coffee,Tea & Coffee,SUP-009,Hindustan Unilever Ltd,195,150,45,STR-002,SmartMart - Tiruppur Branch,64,67,10,15,300,0.19,0,1,5,348.7,10050,slow_moving
+PRD-1105,Taj Mahal Tea 250g,Brooke Bond,Tea & Coffee,Tea & Coffee,SUP-009,Hindustan Unilever Ltd,195,150,45,STR-003,SmartMart - Coimbatore Branch,62,85,10,15,300,0.19,0,1,5,439.4,12750,slow_moving
+PRD-1106,Continental Xtra Instant Coffee 200g,Continental,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,240,185,55,STR-001,SmartMart - Karur Main Branch,71,67,10,20,300,4.56,5,32,127,14.7,12395,healthy
+PRD-1106,Continental Xtra Instant Coffee 200g,Continental,Tea & Coffee,Tea & Coffee,SUP-008,ITC Foods Division,240,185,55,STR-002,SmartMart - Tiruppur Branch,139,81,10,20,300,5.61,5,42,152,14.4,14985,healthy
+PRD-1107,Horlicks Classic Malt 500g Jar,Horlicks,Health Drinks,Health Drinks,SUP-009,Hindustan Unilever Ltd,245,195,50,STR-001,SmartMart - Karur Main Branch,60,16,10,30,300,4.18,4,29,129,3.8,3120,low_stock
+PRD-1107,Horlicks Classic Malt 500g Jar,Horlicks,Health Drinks,Health Drinks,SUP-009,Hindustan Unilever Ltd,245,195,50,STR-002,SmartMart - Tiruppur Branch,78,21,10,30,300,6.47,5,48,195,3.2,4095,low_stock
+PRD-1107,Horlicks Classic Malt 500g Jar,Horlicks,Health Drinks,Health Drinks,SUP-009,Hindustan Unilever Ltd,245,195,50,STR-003,SmartMart - Coimbatore Branch,80,19,10,30,300,5.93,7,43,170,3.2,3705,low_stock
+PRD-1108,Boost Health Drink 500g Refill,Boost,Health Drinks,Health Drinks,SUP-009,Hindustan Unilever Ltd,235,185,50,STR-001,SmartMart - Karur Main Branch,69,79,10,20,300,2.24,2,15,63,35.3,14615,healthy
+PRD-1108,Boost Health Drink 500g Refill,Boost,Health Drinks,Health Drinks,SUP-009,Hindustan Unilever Ltd,235,185,50,STR-002,SmartMart - Tiruppur Branch,137,44,10,20,300,3.25,3,23,104,13.5,8140,healthy
+PRD-1108,Boost Health Drink 500g Refill,Boost,Health Drinks,Health Drinks,SUP-009,Hindustan Unilever Ltd,235,185,50,STR-003,SmartMart - Coimbatore Branch,111,43,10,20,300,5.04,5,32,143,8.5,7955,healthy
+PRD-1109,Bournvita Chocolate Health Drink 500g,Bournvita,Health Drinks,Health Drinks,SUP-007,Nestle India,240,190,50,STR-001,SmartMart - Karur Main Branch,75,52,10,20,300,3.8,3,24,124,13.7,9880,healthy
+PRD-1109,Bournvita Chocolate Health Drink 500g,Bournvita,Health Drinks,Health Drinks,SUP-007,Nestle India,240,190,50,STR-002,SmartMart - Tiruppur Branch,138,61,10,20,300,2.99,3,19,86,20.4,11590,healthy
+PRD-1109,Bournvita Chocolate Health Drink 500g,Bournvita,Health Drinks,Health Drinks,SUP-007,Nestle India,240,190,50,STR-003,SmartMart - Coimbatore Branch,133,81,10,20,300,3.25,3,22,97,24.9,15390,healthy
+PRD-1110,Complan Chocolate Health Drink 500g,Complan,Health Drinks,Health Drinks,SUP-007,Nestle India,260,205,55,STR-001,SmartMart - Karur Main Branch,111,58,10,25,300,15.09,12,115,453,3.8,11890,sales_spike
+PRD-1110,Complan Chocolate Health Drink 500g,Complan,Health Drinks,Health Drinks,SUP-007,Nestle India,260,205,55,STR-002,SmartMart - Tiruppur Branch,95,36,10,25,300,17.83,14,119,545,2.0,7380,sales_spike
+PRD-1110,Complan Chocolate Health Drink 500g,Complan,Health Drinks,Health Drinks,SUP-007,Nestle India,260,205,55,STR-003,SmartMart - Coimbatore Branch,110,39,10,25,300,17.37,21,119,560,2.2,7995,sales_spike
+PRD-1111,Pediasure Chocolate 400g Jar,Abbott,Health Drinks,Health Drinks,SUP-007,Nestle India,620,510,110,STR-001,SmartMart - Karur Main Branch,41,8,10,25,300,10.56,10,74,297,0.8,4080,stockout_risk
+PRD-1111,Pediasure Chocolate 400g Jar,Abbott,Health Drinks,Health Drinks,SUP-007,Nestle India,620,510,110,STR-002,SmartMart - Tiruppur Branch,47,6,10,25,300,8.51,8,62,244,0.7,3060,stockout_risk
+PRD-1111,Pediasure Chocolate 400g Jar,Abbott,Health Drinks,Health Drinks,SUP-007,Nestle India,620,510,110,STR-003,SmartMart - Coimbatore Branch,49,12,10,25,300,12.28,10,79,358,1.0,6120,stockout_risk
+PRD-1112,Women's Horlicks Caramel 400g,Horlicks,Health Drinks,Health Drinks,SUP-009,Hindustan Unilever Ltd,310,245,65,STR-001,SmartMart - Karur Main Branch,243,251,10,20,300,1.91,2,12,57,131.5,61495,overstocked
+PRD-1112,Women's Horlicks Caramel 400g,Horlicks,Health Drinks,Health Drinks,SUP-009,Hindustan Unilever Ltd,310,245,65,STR-002,SmartMart - Tiruppur Branch,264,185,10,20,300,0.57,0,3,16,325.7,45325,overstocked
+PRD-1112,Women's Horlicks Caramel 400g,Horlicks,Health Drinks,Health Drinks,SUP-009,Hindustan Unilever Ltd,310,245,65,STR-003,SmartMart - Coimbatore Branch,258,199,10,20,300,1.41,1,9,43,141.2,48755,overstocked
+PRD-1113,Ensure Diabetes Care Vanilla 400g,Abbott,Health Drinks,Health Drinks,SUP-007,Nestle India,690,560,130,STR-001,SmartMart - Karur Main Branch,80,60,10,20,300,5.96,6,40,173,10.1,33600,healthy
+PRD-1113,Ensure Diabetes Care Vanilla 400g,Abbott,Health Drinks,Health Drinks,SUP-007,Nestle India,690,560,130,STR-002,SmartMart - Tiruppur Branch,125,69,10,20,300,3.96,4,27,107,17.4,38640,healthy
+PRD-1114,Milo Cocoa Beverage Powder 400g,Nestle,Health Drinks,Health Drinks,SUP-007,Nestle India,220,172,48,STR-001,SmartMart - Karur Main Branch,102,78,10,20,300,2.44,2,16,78,32.0,13416,healthy
+PRD-1114,Milo Cocoa Beverage Powder 400g,Nestle,Health Drinks,Health Drinks,SUP-007,Nestle India,220,172,48,STR-002,SmartMart - Tiruppur Branch,148,75,10,20,300,2.11,2,16,66,35.6,12900,healthy
+PRD-1114,Milo Cocoa Beverage Powder 400g,Nestle,Health Drinks,Health Drinks,SUP-007,Nestle India,220,172,48,STR-003,SmartMart - Coimbatore Branch,134,71,10,20,300,2.91,2,20,87,24.4,12212,healthy
+PRD-1115,Maggi 2-Minute Masala Noodles 280g (4-Pack),Maggi,Instant Food,Instant Food,SUP-007,Nestle India,56,43,13,STR-001,SmartMart - Karur Main Branch,119,54,10,25,300,20.41,17,148,554,2.6,2322,sales_spike
+PRD-1115,Maggi 2-Minute Masala Noodles 280g (4-Pack),Maggi,Instant Food,Instant Food,SUP-007,Nestle India,56,43,13,STR-002,SmartMart - Tiruppur Branch,87,36,10,25,300,12.19,11,79,379,3.0,1548,sales_spike
+PRD-1115,Maggi 2-Minute Masala Noodles 280g (4-Pack),Maggi,Instant Food,Instant Food,SUP-007,Nestle India,56,43,13,STR-003,SmartMart - Coimbatore Branch,106,46,10,25,300,19.75,24,148,620,2.3,1978,sales_spike
+PRD-1116,Sunfeast Yippee Magic Masala Noodles 240g,Yippee,Instant Food,Instant Food,SUP-008,ITC Foods Division,48,36,12,STR-001,SmartMart - Karur Main Branch,61,17,10,30,300,6.07,6,46,181,2.8,612,low_stock
+PRD-1116,Sunfeast Yippee Magic Masala Noodles 240g,Yippee,Instant Food,Instant Food,SUP-008,ITC Foods Division,48,36,12,STR-002,SmartMart - Tiruppur Branch,72,20,10,30,300,7.83,8,55,236,2.6,720,low_stock
+PRD-1116,Sunfeast Yippee Magic Masala Noodles 240g,Yippee,Instant Food,Instant Food,SUP-008,ITC Foods Division,48,36,12,STR-003,SmartMart - Coimbatore Branch,80,19,10,30,300,6.44,5,42,195,3.0,684,low_stock
+PRD-1117,MTR Rava Idli Mix 500g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,110,84,26,STR-001,SmartMart - Karur Main Branch,88,54,10,20,300,5.08,5,36,152,10.6,4536,healthy
+PRD-1117,MTR Rava Idli Mix 500g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,110,84,26,STR-002,SmartMart - Tiruppur Branch,121,57,10,20,300,4.24,5,31,121,13.4,4788,healthy
+PRD-1117,MTR Rava Idli Mix 500g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,110,84,26,STR-003,SmartMart - Coimbatore Branch,133,78,10,20,300,4.17,5,28,121,18.7,6552,healthy
+PRD-1118,MTR Rava Dosa Mix 500g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,115,88,27,STR-001,SmartMart - Karur Main Branch,59,63,10,15,300,0.06,0,0,1,630.0,5544,slow_moving
+PRD-1118,MTR Rava Dosa Mix 500g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,115,88,27,STR-002,SmartMart - Tiruppur Branch,66,75,10,15,300,0.08,0,0,2,750.0,6600,slow_moving
+PRD-1118,MTR Rava Dosa Mix 500g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,115,88,27,STR-003,SmartMart - Coimbatore Branch,67,53,10,15,300,0.07,0,0,1,530.0,4664,slow_moving
+PRD-1119,Bambino Roasted Vermicelli 400g,Bambino,Instant Food,Instant Food,SUP-011,MTR Foods,45,33,12,STR-001,SmartMart - Karur Main Branch,127,49,10,20,300,4.55,3,31,142,10.8,1617,healthy
+PRD-1119,Bambino Roasted Vermicelli 400g,Bambino,Instant Food,Instant Food,SUP-011,MTR Foods,45,33,12,STR-002,SmartMart - Tiruppur Branch,72,78,10,20,300,5.08,4,35,165,15.3,2574,healthy
+PRD-1119,Bambino Roasted Vermicelli 400g,Bambino,Instant Food,Instant Food,SUP-011,MTR Foods,45,33,12,STR-003,SmartMart - Coimbatore Branch,112,76,10,20,300,5.74,7,39,161,13.2,2508,healthy
+PRD-1120,Knorr Thick Tomato Soup 53g,Knorr,Instant Food,Instant Food,SUP-009,Hindustan Unilever Ltd,40,29,11,STR-001,SmartMart - Karur Main Branch,236,221,10,20,300,0.93,0,6,28,238.1,6409,overstocked
+PRD-1120,Knorr Thick Tomato Soup 53g,Knorr,Instant Food,Instant Food,SUP-009,Hindustan Unilever Ltd,40,29,11,STR-002,SmartMart - Tiruppur Branch,229,248,10,20,300,1.61,1,10,52,154.2,7192,overstocked
+PRD-1121,MTR Ready to Eat Paneer Butter Masala 300g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,140,108,32,STR-001,SmartMart - Karur Main Branch,113,88,10,20,300,2.7,3,20,79,32.6,9504,healthy
+PRD-1121,MTR Ready to Eat Paneer Butter Masala 300g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,140,108,32,STR-002,SmartMart - Tiruppur Branch,123,46,10,20,300,5.75,7,43,185,8.0,4968,healthy
+PRD-1121,MTR Ready to Eat Paneer Butter Masala 300g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,140,108,32,STR-003,SmartMart - Coimbatore Branch,61,54,10,20,300,4.27,3,32,122,12.6,5832,healthy
+PRD-1122,Maggi Cuppa Masala Noodles 70g,Maggi,Instant Food,Instant Food,SUP-007,Nestle India,50,38,12,STR-001,SmartMart - Karur Main Branch,50,10,10,25,300,11.67,14,75,350,0.9,380,stockout_risk
+PRD-1122,Maggi Cuppa Masala Noodles 70g,Maggi,Instant Food,Instant Food,SUP-007,Nestle India,50,38,12,STR-002,SmartMart - Tiruppur Branch,38,5,10,25,300,13.66,13,100,422,0.4,190,stockout_risk
+PRD-1122,Maggi Cuppa Masala Noodles 70g,Maggi,Instant Food,Instant Food,SUP-007,Nestle India,50,38,12,STR-003,SmartMart - Coimbatore Branch,35,2,10,25,300,13.16,15,93,414,0.2,76,stockout_risk
+PRD-1123,Top Ramen Curry Noodles 280g,Nissin,Instant Food,Instant Food,SUP-007,Nestle India,55,41,14,STR-001,SmartMart - Karur Main Branch,82,74,10,20,300,5.42,6,40,163,13.6,3034,healthy
+PRD-1123,Top Ramen Curry Noodles 280g,Nissin,Instant Food,Instant Food,SUP-007,Nestle India,55,41,14,STR-002,SmartMart - Tiruppur Branch,71,60,10,20,300,4.68,4,30,135,12.8,2460,healthy
+PRD-1123,Top Ramen Curry Noodles 280g,Nissin,Instant Food,Instant Food,SUP-007,Nestle India,55,41,14,STR-003,SmartMart - Coimbatore Branch,91,35,10,20,300,3.04,2,22,99,11.5,1435,healthy
+PRD-1124,MTR Gulab Jamun Mix 175g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,95,72,23,STR-001,SmartMart - Karur Main Branch,98,72,10,20,300,4.89,3,35,152,14.7,5184,healthy
+PRD-1124,MTR Gulab Jamun Mix 175g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,95,72,23,STR-002,SmartMart - Tiruppur Branch,67,77,10,20,300,2.47,2,16,74,31.1,5544,healthy
+PRD-1124,MTR Gulab Jamun Mix 175g,MTR,Instant Food,Instant Food,SUP-011,MTR Foods,95,72,23,STR-003,SmartMart - Coimbatore Branch,150,84,10,20,300,3.24,2,24,93,25.9,6048,healthy
+PRD-1125,Aachi Biryani Masala 100g,Aachi,Instant Food,Instant Food,SUP-011,MTR Foods,45,32,13,STR-001,SmartMart - Karur Main Branch,79,18,10,30,300,4.88,4,31,153,3.7,576,low_stock
+PRD-1125,Aachi Biryani Masala 100g,Aachi,Instant Food,Instant Food,SUP-011,MTR Foods,45,32,13,STR-002,SmartMart - Tiruppur Branch,79,20,10,30,300,5.66,6,39,171,3.5,640,low_stock
+PRD-1125,Aachi Biryani Masala 100g,Aachi,Instant Food,Instant Food,SUP-011,MTR Foods,45,32,13,STR-003,SmartMart - Coimbatore Branch,66,18,10,30,300,6.72,7,49,202,2.7,576,low_stock
+PRD-1126,Eastern Chicken Masala 100g,Eastern,Instant Food,Instant Food,SUP-011,MTR Foods,42,30,12,STR-001,SmartMart - Karur Main Branch,127,80,10,20,300,3.45,4,22,110,23.2,2400,healthy
+PRD-1126,Eastern Chicken Masala 100g,Eastern,Instant Food,Instant Food,SUP-011,MTR Foods,42,30,12,STR-002,SmartMart - Tiruppur Branch,124,47,10,20,300,4.29,3,29,129,11.0,1410,healthy
+PRD-1126,Eastern Chicken Masala 100g,Eastern,Instant Food,Instant Food,SUP-011,MTR Foods,42,30,12,STR-003,SmartMart - Coimbatore Branch,74,78,10,20,300,2.82,3,18,84,27.6,2340,healthy
+PRD-1127,Kissan Fresh Tomato Ketchup 950g,Kissan,Packaged Food,Packaged Food,SUP-009,Hindustan Unilever Ltd,135,102,33,STR-001,SmartMart - Karur Main Branch,67,64,10,20,300,2.53,2,17,76,25.3,6528,healthy
+PRD-1127,Kissan Fresh Tomato Ketchup 950g,Kissan,Packaged Food,Packaged Food,SUP-009,Hindustan Unilever Ltd,135,102,33,STR-002,SmartMart - Tiruppur Branch,146,86,10,20,300,3.23,2,21,87,26.6,8772,healthy
+PRD-1128,Mother's Recipe Mango Pickle 300g,Mother's Recipe,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,85,62,23,STR-001,SmartMart - Karur Main Branch,227,254,10,20,300,0.61,0,4,18,416.7,15748,overstocked
+PRD-1128,Mother's Recipe Mango Pickle 300g,Mother's Recipe,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,85,62,23,STR-002,SmartMart - Tiruppur Branch,207,188,10,20,300,1.98,2,13,55,95.0,11656,overstocked
+PRD-1128,Mother's Recipe Mango Pickle 300g,Mother's Recipe,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,85,62,23,STR-003,SmartMart - Coimbatore Branch,217,233,10,20,300,1.06,1,7,34,219.5,14446,overstocked
+PRD-1129,Aachi Lime Pickle 300g,Aachi,Packaged Food,Packaged Food,SUP-011,MTR Foods,65,46,19,STR-001,SmartMart - Karur Main Branch,108,59,10,20,300,2.32,2,17,64,25.4,2714,healthy
+PRD-1129,Aachi Lime Pickle 300g,Aachi,Packaged Food,Packaged Food,SUP-011,MTR Foods,65,46,19,STR-002,SmartMart - Tiruppur Branch,104,42,10,20,300,2.71,2,19,85,15.5,1932,healthy
+PRD-1129,Aachi Lime Pickle 300g,Aachi,Packaged Food,Packaged Food,SUP-011,MTR Foods,65,46,19,STR-003,SmartMart - Coimbatore Branch,88,88,10,20,300,2.01,1,13,62,43.7,4048,healthy
+PRD-1130,Nutella Hazelnut Spread 350g Jar,Nutella,Packaged Food,Packaged Food,SUP-007,Nestle India,380,305,75,STR-001,SmartMart - Karur Main Branch,114,43,10,25,300,17.32,20,115,503,2.5,13115,sales_spike
+PRD-1130,Nutella Hazelnut Spread 350g Jar,Nutella,Packaged Food,Packaged Food,SUP-007,Nestle India,380,305,75,STR-002,SmartMart - Tiruppur Branch,97,36,10,25,300,21.37,24,138,680,1.7,10980,sales_spike
+PRD-1130,Nutella Hazelnut Spread 350g Jar,Nutella,Packaged Food,Packaged Food,SUP-007,Nestle India,380,305,75,STR-003,SmartMart - Coimbatore Branch,106,49,10,25,300,19.66,24,124,555,2.5,14945,sales_spike
+PRD-1131,Dabur 100% Pure Honey 250g,Dabur,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,135,102,33,STR-001,SmartMart - Karur Main Branch,56,83,10,15,300,0.06,0,0,1,830.0,8466,slow_moving
+PRD-1131,Dabur 100% Pure Honey 250g,Dabur,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,135,102,33,STR-002,SmartMart - Tiruppur Branch,52,70,10,15,300,0.12,0,0,3,604.3,7140,slow_moving
+PRD-1131,Dabur 100% Pure Honey 250g,Dabur,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,135,102,33,STR-003,SmartMart - Coimbatore Branch,58,77,10,15,300,0.2,0,1,6,386.9,7854,slow_moving
+PRD-1132,Sundrop Peanut Butter Crunchy 500g,Sundrop,Packaged Food,Packaged Food,SUP-004,Kaleesuwari Refinery (Gold Winner),195,148,47,STR-001,SmartMart - Karur Main Branch,133,73,10,20,300,5.09,6,33,164,14.3,10804,healthy
+PRD-1132,Sundrop Peanut Butter Crunchy 500g,Sundrop,Packaged Food,Packaged Food,SUP-004,Kaleesuwari Refinery (Gold Winner),195,148,47,STR-002,SmartMart - Tiruppur Branch,144,68,10,20,300,2.88,2,18,94,23.6,10064,healthy
+PRD-1132,Sundrop Peanut Butter Crunchy 500g,Sundrop,Packaged Food,Packaged Food,SUP-004,Kaleesuwari Refinery (Gold Winner),195,148,47,STR-003,SmartMart - Coimbatore Branch,82,75,10,20,300,4.72,5,30,137,15.9,11100,healthy
+PRD-1133,Hershey's Chocolate Syrup 623g,Hershey,Packaged Food,Packaged Food,SUP-007,Nestle India,230,178,52,STR-001,SmartMart - Karur Main Branch,50,12,10,25,300,10.67,11,77,314,1.1,2136,stockout_risk
+PRD-1133,Hershey's Chocolate Syrup 623g,Hershey,Packaged Food,Packaged Food,SUP-007,Nestle India,230,178,52,STR-002,SmartMart - Tiruppur Branch,39,8,10,25,300,9.29,9,61,263,0.9,1424,stockout_risk
+PRD-1133,Hershey's Chocolate Syrup 623g,Hershey,Packaged Food,Packaged Food,SUP-007,Nestle India,230,178,52,STR-003,SmartMart - Coimbatore Branch,34,9,10,25,300,14.4,15,110,437,0.6,1602,stockout_risk
+PRD-1134,Weikfield Vanilla Custard Powder 100g,Weikfield,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,45,32,13,STR-001,SmartMart - Karur Main Branch,64,21,10,30,300,4.97,4,35,161,4.2,672,low_stock
+PRD-1134,Weikfield Vanilla Custard Powder 100g,Weikfield,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,45,32,13,STR-002,SmartMart - Tiruppur Branch,71,16,10,30,300,6.14,7,39,179,2.6,512,low_stock
+PRD-1135,Baking Soda 100g,Blue Bird,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,25,16,9,STR-001,SmartMart - Karur Main Branch,118,49,10,25,300,12.4,10,92,378,4.0,784,sales_spike
+PRD-1135,Baking Soda 100g,Blue Bird,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,25,16,9,STR-002,SmartMart - Tiruppur Branch,115,36,10,25,300,16.79,20,113,549,2.1,576,sales_spike
+PRD-1135,Baking Soda 100g,Blue Bird,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,25,16,9,STR-003,SmartMart - Coimbatore Branch,80,36,10,25,300,21.37,27,138,705,1.7,576,sales_spike
+PRD-1136,Ching's Secret Dark Soy Sauce 210g,Ching's,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,65,48,17,STR-001,SmartMart - Karur Main Branch,261,211,10,20,300,1.54,1,10,43,136.7,10128,overstocked
+PRD-1136,Ching's Secret Dark Soy Sauce 210g,Ching's,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,65,48,17,STR-002,SmartMart - Tiruppur Branch,241,216,10,20,300,1.07,1,7,30,201.7,10368,overstocked
+PRD-1136,Ching's Secret Dark Soy Sauce 210g,Ching's,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,65,48,17,STR-003,SmartMart - Coimbatore Branch,265,243,10,20,300,1.2,1,8,37,202.7,11664,overstocked
+PRD-1137,Del Monte Whole Corn Canned 415g,Del Monte,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,95,72,23,STR-001,SmartMart - Karur Main Branch,100,48,10,20,300,3.48,3,24,98,13.8,3456,healthy
+PRD-1137,Del Monte Whole Corn Canned 415g,Del Monte,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,95,72,23,STR-002,SmartMart - Tiruppur Branch,78,36,10,20,300,3.04,3,21,89,11.8,2592,healthy
+PRD-1137,Del Monte Whole Corn Canned 415g,Del Monte,Packaged Food,Packaged Food,SUP-010,Dabur India Ltd,95,72,23,STR-003,SmartMart - Coimbatore Branch,79,47,10,20,300,3.32,3,24,99,14.2,3384,healthy
+PRD-1138,Knorr Dark Soy Sauce 200ml,Knorr,Packaged Food,Packaged Food,SUP-009,Hindustan Unilever Ltd,70,52,18,STR-001,SmartMart - Karur Main Branch,143,78,10,20,300,3.35,3,23,105,23.3,4056,healthy
+PRD-1138,Knorr Dark Soy Sauce 200ml,Knorr,Packaged Food,Packaged Food,SUP-009,Hindustan Unilever Ltd,70,52,18,STR-002,SmartMart - Tiruppur Branch,122,64,10,20,300,2.67,3,17,83,23.9,3328,healthy
+PRD-1138,Knorr Dark Soy Sauce 200ml,Knorr,Packaged Food,Packaged Food,SUP-009,Hindustan Unilever Ltd,70,52,18,STR-003,SmartMart - Coimbatore Branch,122,46,10,20,300,5.67,6,40,155,8.1,2392,healthy
+PRD-1139,Fresh Shimla Apples 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,180,135,45,STR-001,SmartMart - Karur Main Branch,64,88,10,20,300,5.39,6,38,170,16.3,11880,healthy
+PRD-1139,Fresh Shimla Apples 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,180,135,45,STR-002,SmartMart - Tiruppur Branch,112,43,10,20,300,5.37,4,39,145,8.0,5805,healthy
+PRD-1139,Fresh Shimla Apples 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,180,135,45,STR-003,SmartMart - Coimbatore Branch,124,64,10,20,300,3.49,3,25,107,18.3,8640,healthy
+PRD-1140,Robusta Bananas 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,45,30,15,STR-001,SmartMart - Karur Main Branch,110,51,10,25,300,16.88,13,119,456,3.0,1530,sales_spike
+PRD-1140,Robusta Bananas 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,45,30,15,STR-002,SmartMart - Tiruppur Branch,113,53,10,25,300,14.75,19,93,470,3.6,1590,sales_spike
+PRD-1140,Robusta Bananas 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,45,30,15,STR-003,SmartMart - Coimbatore Branch,107,55,10,25,300,21.4,19,162,645,2.6,1650,sales_spike
+PRD-1141,Nagpur Oranges 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,90,65,25,STR-001,SmartMart - Karur Main Branch,90,47,10,20,300,4.48,4,30,142,10.5,3055,healthy
+PRD-1141,Nagpur Oranges 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,90,65,25,STR-002,SmartMart - Tiruppur Branch,70,58,10,20,300,5.84,6,38,182,9.9,3770,healthy
+PRD-1142,Seedless Black Grapes 500g,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,80,56,24,STR-001,SmartMart - Karur Main Branch,98,78,10,20,300,5.31,4,40,164,14.7,4368,healthy
+PRD-1142,Seedless Black Grapes 500g,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,80,56,24,STR-002,SmartMart - Tiruppur Branch,64,40,10,20,300,3.62,3,25,111,11.0,2240,healthy
+PRD-1142,Seedless Black Grapes 500g,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,80,56,24,STR-003,SmartMart - Coimbatore Branch,149,45,10,20,300,2.33,2,16,67,19.3,2520,healthy
+PRD-1143,Ripe Papaya 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,50,32,18,STR-001,SmartMart - Karur Main Branch,63,23,10,30,300,7.68,7,58,239,3.0,736,low_stock
+PRD-1143,Ripe Papaya 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,50,32,18,STR-002,SmartMart - Tiruppur Branch,78,22,10,30,300,5.08,6,36,145,4.3,704,low_stock
+PRD-1143,Ripe Papaya 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,50,32,18,STR-003,SmartMart - Coimbatore Branch,77,24,10,30,300,6.63,5,49,179,3.6,768,low_stock
+PRD-1144,Pomegranate Kabuli 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,210,160,50,STR-001,SmartMart - Karur Main Branch,36,11,10,25,300,9.01,10,67,293,1.2,1760,stockout_risk
+PRD-1144,Pomegranate Kabuli 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,210,160,50,STR-002,SmartMart - Tiruppur Branch,39,4,10,25,300,11.95,12,89,371,0.3,640,stockout_risk
+PRD-1144,Pomegranate Kabuli 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,210,160,50,STR-003,SmartMart - Coimbatore Branch,47,7,10,25,300,10.69,12,79,332,0.7,1120,stockout_risk
+PRD-1145,Green Guava 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,70,48,22,STR-001,SmartMart - Karur Main Branch,85,46,10,25,300,19.45,18,125,552,2.4,2208,sales_spike
+PRD-1145,Green Guava 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,70,48,22,STR-002,SmartMart - Tiruppur Branch,84,40,10,25,300,18.05,19,128,592,2.2,1920,sales_spike
+PRD-1145,Green Guava 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,70,48,22,STR-003,SmartMart - Coimbatore Branch,100,30,10,25,300,18.34,21,127,520,1.6,1440,sales_spike
+PRD-1146,Mosambi (Sweet Lime) 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,85,60,25,STR-001,SmartMart - Karur Main Branch,130,59,10,20,300,3.73,4,26,102,15.8,3540,healthy
+PRD-1146,Mosambi (Sweet Lime) 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,85,60,25,STR-002,SmartMart - Tiruppur Branch,139,53,10,20,300,5.19,6,33,144,10.2,3180,healthy
+PRD-1146,Mosambi (Sweet Lime) 1kg,Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,85,60,25,STR-003,SmartMart - Coimbatore Branch,141,44,10,20,300,4.96,4,31,134,8.9,2640,healthy
+PRD-1147,Watermelon Kiran 1 Unit (~3kg),Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,90,58,32,STR-001,SmartMart - Karur Main Branch,99,63,10,20,300,3.44,3,22,96,18.3,3654,healthy
+PRD-1147,Watermelon Kiran 1 Unit (~3kg),Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,90,58,32,STR-002,SmartMart - Tiruppur Branch,117,70,10,20,300,4.22,4,26,122,16.6,4060,healthy
+PRD-1147,Watermelon Kiran 1 Unit (~3kg),Fresh Farm,Fruits,Fruits,SUP-013,Fresh Farms Agro,90,58,32,STR-003,SmartMart - Coimbatore Branch,71,73,10,20,300,4.39,4,30,126,16.6,4234,healthy
+PRD-1148,Kiwi Fruit 3-Pack,Imported,Fruits,Fruits,SUP-013,Fresh Farms Agro,120,88,32,STR-001,SmartMart - Karur Main Branch,109,84,10,20,300,2.34,2,17,76,35.9,7392,healthy
+PRD-1148,Kiwi Fruit 3-Pack,Imported,Fruits,Fruits,SUP-013,Fresh Farms Agro,120,88,32,STR-002,SmartMart - Tiruppur Branch,133,68,10,20,300,2.68,2,17,77,25.4,5984,healthy
+PRD-1149,Fresh Red Onion 1kg,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,35,22,13,STR-001,SmartMart - Karur Main Branch,123,44,10,20,300,2.25,2,15,67,19.5,968,healthy
+PRD-1149,Fresh Red Onion 1kg,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,35,22,13,STR-002,SmartMart - Tiruppur Branch,69,58,10,20,300,3.01,2,21,91,19.3,1276,healthy
+PRD-1149,Fresh Red Onion 1kg,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,35,22,13,STR-003,SmartMart - Coimbatore Branch,85,64,10,20,300,2.43,2,18,70,26.4,1408,healthy
+PRD-1150,Fresh Potato 1kg,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,30,18,12,STR-001,SmartMart - Karur Main Branch,119,42,10,25,300,20.04,19,135,639,2.1,756,sales_spike
+PRD-1150,Fresh Potato 1kg,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,30,18,12,STR-002,SmartMart - Tiruppur Branch,118,34,10,25,300,15.0,16,109,448,2.3,612,sales_spike
+PRD-1150,Fresh Potato 1kg,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,30,18,12,STR-003,SmartMart - Coimbatore Branch,91,60,10,25,300,15.98,15,117,492,3.8,1080,sales_spike
+PRD-1151,Hybrid Tomato 1kg,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,40,25,15,STR-001,SmartMart - Karur Main Branch,133,85,10,20,300,2.97,2,22,87,28.6,2125,healthy
+PRD-1151,Hybrid Tomato 1kg,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,40,25,15,STR-002,SmartMart - Tiruppur Branch,74,71,10,20,300,2.8,3,18,88,25.4,1775,healthy
+PRD-1151,Hybrid Tomato 1kg,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,40,25,15,STR-003,SmartMart - Coimbatore Branch,63,81,10,20,300,3.85,4,26,110,21.1,2025,healthy
+PRD-1152,Ooty Carrot 500g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,35,22,13,STR-001,SmartMart - Karur Main Branch,62,21,10,30,300,6.69,5,44,190,3.1,462,low_stock
+PRD-1152,Ooty Carrot 500g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,35,22,13,STR-002,SmartMart - Tiruppur Branch,64,21,10,30,300,7.16,5,55,213,2.9,462,low_stock
+PRD-1152,Ooty Carrot 500g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,35,22,13,STR-003,SmartMart - Coimbatore Branch,72,23,10,30,300,6.03,7,43,182,3.8,506,low_stock
+PRD-1153,Ladies Finger (Bhindi) 500g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,30,18,12,STR-001,SmartMart - Karur Main Branch,106,79,10,20,300,5.58,5,40,153,14.2,1422,healthy
+PRD-1153,Ladies Finger (Bhindi) 500g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,30,18,12,STR-002,SmartMart - Tiruppur Branch,91,77,10,20,300,4.66,4,33,141,16.5,1386,healthy
+PRD-1153,Ladies Finger (Bhindi) 500g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,30,18,12,STR-003,SmartMart - Coimbatore Branch,142,78,10,20,300,4.59,5,31,145,17.0,1404,healthy
+PRD-1154,Green Capsicum 500g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,45,28,17,STR-001,SmartMart - Karur Main Branch,73,35,10,20,300,2.39,2,17,72,14.6,980,healthy
+PRD-1154,Green Capsicum 500g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,45,28,17,STR-002,SmartMart - Tiruppur Branch,148,71,10,20,300,2.88,2,20,89,24.6,1988,healthy
+PRD-1154,Green Capsicum 500g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,45,28,17,STR-003,SmartMart - Coimbatore Branch,148,67,10,20,300,2.6,3,18,74,25.7,1876,healthy
+PRD-1155,Coriander Leaves 100g Bundle,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,15,8,7,STR-001,SmartMart - Karur Main Branch,32,3,10,25,300,13.82,16,93,401,0.2,24,stockout_risk
+PRD-1155,Coriander Leaves 100g Bundle,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,15,8,7,STR-002,SmartMart - Tiruppur Branch,36,10,10,25,300,11.38,11,78,354,0.9,80,stockout_risk
+PRD-1156,Fresh Mint Leaves 100g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,12,6,6,STR-001,SmartMart - Karur Main Branch,100,39,10,20,300,3.2,3,20,102,12.2,234,healthy
+PRD-1156,Fresh Mint Leaves 100g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,12,6,6,STR-002,SmartMart - Tiruppur Branch,142,41,10,20,300,4.71,4,36,134,8.7,246,healthy
+PRD-1156,Fresh Mint Leaves 100g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,12,6,6,STR-003,SmartMart - Coimbatore Branch,82,70,10,20,300,2.64,2,20,74,26.5,420,healthy
+PRD-1157,Green Chilli 250g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,20,10,10,STR-001,SmartMart - Karur Main Branch,75,85,10,15,300,0.08,0,0,2,850.0,850,slow_moving
+PRD-1157,Green Chilli 250g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,20,10,10,STR-002,SmartMart - Tiruppur Branch,89,57,10,15,300,0.12,0,0,3,485.4,570,slow_moving
+PRD-1157,Green Chilli 250g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,20,10,10,STR-003,SmartMart - Coimbatore Branch,67,49,10,15,300,0.14,0,0,3,358.7,490,slow_moving
+PRD-1158,Ginger 250g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,40,25,15,STR-001,SmartMart - Karur Main Branch,85,64,10,20,300,2.46,2,17,80,26.1,1600,healthy
+PRD-1158,Ginger 250g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,40,25,15,STR-002,SmartMart - Tiruppur Branch,100,73,10,20,300,3.55,3,22,103,20.5,1825,healthy
+PRD-1158,Ginger 250g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,40,25,15,STR-003,SmartMart - Coimbatore Branch,118,74,10,20,300,2.69,3,19,87,27.5,1850,healthy
+PRD-1159,Garlic 250g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,60,42,18,STR-001,SmartMart - Karur Main Branch,135,40,10,20,300,4.69,4,31,129,8.5,1680,healthy
+PRD-1159,Garlic 250g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,60,42,18,STR-002,SmartMart - Tiruppur Branch,107,79,10,20,300,2.57,2,18,78,30.8,3318,healthy
+PRD-1159,Garlic 250g,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,60,42,18,STR-003,SmartMart - Coimbatore Branch,114,46,10,20,300,3.95,4,29,128,11.7,1932,healthy
+PRD-1160,Curry Leaves 50g Bundle,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,10,4,6,STR-001,SmartMart - Karur Main Branch,222,251,10,20,300,0.75,0,4,24,334.5,1004,overstocked
+PRD-1160,Curry Leaves 50g Bundle,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,10,4,6,STR-002,SmartMart - Tiruppur Branch,279,186,10,20,300,1.8,2,12,50,103.4,744,overstocked
+PRD-1160,Curry Leaves 50g Bundle,Fresh Farm,Vegetables,Vegetables,SUP-013,Fresh Farms Agro,10,4,6,STR-003,SmartMart - Coimbatore Branch,249,251,10,20,300,1.26,1,9,37,199.5,1004,overstocked
+PRD-1161,Mysore Sandal Soap 125g,Mysore Sandal,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,55,42,13,STR-001,SmartMart - Karur Main Branch,74,22,10,30,300,4.67,5,34,132,4.7,924,low_stock
+PRD-1161,Mysore Sandal Soap 125g,Mysore Sandal,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,55,42,13,STR-002,SmartMart - Tiruppur Branch,61,19,10,30,300,4.9,4,36,148,3.9,798,low_stock
+PRD-1161,Mysore Sandal Soap 125g,Mysore Sandal,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,55,42,13,STR-003,SmartMart - Coimbatore Branch,75,23,10,30,300,6.04,6,40,182,3.8,966,low_stock
+PRD-1162,Dettol Original Soap 75g (3-Pack),Dettol,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,105,82,23,STR-001,SmartMart - Karur Main Branch,106,69,10,20,300,5.29,4,38,160,13.0,5658,healthy
+PRD-1162,Dettol Original Soap 75g (3-Pack),Dettol,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,105,82,23,STR-002,SmartMart - Tiruppur Branch,114,41,10,20,300,4.94,5,32,159,8.3,3362,healthy
+PRD-1163,Clinic Plus Strong & Long Shampoo 175ml,Clinic Plus,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,110,85,25,STR-001,SmartMart - Karur Main Branch,64,63,10,20,300,3.05,3,19,98,20.6,5355,healthy
+PRD-1163,Clinic Plus Strong & Long Shampoo 175ml,Clinic Plus,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,110,85,25,STR-002,SmartMart - Tiruppur Branch,75,84,10,20,300,5.25,4,38,163,16.0,7140,healthy
+PRD-1163,Clinic Plus Strong & Long Shampoo 175ml,Clinic Plus,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,110,85,25,STR-003,SmartMart - Coimbatore Branch,150,74,10,20,300,4.53,4,29,127,16.3,6290,healthy
+PRD-1164,Colgate Strong Teeth Toothpaste 150g,Colgate,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,95,73,22,STR-001,SmartMart - Karur Main Branch,86,86,10,20,300,2.24,2,14,67,38.4,6278,healthy
+PRD-1164,Colgate Strong Teeth Toothpaste 150g,Colgate,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,95,73,22,STR-002,SmartMart - Tiruppur Branch,101,80,10,20,300,3.17,3,24,95,25.2,5840,healthy
+PRD-1164,Colgate Strong Teeth Toothpaste 150g,Colgate,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,95,73,22,STR-003,SmartMart - Coimbatore Branch,146,87,10,20,300,2.38,3,17,77,36.5,6351,healthy
+PRD-1165,Sensodyne Rapid Relief Toothpaste 80g,Sensodyne,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,170,132,38,STR-001,SmartMart - Karur Main Branch,97,57,10,25,300,18.56,21,120,517,3.1,7524,sales_spike
+PRD-1165,Sensodyne Rapid Relief Toothpaste 80g,Sensodyne,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,170,132,38,STR-002,SmartMart - Tiruppur Branch,100,56,10,25,300,14.48,17,99,403,3.9,7392,sales_spike
+PRD-1165,Sensodyne Rapid Relief Toothpaste 80g,Sensodyne,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,170,132,38,STR-003,SmartMart - Coimbatore Branch,120,38,10,25,300,18.28,18,117,580,2.1,5016,sales_spike
+PRD-1166,Pears Soft & Fresh Soap 125g,Pears,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,65,49,16,STR-001,SmartMart - Karur Main Branch,32,8,10,25,300,11.61,10,88,339,0.7,392,stockout_risk
+PRD-1166,Pears Soft & Fresh Soap 125g,Pears,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,65,49,16,STR-002,SmartMart - Tiruppur Branch,45,7,10,25,300,12.07,14,90,332,0.6,343,stockout_risk
+PRD-1166,Pears Soft & Fresh Soap 125g,Pears,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,65,49,16,STR-003,SmartMart - Coimbatore Branch,44,12,10,25,300,12.65,12,80,382,0.9,588,stockout_risk
+PRD-1167,Dove Cream Beauty Bathing Bar 125g,Dove,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,75,58,17,STR-001,SmartMart - Karur Main Branch,87,62,10,20,300,5.3,5,35,152,11.7,3596,healthy
+PRD-1167,Dove Cream Beauty Bathing Bar 125g,Dove,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,75,58,17,STR-002,SmartMart - Tiruppur Branch,130,71,10,20,300,2.52,3,18,81,28.1,4118,healthy
+PRD-1167,Dove Cream Beauty Bathing Bar 125g,Dove,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,75,58,17,STR-003,SmartMart - Coimbatore Branch,66,37,10,20,300,2.4,2,16,66,15.4,2146,healthy
+PRD-1168,Sunsilk Black Shine Shampoo 180ml,Sunsilk,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,125,96,29,STR-001,SmartMart - Karur Main Branch,220,236,10,20,300,1.18,1,8,39,199.2,22656,overstocked
+PRD-1168,Sunsilk Black Shine Shampoo 180ml,Sunsilk,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,125,96,29,STR-002,SmartMart - Tiruppur Branch,216,218,10,20,300,0.74,0,4,22,295.2,20928,overstocked
+PRD-1168,Sunsilk Black Shine Shampoo 180ml,Sunsilk,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,125,96,29,STR-003,SmartMart - Coimbatore Branch,232,190,10,20,300,1.06,1,6,31,179.6,18240,overstocked
+PRD-1169,Parachute Advansed Jasmine Hair Oil 200ml,Parachute,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,105,80,25,STR-001,SmartMart - Karur Main Branch,99,81,10,20,300,4.8,4,34,149,16.9,6480,healthy
+PRD-1169,Parachute Advansed Jasmine Hair Oil 200ml,Parachute,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,105,80,25,STR-002,SmartMart - Tiruppur Branch,60,48,10,20,300,3.91,3,25,121,12.3,3840,healthy
+PRD-1170,Nivea Soft Light Moisturiser 100ml,Nivea,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,195,150,45,STR-001,SmartMart - Karur Main Branch,60,15,10,30,300,6.78,8,52,200,2.2,2250,low_stock
+PRD-1170,Nivea Soft Light Moisturiser 100ml,Nivea,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,195,150,45,STR-002,SmartMart - Tiruppur Branch,64,22,10,30,300,4.28,4,31,118,5.1,3300,low_stock
+PRD-1170,Nivea Soft Light Moisturiser 100ml,Nivea,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,195,150,45,STR-003,SmartMart - Coimbatore Branch,70,20,10,30,300,7.52,6,55,237,2.7,3000,low_stock
+PRD-1171,Gillette Guard Razor 1-Pack,Gillette,Personal Care,Personal Care,SUP-015,P&G Home Care,25,18,7,STR-001,SmartMart - Karur Main Branch,77,76,10,20,300,5.97,5,42,161,12.7,1368,healthy
+PRD-1171,Gillette Guard Razor 1-Pack,Gillette,Personal Care,Personal Care,SUP-015,P&G Home Care,25,18,7,STR-002,SmartMart - Tiruppur Branch,143,45,10,20,300,3.76,4,26,104,12.0,810,healthy
+PRD-1171,Gillette Guard Razor 1-Pack,Gillette,Personal Care,Personal Care,SUP-015,P&G Home Care,25,18,7,STR-003,SmartMart - Coimbatore Branch,112,74,10,20,300,4.75,5,30,131,15.6,1332,healthy
+PRD-1172,Dabur Red Toothpowder 100g,Dabur,Personal Care,Personal Care,SUP-010,Dabur India Ltd,45,33,12,STR-001,SmartMart - Karur Main Branch,75,72,10,20,300,4.92,4,33,156,14.6,2376,healthy
+PRD-1172,Dabur Red Toothpowder 100g,Dabur,Personal Care,Personal Care,SUP-010,Dabur India Ltd,45,33,12,STR-002,SmartMart - Tiruppur Branch,91,52,10,20,300,4.58,4,32,143,11.4,1716,healthy
+PRD-1172,Dabur Red Toothpowder 100g,Dabur,Personal Care,Personal Care,SUP-010,Dabur India Ltd,45,33,12,STR-003,SmartMart - Coimbatore Branch,96,84,10,20,300,5.77,4,43,185,14.6,2772,healthy
+PRD-1173,Himalaya Purifying Neem Face Wash 100ml,Himalaya,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,140,108,32,STR-001,SmartMart - Karur Main Branch,86,68,10,20,300,4.43,3,30,136,15.4,7344,healthy
+PRD-1173,Himalaya Purifying Neem Face Wash 100ml,Himalaya,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,140,108,32,STR-002,SmartMart - Tiruppur Branch,90,66,10,20,300,3.54,3,25,97,18.6,7128,healthy
+PRD-1173,Himalaya Purifying Neem Face Wash 100ml,Himalaya,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,140,108,32,STR-003,SmartMart - Coimbatore Branch,61,58,10,20,300,5.74,4,43,174,10.1,6264,healthy
+PRD-1174,Vaseline Total Moisture Body Lotion 200ml,Vaseline,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,215,168,47,STR-001,SmartMart - Karur Main Branch,106,69,10,20,300,4.73,5,36,149,14.6,11592,healthy
+PRD-1174,Vaseline Total Moisture Body Lotion 200ml,Vaseline,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,215,168,47,STR-002,SmartMart - Tiruppur Branch,62,72,10,20,300,2.27,2,14,62,31.7,12096,healthy
+PRD-1174,Vaseline Total Moisture Body Lotion 200ml,Vaseline,Personal Care,Personal Care,SUP-009,Hindustan Unilever Ltd,215,168,47,STR-003,SmartMart - Coimbatore Branch,110,67,10,20,300,3.15,3,23,92,21.3,11256,healthy
+PRD-1175,Vim Dishwash Gel Lemon 500ml,Vim,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,115,88,27,STR-001,SmartMart - Karur Main Branch,105,32,10,25,300,18.41,19,119,506,1.7,2816,sales_spike
+PRD-1175,Vim Dishwash Gel Lemon 500ml,Vim,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,115,88,27,STR-002,SmartMart - Tiruppur Branch,85,46,10,25,300,21.21,27,138,614,2.2,4048,sales_spike
+PRD-1175,Vim Dishwash Gel Lemon 500ml,Vim,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,115,88,27,STR-003,SmartMart - Coimbatore Branch,117,50,10,25,300,19.63,22,141,566,2.5,4400,sales_spike
+PRD-1176,Surf Excel Quick Wash Detergent Powder 1kg,Surf Excel,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,210,162,48,STR-001,SmartMart - Karur Main Branch,255,210,10,20,300,0.59,0,4,17,357.8,34020,overstocked
+PRD-1176,Surf Excel Quick Wash Detergent Powder 1kg,Surf Excel,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,210,162,48,STR-002,SmartMart - Tiruppur Branch,277,187,10,20,300,0.96,1,7,26,194.0,30294,overstocked
+PRD-1177,Harpic Power Plus Toilet Cleaner 500ml,Harpic,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,95,72,23,STR-001,SmartMart - Karur Main Branch,34,2,10,25,300,9.15,11,64,289,0.2,144,stockout_risk
+PRD-1177,Harpic Power Plus Toilet Cleaner 500ml,Harpic,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,95,72,23,STR-002,SmartMart - Tiruppur Branch,38,4,10,25,300,10.6,12,79,332,0.4,288,stockout_risk
+PRD-1177,Harpic Power Plus Toilet Cleaner 500ml,Harpic,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,95,72,23,STR-003,SmartMart - Coimbatore Branch,33,2,10,25,300,10.35,10,72,295,0.2,144,stockout_risk
+PRD-1178,Lizol Disinfectant Floor Cleaner Citrus 1L,Lizol,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,215,166,49,STR-001,SmartMart - Karur Main Branch,133,75,10,20,300,2.31,2,15,69,32.5,12450,healthy
+PRD-1178,Lizol Disinfectant Floor Cleaner Citrus 1L,Lizol,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,215,166,49,STR-002,SmartMart - Tiruppur Branch,132,45,10,20,300,3.47,3,22,105,13.0,7470,healthy
+PRD-1178,Lizol Disinfectant Floor Cleaner Citrus 1L,Lizol,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,215,166,49,STR-003,SmartMart - Coimbatore Branch,74,49,10,20,300,4.96,3,37,134,9.9,8134,healthy
+PRD-1179,Colin Glass Cleaner Spray 500ml,Colin,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,105,80,25,STR-001,SmartMart - Karur Main Branch,61,22,10,30,300,5.46,6,35,178,4.0,1760,low_stock
+PRD-1179,Colin Glass Cleaner Spray 500ml,Colin,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,105,80,25,STR-002,SmartMart - Tiruppur Branch,61,23,10,30,300,7.21,8,52,204,3.2,1840,low_stock
+PRD-1179,Colin Glass Cleaner Spray 500ml,Colin,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,105,80,25,STR-003,SmartMart - Coimbatore Branch,67,21,10,30,300,7.66,7,57,233,2.7,1680,low_stock
+PRD-1180,Rin Detergent Bar 250g (4-Pack),Rin,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,60,45,15,STR-001,SmartMart - Karur Main Branch,87,46,10,25,300,18.73,15,123,563,2.5,2070,sales_spike
+PRD-1180,Rin Detergent Bar 250g (4-Pack),Rin,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,60,45,15,STR-002,SmartMart - Tiruppur Branch,82,60,10,25,300,16.01,19,120,506,3.7,2700,sales_spike
+PRD-1180,Rin Detergent Bar 250g (4-Pack),Rin,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,60,45,15,STR-003,SmartMart - Coimbatore Branch,99,40,10,25,300,12.86,13,87,369,3.1,1800,sales_spike
+PRD-1181,Comfort After Wash Fabric Conditioner 860ml,Comfort,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,235,180,55,STR-001,SmartMart - Karur Main Branch,98,82,10,20,300,4.49,4,32,134,18.3,14760,healthy
+PRD-1181,Comfort After Wash Fabric Conditioner 860ml,Comfort,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,235,180,55,STR-002,SmartMart - Tiruppur Branch,85,81,10,20,300,5.6,6,37,151,14.5,14580,healthy
+PRD-1181,Comfort After Wash Fabric Conditioner 860ml,Comfort,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,235,180,55,STR-003,SmartMart - Coimbatore Branch,112,36,10,20,300,2.93,2,21,94,12.3,6480,healthy
+PRD-1182,Exo Touch & Shine Dishwash Bar 250g,Exo,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,30,22,8,STR-001,SmartMart - Karur Main Branch,102,35,10,20,300,5.04,4,36,145,7.0,770,healthy
+PRD-1182,Exo Touch & Shine Dishwash Bar 250g,Exo,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,30,22,8,STR-002,SmartMart - Tiruppur Branch,86,68,10,20,300,5.93,5,45,194,11.5,1496,healthy
+PRD-1182,Exo Touch & Shine Dishwash Bar 250g,Exo,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,30,22,8,STR-003,SmartMart - Coimbatore Branch,78,80,10,20,300,3.12,2,20,100,25.6,1760,healthy
+PRD-1183,Domex Fresh Guard Toilet Cleaner 500ml,Domex,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,85,64,21,STR-001,SmartMart - Karur Main Branch,76,68,10,15,300,0.12,0,0,3,572.5,4352,slow_moving
+PRD-1183,Domex Fresh Guard Toilet Cleaner 500ml,Domex,Home Cleaning,Home Cleaning,SUP-009,Hindustan Unilever Ltd,85,64,21,STR-002,SmartMart - Tiruppur Branch,90,70,10,15,300,0.06,0,0,2,700.0,4480,slow_moving
+PRD-1184,Ariel Matic Front Load Detergent 1kg,Ariel,Home Cleaning,Home Cleaning,SUP-015,P&G Home Care,280,220,60,STR-001,SmartMart - Karur Main Branch,230,217,10,20,300,0.89,0,6,27,243.4,47740,overstocked
+PRD-1184,Ariel Matic Front Load Detergent 1kg,Ariel,Home Cleaning,Home Cleaning,SUP-015,P&G Home Care,280,220,60,STR-002,SmartMart - Tiruppur Branch,294,221,10,20,300,0.98,0,6,27,226.2,48620,overstocked
+PRD-1184,Ariel Matic Front Load Detergent 1kg,Ariel,Home Cleaning,Home Cleaning,SUP-015,P&G Home Care,280,220,60,STR-003,SmartMart - Coimbatore Branch,299,254,10,20,300,0.66,0,4,19,382.8,55880,overstocked
+PRD-1185,Scotch-Brite Scrub Pad Large (3-Pack),3M,Home Cleaning,Home Cleaning,SUP-014,Godrej Consumer Products,45,31,14,STR-001,SmartMart - Karur Main Branch,87,47,10,25,300,15.58,18,108,464,3.0,1457,sales_spike
+PRD-1185,Scotch-Brite Scrub Pad Large (3-Pack),3M,Home Cleaning,Home Cleaning,SUP-014,Godrej Consumer Products,45,31,14,STR-002,SmartMart - Tiruppur Branch,87,32,10,25,300,13.58,15,101,423,2.4,992,sales_spike
+PRD-1185,Scotch-Brite Scrub Pad Large (3-Pack),3M,Home Cleaning,Home Cleaning,SUP-014,Godrej Consumer Products,45,31,14,STR-003,SmartMart - Coimbatore Branch,82,36,10,25,300,20.36,19,130,580,1.8,1116,sales_spike
+PRD-1186,Pitambari Shining Powder 200g,Pitambari,Home Cleaning,Home Cleaning,SUP-014,Godrej Consumer Products,40,28,12,STR-001,SmartMart - Karur Main Branch,105,60,10,20,300,4.05,4,27,133,14.8,1680,healthy
+PRD-1186,Pitambari Shining Powder 200g,Pitambari,Home Cleaning,Home Cleaning,SUP-014,Godrej Consumer Products,40,28,12,STR-002,SmartMart - Tiruppur Branch,63,60,10,20,300,5.42,5,38,149,11.1,1680,healthy
+PRD-1186,Pitambari Shining Powder 200g,Pitambari,Home Cleaning,Home Cleaning,SUP-014,Godrej Consumer Products,40,28,12,STR-003,SmartMart - Coimbatore Branch,73,86,10,20,300,5.18,4,33,163,16.6,2408,healthy
+PRD-1187,All Out Mosquito Repellent Refill 45ml (2-Pack),All Out,Household Products,Household Products,SUP-014,Godrej Consumer Products,145,110,35,STR-001,SmartMart - Karur Main Branch,88,43,10,20,300,2.79,2,20,91,15.4,4730,healthy
+PRD-1187,All Out Mosquito Repellent Refill 45ml (2-Pack),All Out,Household Products,Household Products,SUP-014,Godrej Consumer Products,145,110,35,STR-002,SmartMart - Tiruppur Branch,70,72,10,20,300,4.34,5,27,143,16.6,7920,healthy
+PRD-1187,All Out Mosquito Repellent Refill 45ml (2-Pack),All Out,Household Products,Household Products,SUP-014,Godrej Consumer Products,145,110,35,STR-003,SmartMart - Coimbatore Branch,85,76,10,20,300,3.77,3,28,120,20.1,8360,healthy
+PRD-1188,Good Knight Gold Flash Machine + Refill,Good Knight,Household Products,Household Products,SUP-014,Godrej Consumer Products,130,98,32,STR-001,SmartMart - Karur Main Branch,40,3,10,25,300,8.3,8,54,252,0.4,294,stockout_risk
+PRD-1188,Good Knight Gold Flash Machine + Refill,Good Knight,Household Products,Household Products,SUP-014,Godrej Consumer Products,130,98,32,STR-002,SmartMart - Tiruppur Branch,42,9,10,25,300,8.21,9,53,232,1.1,882,stockout_risk
+PRD-1188,Good Knight Gold Flash Machine + Refill,Good Knight,Household Products,Household Products,SUP-014,Godrej Consumer Products,130,98,32,STR-003,SmartMart - Coimbatore Branch,35,6,10,25,300,9.96,12,63,305,0.6,588,stockout_risk
+PRD-1189,Odonil Room Air Freshener Spray Citrus 220ml,Odonil,Household Products,Household Products,SUP-010,Dabur India Ltd,160,120,40,STR-001,SmartMart - Karur Main Branch,91,76,10,20,300,3.18,3,22,87,23.9,9120,healthy
+PRD-1189,Odonil Room Air Freshener Spray Citrus 220ml,Odonil,Household Products,Household Products,SUP-010,Dabur India Ltd,160,120,40,STR-002,SmartMart - Tiruppur Branch,95,59,10,20,300,2.55,2,19,76,23.1,7080,healthy
+PRD-1189,Odonil Room Air Freshener Spray Citrus 220ml,Odonil,Household Products,Household Products,SUP-010,Dabur India Ltd,160,120,40,STR-003,SmartMart - Coimbatore Branch,140,86,10,20,300,4.17,3,28,130,20.6,10320,healthy
+PRD-1190,Duracell Chota Power AA Batteries (4-Pack),Duracell,Household Products,Household Products,SUP-014,Godrej Consumer Products,160,125,35,STR-001,SmartMart - Karur Main Branch,110,47,10,25,300,19.81,19,140,573,2.4,5875,sales_spike
+PRD-1190,Duracell Chota Power AA Batteries (4-Pack),Duracell,Household Products,Household Products,SUP-014,Godrej Consumer Products,160,125,35,STR-002,SmartMart - Tiruppur Branch,97,35,10,25,300,12.26,13,77,390,2.9,4375,sales_spike
+PRD-1191,Eveready Red AA Batteries (4-Pack),Eveready,Household Products,Household Products,SUP-014,Godrej Consumer Products,60,44,16,STR-001,SmartMart - Karur Main Branch,95,38,10,20,300,5.23,5,35,159,7.3,1672,healthy
+PRD-1191,Eveready Red AA Batteries (4-Pack),Eveready,Household Products,Household Products,SUP-014,Godrej Consumer Products,60,44,16,STR-002,SmartMart - Tiruppur Branch,89,45,10,20,300,2.4,2,16,76,18.7,1980,healthy
+PRD-1191,Eveready Red AA Batteries (4-Pack),Eveready,Household Products,Household Products,SUP-014,Godrej Consumer Products,60,44,16,STR-003,SmartMart - Coimbatore Branch,67,83,10,20,300,5.99,5,44,190,13.9,3652,healthy
+PRD-1192,Freshwrap Aluminum Foil 18m Roll,Freshwrap,Household Products,Household Products,SUP-014,Godrej Consumer Products,175,132,43,STR-001,SmartMart - Karur Main Branch,245,202,10,20,300,0.76,0,5,23,264.3,26664,overstocked
+PRD-1192,Freshwrap Aluminum Foil 18m Roll,Freshwrap,Household Products,Household Products,SUP-014,Godrej Consumer Products,175,132,43,STR-002,SmartMart - Tiruppur Branch,275,183,10,20,300,1.56,1,11,43,117.7,24156,overstocked
+PRD-1192,Freshwrap Aluminum Foil 18m Roll,Freshwrap,Household Products,Household Products,SUP-014,Godrej Consumer Products,175,132,43,STR-003,SmartMart - Coimbatore Branch,224,243,10,20,300,1.31,1,8,35,185.0,32076,overstocked
+PRD-1193,Matchbox Homelites Safety Matches (10-Box),Homelites,Household Products,Household Products,SUP-008,ITC Foods Division,30,20,10,STR-001,SmartMart - Karur Main Branch,137,49,10,20,300,2.08,2,14,63,23.6,980,healthy
+PRD-1193,Matchbox Homelites Safety Matches (10-Box),Homelites,Household Products,Household Products,SUP-008,ITC Foods Division,30,20,10,STR-002,SmartMart - Tiruppur Branch,76,56,10,20,300,4.87,6,36,140,11.5,1120,healthy
+PRD-1193,Matchbox Homelites Safety Matches (10-Box),Homelites,Household Products,Household Products,SUP-008,ITC Foods Division,30,20,10,STR-003,SmartMart - Coimbatore Branch,62,44,10,20,300,4.35,5,32,139,10.1,880,healthy
+PRD-1194,Mangaldeep Sandal Agarbatti 100g,Mangaldeep,Household Products,Household Products,SUP-008,ITC Foods Division,50,36,14,STR-001,SmartMart - Karur Main Branch,106,39,10,20,300,3.49,4,23,96,11.2,1404,healthy
+PRD-1194,Mangaldeep Sandal Agarbatti 100g,Mangaldeep,Household Products,Household Products,SUP-008,ITC Foods Division,50,36,14,STR-002,SmartMart - Tiruppur Branch,98,55,10,20,300,2.55,2,19,80,21.6,1980,healthy
+PRD-1194,Mangaldeep Sandal Agarbatti 100g,Mangaldeep,Household Products,Household Products,SUP-008,ITC Foods Division,50,36,14,STR-003,SmartMart - Coimbatore Branch,122,76,10,20,300,3.27,3,23,105,23.2,2736,healthy
+PRD-1195,Cycle Pure Agarbatti Three in One 250g,Cycle,Household Products,Household Products,SUP-008,ITC Foods Division,95,70,25,STR-001,SmartMart - Karur Main Branch,119,55,10,25,300,15.57,17,115,455,3.5,3850,sales_spike
+PRD-1195,Cycle Pure Agarbatti Three in One 250g,Cycle,Household Products,Household Products,SUP-008,ITC Foods Division,95,70,25,STR-002,SmartMart - Tiruppur Branch,98,34,10,25,300,13.78,11,100,419,2.5,2380,sales_spike
+PRD-1195,Cycle Pure Agarbatti Three in One 250g,Cycle,Household Products,Household Products,SUP-008,ITC Foods Division,95,70,25,STR-003,SmartMart - Coimbatore Branch,116,31,10,25,300,13.82,13,102,423,2.2,2170,sales_spike
+PRD-1196,Camphor Tablets 50g Box,Pure Camphor,Household Products,Household Products,SUP-014,Godrej Consumer Products,45,30,15,STR-001,SmartMart - Karur Main Branch,90,81,10,15,300,0.07,0,0,1,810.0,2430,slow_moving
+PRD-1196,Camphor Tablets 50g Box,Pure Camphor,Household Products,Household Products,SUP-014,Godrej Consumer Products,45,30,15,STR-002,SmartMart - Tiruppur Branch,72,65,10,15,300,0.08,0,0,2,650.0,1950,slow_moving
+PRD-1196,Camphor Tablets 50g Box,Pure Camphor,Household Products,Household Products,SUP-014,Godrej Consumer Products,45,30,15,STR-003,SmartMart - Coimbatore Branch,90,66,10,15,300,0.12,0,0,3,564.1,1980,slow_moving
+PRD-1197,Tissue Paper Napkins 100 Sheets,Origami,Household Products,Household Products,SUP-014,Godrej Consumer Products,40,26,14,STR-001,SmartMart - Karur Main Branch,68,16,10,30,300,6.88,5,47,203,2.3,416,low_stock
+PRD-1197,Tissue Paper Napkins 100 Sheets,Origami,Household Products,Household Products,SUP-014,Godrej Consumer Products,40,26,14,STR-002,SmartMart - Tiruppur Branch,65,21,10,30,300,5.97,5,42,164,3.5,546,low_stock
+PRD-1198,Garbage Bags Black Medium 30 Sheets,Shine,Household Products,Household Products,SUP-014,Godrej Consumer Products,90,62,28,STR-001,SmartMart - Karur Main Branch,121,85,10,20,300,5.46,6,39,152,15.6,5270,healthy
+PRD-1198,Garbage Bags Black Medium 30 Sheets,Shine,Household Products,Household Products,SUP-014,Godrej Consumer Products,90,62,28,STR-002,SmartMart - Tiruppur Branch,69,86,10,20,300,5.38,5,36,176,16.0,5332,healthy
+PRD-1198,Garbage Bags Black Medium 30 Sheets,Shine,Household Products,Household Products,SUP-014,Godrej Consumer Products,90,62,28,STR-003,SmartMart - Coimbatore Branch,69,56,10,20,300,2.68,2,19,81,20.9,3472,healthy
+PRD-1199,Pampers Baby Wipes Gentle 72 Sheets,Pampers,Baby Care,Baby Care,SUP-015,P&G Home Care,185,140,45,STR-001,SmartMart - Karur Main Branch,32,7,10,25,300,12.16,13,84,330,0.6,980,stockout_risk
+PRD-1199,Pampers Baby Wipes Gentle 72 Sheets,Pampers,Baby Care,Baby Care,SUP-015,P&G Home Care,185,140,45,STR-002,SmartMart - Tiruppur Branch,50,4,10,25,300,12.25,12,78,355,0.3,560,stockout_risk
+PRD-1199,Pampers Baby Wipes Gentle 72 Sheets,Pampers,Baby Care,Baby Care,SUP-015,P&G Home Care,185,140,45,STR-003,SmartMart - Coimbatore Branch,36,8,10,25,300,12.88,14,94,368,0.6,1120,stockout_risk
+PRD-1200,Nestle Cerelac Wheat Apple 300g,Cerelac,Baby Care,Baby Care,SUP-007,Nestle India,295,235,60,STR-001,SmartMart - Karur Main Branch,236,218,10,20,300,0.86,0,6,27,254.6,51230,overstocked
+PRD-1200,Nestle Cerelac Wheat Apple 300g,Cerelac,Baby Care,Baby Care,SUP-007,Nestle India,295,235,60,STR-002,SmartMart - Tiruppur Branch,219,186,10,20,300,1.04,1,6,32,178.6,43710,overstocked
+PRD-1200,Nestle Cerelac Wheat Apple 300g,Cerelac,Baby Care,Baby Care,SUP-007,Nestle India,295,235,60,STR-003,SmartMart - Coimbatore Branch,276,241,10,20,300,0.8,0,5,22,301.4,56635,overstocked
+PRD-1201,Himalaya Gentle Baby Soap 75g (3-Pack),Himalaya,Baby Care,Baby Care,SUP-009,Hindustan Unilever Ltd,135,102,33,STR-001,SmartMart - Karur Main Branch,70,65,10,20,300,5.38,5,36,160,12.1,6630,healthy
+PRD-1201,Himalaya Gentle Baby Soap 75g (3-Pack),Himalaya,Baby Care,Baby Care,SUP-009,Hindustan Unilever Ltd,135,102,33,STR-002,SmartMart - Tiruppur Branch,144,51,10,20,300,2.36,2,15,76,21.6,5202,healthy
+PRD-1201,Himalaya Gentle Baby Soap 75g (3-Pack),Himalaya,Baby Care,Baby Care,SUP-009,Hindustan Unilever Ltd,135,102,33,STR-003,SmartMart - Coimbatore Branch,107,46,10,20,300,3.78,3,26,107,12.2,4692,healthy
+PRD-1202,Johnson's Baby Powder 200g,Johnson's,Baby Care,Baby Care,SUP-015,P&G Home Care,190,146,44,STR-001,SmartMart - Karur Main Branch,94,71,10,20,300,2.25,2,16,61,31.6,10366,healthy
+PRD-1202,Johnson's Baby Powder 200g,Johnson's,Baby Care,Baby Care,SUP-015,P&G Home Care,190,146,44,STR-002,SmartMart - Tiruppur Branch,104,86,10,20,300,4.17,5,29,126,20.6,12556,healthy
+PRD-1202,Johnson's Baby Powder 200g,Johnson's,Baby Care,Baby Care,SUP-015,P&G Home Care,190,146,44,STR-003,SmartMart - Coimbatore Branch,109,87,10,20,300,4.09,5,29,133,21.3,12702,healthy
+PRD-1203,Johnson's Baby Hair Oil 100ml,Johnson's,Baby Care,Baby Care,SUP-015,P&G Home Care,120,92,28,STR-001,SmartMart - Karur Main Branch,133,50,10,20,300,3.91,3,29,122,12.8,4600,healthy
+PRD-1203,Johnson's Baby Hair Oil 100ml,Johnson's,Baby Care,Baby Care,SUP-015,P&G Home Care,120,92,28,STR-002,SmartMart - Tiruppur Branch,124,71,10,20,300,5.6,6,40,172,12.7,6532,healthy
+PRD-1203,Johnson's Baby Hair Oil 100ml,Johnson's,Baby Care,Baby Care,SUP-015,P&G Home Care,120,92,28,STR-003,SmartMart - Coimbatore Branch,75,83,10,20,300,3.8,4,24,107,21.9,7636,healthy
+PRD-1204,MamyPoko Pants Standard Diaper Medium 34s,MamyPoko,Baby Care,Baby Care,SUP-015,P&G Home Care,450,360,90,STR-001,SmartMart - Karur Main Branch,84,43,10,20,300,2.17,1,15,61,19.8,15480,healthy
+PRD-1204,MamyPoko Pants Standard Diaper Medium 34s,MamyPoko,Baby Care,Baby Care,SUP-015,P&G Home Care,450,360,90,STR-002,SmartMart - Tiruppur Branch,140,44,10,20,300,5.34,4,40,173,8.2,15840,healthy
+PRD-1205,Himalaya Baby Lotion 200ml,Himalaya,Baby Care,Baby Care,SUP-009,Hindustan Unilever Ltd,175,134,41,STR-001,SmartMart - Karur Main Branch,84,32,10,25,300,15.88,15,107,455,2.0,4288,sales_spike
+PRD-1205,Himalaya Baby Lotion 200ml,Himalaya,Baby Care,Baby Care,SUP-009,Hindustan Unilever Ltd,175,134,41,STR-002,SmartMart - Tiruppur Branch,109,59,10,25,300,20.73,24,148,624,2.8,7906,sales_spike
+PRD-1205,Himalaya Baby Lotion 200ml,Himalaya,Baby Care,Baby Care,SUP-009,Hindustan Unilever Ltd,175,134,41,STR-003,SmartMart - Coimbatore Branch,106,33,10,25,300,16.14,14,114,509,2.0,4422,sales_spike
+PRD-1206,Sebamed Baby Protective Facial Cream 50ml,Sebamed,Baby Care,Baby Care,SUP-015,P&G Home Care,780,630,150,STR-001,SmartMart - Karur Main Branch,63,16,10,30,300,6.25,5,41,188,2.6,10080,low_stock
+PRD-1206,Sebamed Baby Protective Facial Cream 50ml,Sebamed,Baby Care,Baby Care,SUP-015,P&G Home Care,780,630,150,STR-002,SmartMart - Tiruppur Branch,71,21,10,30,300,5.06,5,35,150,4.2,13230,low_stock
+PRD-1206,Sebamed Baby Protective Facial Cream 50ml,Sebamed,Baby Care,Baby Care,SUP-015,P&G Home Care,780,630,150,STR-003,SmartMart - Coimbatore Branch,65,19,10,30,300,5.61,6,40,165,3.4,11970,low_stock
+PRD-1207,Pigeon Baby Feeding Bottle 250ml,Pigeon,Baby Care,Baby Care,SUP-015,P&G Home Care,220,170,50,STR-001,SmartMart - Karur Main Branch,110,56,10,20,300,4.76,3,33,136,11.8,9520,healthy
+PRD-1207,Pigeon Baby Feeding Bottle 250ml,Pigeon,Baby Care,Baby Care,SUP-015,P&G Home Care,220,170,50,STR-002,SmartMart - Tiruppur Branch,107,36,10,20,300,3.35,4,22,107,10.7,6120,healthy
+PRD-1207,Pigeon Baby Feeding Bottle 250ml,Pigeon,Baby Care,Baby Care,SUP-015,P&G Home Care,220,170,50,STR-003,SmartMart - Coimbatore Branch,149,78,10,20,300,2.39,2,15,78,32.6,13260,healthy
+PRD-1208,Mee Mee Baby Laundry Detergent 1L,Mee Mee,Baby Care,Baby Care,SUP-015,P&G Home Care,380,290,90,STR-001,SmartMart - Karur Main Branch,256,221,10,20,300,0.9,0,6,25,244.4,64090,overstocked
+PRD-1208,Mee Mee Baby Laundry Detergent 1L,Mee Mee,Baby Care,Baby Care,SUP-015,P&G Home Care,380,290,90,STR-002,SmartMart - Tiruppur Branch,227,232,10,20,300,1.61,1,12,51,144.0,67280,overstocked
+PRD-1208,Mee Mee Baby Laundry Detergent 1L,Mee Mee,Baby Care,Baby Care,SUP-015,P&G Home Care,380,290,90,STR-003,SmartMart - Coimbatore Branch,265,200,10,20,300,0.6,0,4,18,334.2,58000,overstocked

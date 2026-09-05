@@ -1,0 +1,11 @@
+Product ID,Product Name,Category,Price,Cost,Reorder Level,Target Stock,Supplier,Lead Time
+PRD-1001,India Gate Basmati Rice 5kg,Rice & Grains,520,440,25,80,India Gate Grains Ltd,3
+PRD-1002,Ponni Boiled Rice 10kg,Rice & Grains,680,580,20,60,Fortune,3
+PRD-1013,Tata Sampann Toor Dal 1kg,Pulses & Dals,165,135,30,100,ITC Foods Division,2
+PRD-1025,Gold Winner Sunflower Oil 1L,Cooking Oil & Ghee,145,122,25,90,Kaleesuwari Refinery,2
+PRD-1028,Aavin Pure Ghee 500ml,Cooking Oil & Ghee,315,265,15,50,Aavin Dairy Co-operative,1
+PRD-1037,Aavin Toned Milk 500ml Pouch,Dairy,24,20,30,120,Aavin Dairy Co-operative,1
+PRD-1039,Hatsun Fresh Curd 500g Pouch,Dairy,35,28,25,80,Hatsun Agro Product Ltd,1
+PRD-1049,Modern Family Special White Bread 400g,Bakery,45,35,20,60,Modern,1
+PRD-1059,Parle-G Glucose Biscuit 250g,Biscuits,30,23,30,100,Parle Products,2
+PRD-1073,Haldiram Nagpur Aloo Bhujia 200g,Snacks,60,44,20,70,ITC Foods Division,3
