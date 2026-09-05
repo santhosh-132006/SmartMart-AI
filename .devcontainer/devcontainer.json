@@ -1,0 +1,13 @@
+{
+  "name": "SmartMart AI",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "SmartMart AI Web App",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt",
+  "postStartCommand": "python app.py"
+}

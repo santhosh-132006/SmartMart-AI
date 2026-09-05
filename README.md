@@ -2,6 +2,10 @@
 
 > **TRACK_ID: PS03 | Supermarket Sales and Inventory Copilot for Multi-Store Retail Managers**
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/santhosh-132006/SmartMart-AI)
+
+🚀 **Run Online in Browser (1-Click):** [https://codespaces.new/santhosh-132006/SmartMart-AI](https://codespaces.new/santhosh-132006/SmartMart-AI)
+
 ---
 
 ## 📹 Demo Video Link
