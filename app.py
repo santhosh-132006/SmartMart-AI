@@ -15,8 +15,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 8000))
     host = os.getenv("HOST", "0.0.0.0")
+    is_dev = os.getenv("ENV", "production").lower() == "development"
     print(f"\n========================================================")
     print(f"  SmartMart AI – Supermarket Sales & Inventory Copilot")
-    print(f"  Access application at: http://localhost:{port}")
+    print(f"  Access application at: http://{host}:{port}")
     print(f"========================================================\n")
-    uvicorn.run("src.app:app", host=host, port=port, reload=True)
+    uvicorn.run("src.app:app", host=host, port=port, reload=is_dev)
